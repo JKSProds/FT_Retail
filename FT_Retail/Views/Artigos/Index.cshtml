@@ -7,62 +7,70 @@
     ViewData["Title"] = "Artigos";
 }
 <br />
-<div class="row">
-    <div class="col-sm-3 col-md-6">
-        <h1 align="left">Listagem de Artigos</h1>
-    </div>
-    <div class="col-sm-9 col-md-6">
-        <form asp-action="Index" method="get">
-            <div class="input-group" style="margin-left:auto; margin-right:0;">
-                <input type="text" class="form-control" placeholder="PLU do Artigo" aria-label="PLU do Artigo" aria-describedby="button-addon4" name="SearchString" value="@ViewData["currentFilter"]">
-                <div class="input-group-append" id="button-addon4">
-                    <input type="submit" value="Pesquisar" class="btn btn-primary" />
-                    <a asp-action="Index" class="btn btn-secondary">Limpar Filtro</a>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 align="left">Listagem de Artigos</h1>
+        </div>
+        <div class="col-6">
+            <form asp-action="Index" method="get">
+                <div class="input-group" style="margin-left:auto; margin-right:0;">
+                    <input type="text" class="form-control" placeholder="PLU" aria-label="PLU" aria-describedby="button-addon4" name="PLU" value="@ViewData["currentFilter"]">
+                    <div class="input-group-append" id="button-addon4">
+                        <input type="submit" value="Pesquisar" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-secondary">Limpar Filtro</a>
+                    </div>
                 </div>
-            </div>
-        </form>
+                <div class="input-group" style="margin-left:auto;margin-top:5px; margin-right:0;">
+                    <input type="text" class="form-control" placeholder="Nome do Artigo" aria-label="Nome do Artigo" aria-describedby="button-addon4" name="Nome" value="@ViewData["currentFilter2"]">
+
+                </div>
+                   
+            </form>
+        </div>
     </div>
 </div>
-<hr />
+    <hr />
 
-@if (Model.Count() == 0)
-{
-    <br />
-    <button class="btn btn-lg btn-danger disabled">Não existem artigos!</button>
-}
-else
-{
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.idArtigo)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Nome)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Preco)
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr onclick="location.href = '@(Url.Action("Edit", "Artigos", new { id = item.idArtigo }))'">
-                    <td>
-                        @Html.DisplayFor(modelItem => item.idArtigo)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Nome)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Preco)
-                    </td>
-
+    @if (Model.Count() == 0)
+    {
+        <br />
+        <button class="btn btn-lg btn-danger disabled">Não existem artigos!</button>
+    }
+    else
+    {
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.idArtigo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Preco)
+                    </th>
                 </tr>
-            }
-        </tbody>
-    </table>
-    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }), Bootstrap4PagedListRenderOptions.ClassicPlusFirstAndLast)
-}
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr onclick="location.href = '@(Url.Action("Edit", "Artigos", new { id = item.idArtigo }))'">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.idArtigo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Preco)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, searchString = @ViewData["currentFilter"] }), Bootstrap4PagedListRenderOptions.ClassicPlusFirstAndLast)
+    }

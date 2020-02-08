@@ -13,9 +13,10 @@ namespace FT_Retail.Controllers
     {
 
         // GET: Artigos
-        public ActionResult Index(int? page, string searchString)
+        public ActionResult Index(int? page, string PLU, string Nome)
         {
-            ViewData["CurrentFilter"] = searchString;
+            ViewData["CurrentFilter"] = PLU;
+            ViewData["CurrentFilter2"] = Nome;
 
             int pageSize = 100;
 
@@ -23,11 +24,11 @@ namespace FT_Retail.Controllers
 
             var pageNumber = page ?? 1;
 
-            var listArtigos = context.ObterArtigos().ToPagedList(pageNumber, pageSize);
+            var listArtigos = context.ObterTodosArtigos().ToPagedList(pageNumber, pageSize);
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(PLU) || !String.IsNullOrEmpty(Nome))
             {
-                 listArtigos = context.ObterArtigosWherePLU(searchString).ToPagedList(pageNumber, pageSize);
+                 listArtigos = context.ObterArtigosWhere(PLU, Nome).ToPagedList(pageNumber, pageSize);
             }
             
 

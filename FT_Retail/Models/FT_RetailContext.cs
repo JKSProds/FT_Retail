@@ -15,15 +15,15 @@ namespace FT_Retail.Models
             this.ConnectionString = connectionString;
         }
 
-        public List<Artigo> ObterArtigos()
+        public List<Artigo> ObterListaArtigos(String sql)
         {
-            List<Artigo> list = new List<Artigo>();
 
 
             using (Database conn = ConnectionString)
             {
+                List<Artigo> list = new List<Artigo>();
 
-                using (var result = conn.Query("SELECT * from dat_articulo where descripcion not like ''"))
+                using (var result = conn.Query(sql))
                 {
                     while (result.Read())
                     {
@@ -33,7 +33,7 @@ namespace FT_Retail.Models
                         list.Add(new Artigo()
                         {
                             idArtigo = result["IdArticulo"],
-                            Nome = result["Descripcion"],
+                            Nome = String.Concat(result["Descripcion"], result["Descripcion1"]),
                             Preco = preco
                         });
                     }
@@ -42,37 +42,19 @@ namespace FT_Retail.Models
             }
         }
 
-        public List<Artigo> ObterArtigosWherePLU(string search)
+        public List<Artigo> ObterTodosArtigos()
         {
-            List<Artigo> list = new List<Artigo>();
+                return ObterListaArtigos("SELECT * from dat_articulo where descripcion not like ''");
+        }
 
-
-            using (Database conn = ConnectionString)
-            {
-
-                using (var result = conn.Query("SELECT * from dat_articulo where descripcion not like '' AND IdArticulo like '%" + search + "%'"))
-                {
-                    while (result.Read())
-                    {
-                        double preco = 0.00;
-                        Double.TryParse(result["PrecioConIva"], out preco);
-
-                        list.Add(new Artigo()
-                        {
-                            idArtigo = result["IdArticulo"],
-                            Nome = result["Descripcion"],
-                            Preco = preco
-                        });
-                    }
-                }
-                return list;
-            }
+        public List<Artigo> ObterArtigosWhere(string PLU, string Nome)
+        {
+            return ObterListaArtigos("SELECT * from dat_articulo where (descripcion not like '' AND IdArticulo like '%" + PLU + "%') AND (descripcion like '%"+ Nome + "%' OR descripcion1 like '%" + Nome + "%')");
         }
 
         public List<Artigo> ObterArtigosOrderBy(string orderBy, bool asc)
         {
-            List<Artigo> list = new List<Artigo>();
-
+  
             string query = ("SELECT* from dat_articulo where descripcion not like ''");
 
             switch (orderBy)
@@ -101,26 +83,7 @@ namespace FT_Retail.Models
                     break;
             }
 
-            using (Database conn = ConnectionString)
-            {
-
-                using (var result = conn.Query("SELECT * from dat_articulo where descripcion not like ''"))
-                {
-                    while (result.Read())
-                    {
-                        double preco = 0.00;
-                        Double.TryParse(result["PrecioConIva"], out preco);
-
-                        list.Add(new Artigo()
-                        {
-                            idArtigo = result["IdArticulo"],
-                            Nome = result["Descripcion"],
-                            Preco = preco
-                        });
-                    }
-                }
-                return list;
-            }
+            return ObterListaArtigos(query);
         }
     }
 }
