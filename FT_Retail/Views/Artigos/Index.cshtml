@@ -1,47 +1,68 @@
 ﻿@model IEnumerable<FT_Retail.Models.Artigo>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using X.PagedList.Mvc.Bootstrap4.NetCore;
 
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Artigos";
 }
+<br />
+<div class="row">
+    <div class="col-sm-3 col-md-6">
+        <h1 align="left">Listagem de Artigos</h1>
+    </div>
+    <div class="col-sm-9 col-md-6">
+        <form asp-action="Index" method="get">
+            <div class="input-group" style="margin-left:auto; margin-right:0;">
+                <input type="text" class="form-control" placeholder="PLU do Artigo" aria-label="PLU do Artigo" aria-describedby="button-addon4" name="SearchString" value="@ViewData["currentFilter"]">
+                <div class="input-group-append" id="button-addon4">
+                    <input type="submit" value="Pesquisar" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Limpar Filtro</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
 
-<h1>View</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.idArtigo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Preco)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.idArtigo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
+@if (Model.Count() == 0)
+{
+    <br />
+    <button class="btn btn-lg btn-danger disabled">Não existem artigos!</button>
 }
-    </tbody>
-</table>
+else
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.idArtigo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Preco)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr onclick="location.href = '@(Url.Action("Edit", "Artigos", new { id = item.idArtigo }))'">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.idArtigo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preco)
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }), Bootstrap4PagedListRenderOptions.ClassicPlusFirstAndLast)
+}

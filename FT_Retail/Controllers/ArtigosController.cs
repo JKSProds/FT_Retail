@@ -5,17 +5,49 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using FT_Retail.Models;
+using X.PagedList;
 
 namespace FT_Retail.Controllers
 {
     public class ArtigosController : Controller
     {
+
         // GET: Artigos
-        public ActionResult Index()
+        public ActionResult Index(int? page, string searchString)
         {
+            ViewData["CurrentFilter"] = searchString;
+
+            int pageSize = 100;
+
             FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
 
-            return View(context.ObterArtigos());
+            var pageNumber = page ?? 1;
+
+            var listArtigos = context.ObterArtigos().ToPagedList(pageNumber, pageSize);
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                 listArtigos = context.ObterArtigosWherePLU(searchString).ToPagedList(pageNumber, pageSize);
+            }
+            
+
+            //switch (sortOrder)
+            //{
+            //    case "nome_desc":
+            //        listArtigos = context.ObterArtigosOrderBy("nome", false).ToPagedList(pageNumber, pageSize);
+            //        break;
+            //    case "nome":
+            //        listArtigos = context.ObterArtigosOrderBy("nome", true).ToPagedList(pageNumber, pageSize);
+            //        break;
+            //    case "plu_desc":
+            //        listArtigos = context.ObterArtigosOrderBy("plu", false).ToPagedList(pageNumber, pageSize);
+            //        break;
+            //    default:
+            //        listArtigos = context.ObterArtigosOrderBy("plu", true).ToPagedList(pageNumber, pageSize);
+            //        break;
+            //}
+
+            return View(listArtigos);
         }
 
         // GET: Artigos/Details/5
