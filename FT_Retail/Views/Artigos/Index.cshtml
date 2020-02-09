@@ -16,13 +16,13 @@
         <div class="col-6">
             <form asp-action="Index" method="get">
                 <div class="input-group" style="margin-left:auto; margin-right:0; margin-bottom:5px;">
-                    <input type="text" class="form-control" placeholder="PLU" aria-label="PLU" aria-describedby="button-addon4" name="PLU" value="@ViewData["currentFilter"]">
-                        <input type="submit" style="margin-left:5px" value="Pesquisar" class="btn btn-primary" />
-                        <a asp-action="Index" style="margin-left:5px" class="btn btn-secondary">Limpar Filtro</a>
+                    <input type="text" style="min-width: 100px" class="form-control" placeholder="PLU" aria-label="PLU" aria-describedby="button-addon4" name="PLU" value="@ViewData["currentFilter"]">
+                        <input type="submit" style="margin-left:5px; width: 120px;" value="Pesquisar" class="btn btn-primary" />
+                        
                 </div>
                 <div class="input-group" style="margin-left:auto;margin-top:5px; margin-right:0;">
-                    <input type="text" class="form-control" placeholder="Nome do Artigo" aria-label="Nome do Artigo" aria-describedby="button-addon4" name="Nome" value="@ViewData["currentFilter2"]">
-
+                    <input type="text" style="min-width: 100px" class="form-control" placeholder="Nome do Artigo" aria-label="Nome do Artigo" aria-describedby="button-addon4" name="Nome" value="@ViewData["currentFilter2"]">
+                    <a asp-action="Index" style="margin-left:5px; width: 120px;" class="btn btn-secondary">Limpar Filtro</a>
                 </div>
                    
             </form>
@@ -42,10 +42,10 @@
             <thead>
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.idArtigo)
+                        @Html.DisplayNameFor(model => model.IdArtigo)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.Nome)
+                        @Html.DisplayNameFor(model => model.NomeArtigo)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Preco)
@@ -55,12 +55,12 @@
             <tbody>
                 @foreach (var item in Model)
                 {
-                    <tr onclick="location.href = '@(Url.Action("Edit", "Artigos", new { id = item.idArtigo }))'">
+                    <tr onclick="location.href = '@(Url.Action("Edit", "Artigos", new { id = item.IdArtigo }))'">
                         <td>
-                            @Html.DisplayFor(modelItem => item.idArtigo)
+                            @Html.DisplayFor(modelItem => item.IdArtigo)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Nome)
+                            @Html.DisplayFor(modelItem => item.NomeArtigo)
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.Preco)

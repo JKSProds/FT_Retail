@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using FT_Retail.Models;
 using System.Globalization;
+using System.Threading;
 
 namespace FT_Retail
 {
@@ -33,11 +34,7 @@ namespace FT_Retail
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            var cultureInfo = new CultureInfo("pt-PT");
-            cultureInfo.NumberFormat.CurrencySymbol = "€";
-
-            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
-            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-PT");
 
             if (env.IsDevelopment())
             {

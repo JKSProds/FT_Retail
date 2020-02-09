@@ -83,25 +83,39 @@ namespace FT_Retail.Controllers
         // GET: Artigos/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
+
+            var artigo = context.ObterArtigo(id);
+            return View(artigo);
         }
 
         // POST: Artigos/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Artigo artigoNovo)
         {
             try
             {
-                // TODO: Add update logic here
+                FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
+                Artigo artigoOriginal = context.ObterArtigo(id);
 
-                return RedirectToAction(nameof(Index));
+                artigoOriginal.TxtAlergenos = artigoNovo.TxtAlergenos;
+                artigoOriginal.TxtConservacao = artigoNovo.TxtConservacao;
+                artigoOriginal.TxtInfoNutricional = artigoNovo.TxtInfoNutricional;
+                artigoOriginal.TxtInfoUtilizacao = artigoNovo.TxtInfoUtilizacao;
+                artigoOriginal.TxtIngredientes = artigoNovo.TxtIngredientes;
+                artigoOriginal.DiasValidade = artigoNovo.DiasValidade;
+
+                context.atualizarArtigo(artigoOriginal);
+
+                //return RedirectToAction(nameof(Index));
+                return View();
             }
             catch
             {
                 return View();
-            }
-        }
+    }
+}
 
         // GET: Artigos/Delete/5
         public ActionResult Delete(int id)
