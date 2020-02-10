@@ -16,18 +16,7 @@ namespace FT_Retail.Models
         [Display(Name = "PVP")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:c}")]
         public double Preco { get; set; }
-        [Display(Name = "PVP - Promoção")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:c}")]
-        public double PrecoPromocao { get; set; }
-        [Display(Name = "Data de Inicio da Promoção")]
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
-        public Nullable<DateTime> DataInicioPromocao { get; set; }
-        [Display(Name = "Data de Fim da Promoção")]
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
-        public Nullable<DateTime> DataFimPromocao { get; set; }
-
+        public Promocao Promocao { get; set; }
         [Display(Name = "Nome da Secção")]
         public string NomeSeccao { get; set; }
 

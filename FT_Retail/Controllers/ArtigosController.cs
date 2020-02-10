@@ -86,6 +86,7 @@ namespace FT_Retail.Controllers
             FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
 
             var artigo = context.ObterArtigo(id);
+            //artigo.Promocao = context.ObterPromocao(id);
             return View(artigo);
         }
 
@@ -97,21 +98,14 @@ namespace FT_Retail.Controllers
             try
             {
                 FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
-                Artigo artigoOriginal = context.ObterArtigo(id);
 
-                artigoOriginal.TxtAlergenos = artigoNovo.TxtAlergenos;
-                artigoOriginal.TxtConservacao = artigoNovo.TxtConservacao;
-                artigoOriginal.TxtInfoNutricional = artigoNovo.TxtInfoNutricional;
-                artigoOriginal.TxtInfoUtilizacao = artigoNovo.TxtInfoUtilizacao;
-                artigoOriginal.TxtIngredientes = artigoNovo.TxtIngredientes;
-                artigoOriginal.DiasValidade = artigoNovo.DiasValidade;
+                    context.atualizarArtigo(artigoNovo);
 
-                context.atualizarArtigo(artigoOriginal);
 
                 //return RedirectToAction(nameof(Index));
                 return View();
             }
-            catch
+            catch (Exception)
             {
                 return View();
     }
