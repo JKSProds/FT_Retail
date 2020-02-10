@@ -98,12 +98,11 @@ namespace FT_Retail.Controllers
             try
             {
                 FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
-
-                    context.atualizarArtigo(artigoNovo);
-
-
+                context.atualizarArtigo(artigoNovo);
                 //return RedirectToAction(nameof(Index));
-                return View();
+
+                var artigo = context.ObterArtigo(id);
+                return View(artigo);
             }
             catch (Exception)
             {
