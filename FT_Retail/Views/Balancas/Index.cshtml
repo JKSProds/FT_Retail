@@ -1,0 +1,61 @@
+﻿@model IEnumerable<FT_Retail.Models.Balanca>
+
+@{
+    ViewData["Title"] = "Balanças";
+}
+
+<br />
+<h1>Lista de Balanças</h1>
+<hr />
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-6 " style="margin-bottom: 10px">
+            <div class="card  @(item.EstadoEquipamento == 1 ? "card border-success mb-3" : "") @(item.EstadoEquipamento == 2 ? "bg-warning" : "")@(item.EstadoEquipamento == 3 ? "bg-danger" : "")">
+                <div class="card-body">
+                    <h5 class="card-title @(item.EstadoEquipamento == 1 ? "text-success" : "") ">@Html.DisplayFor(modelItem => item.DirecaoLogica) - @Html.DisplayFor(modelItem => item.NomeBalanca)</h5>
+                    <p class="card-text">
+                        @Html.DisplayNameFor(model => model.Dir_IP) - <b> @Html.DisplayFor(modelItem => item.Dir_IP) (@Html.DisplayFor(modelItem => item.PortaTX))</b><br />
+                        @Html.DisplayNameFor(model => model.TransacoesEnviadas) : <b>@Html.DisplayFor(modelItem => item.TransacoesEnviadas)</b><br />
+                        @Html.DisplayNameFor(model => model.TransacoesPendentes) : <b>@Html.DisplayFor(modelItem => item.TransacoesPendentes)</b><br />
+</p>
+                    <div class="card-footer text-center">
+                        Modelo: <b>@Html.DisplayFor(modelItem => item.TipoBalanca)</b>
+                        <!--   <br />
+                        <br />
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal @Html.DisplayFor(modelItem => item.IdBalanca)">
+                        Informação Adicional
+                    </button>
+    -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal
+        <div class="modal fade" id="exampleModal @Html.DisplayFor(modelItem => item.IdBalanca)" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">@Html.DisplayFor(modelItem => item.DirecaoLogica) - @Html.DisplayFor(modelItem => item.NomeBalanca)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        @Html.DisplayFor(modelItem => item.MensagemInfo)
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    }
+
+</div>
+
+<div>
+    <a class="btn-danger btn-lg btn-block text-center" asp-controller="Home" asp-action="Index">Voltar</a>
+</div>

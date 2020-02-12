@@ -227,6 +227,82 @@ namespace FT_Retail.Models
 
             return txt;
         }
+
+        public Loja ObterLoja(int IdLoja)
+        {
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT dat_empresa.NombreEmpresa, dat_tienda.Nombre, dat_tienda.Direccion, dat_tienda.Dir_IP from dat_tienda INNER JOIN dat_empresa ON dat_tienda.idempresa = dat_empresa.idempresa where idtienda='" + IdLoja + "'");
+
+            result.Read();
+
+            Loja loja = new Loja(){
+                IdLoja = IdLoja,
+                NomeEmpresa = result["NombreEmpresa"],
+                NomeLoja = result["Nombre"],
+                MoradaLoja = result["Direccion"],
+                IPLoja = result["Dir_IP"],
+                NBalancas = obterNBalancasLoja(IdLoja)
+            };
+
+            return loja;
+        }
+        private int obterNBalancasLoja(int IdLoja)
+        {
+            int res = 0;
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("Select COUNT(*) as NBalancas From dat_balanza where idtienda = '" + IdLoja+"' and ActivedScale = 1;");
+
+            result.Read();
+
+            int.TryParse(result["NBalancas"], out res);
+
+            return res;
+
+
+        }
+        private int obterCount(string SQL)
+        {
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query(SQL);
+
+            result.Read();
+
+            return result[0];
+        }
+
+        public List<Balanca> ObterBalancas()
+        {
+            List<Balanca> LstBalancas = new List<Balanca>();
+
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT IdBalanza, Nombre, Dir_IP, BalanzaTradicional, DireccionLogica, PuertoEnvio_Tx FROM dat_balanza Order by DireccionLogica");
+
+            while (result.Read())
+            {
+                LstBalancas.Add(new Balanca()
+                {
+                    IdBalanca = result["IdBalanza"],
+                    NomeBalanca = result["Nombre"],
+                    Dir_IP = result["Dir_IP"],
+                    DirecaoLogica = result["DireccionLogica"],
+                    PortaTX = result["PuertoEnvio_Tx"],
+                    TipoBalanca = result["BalanzaTradicional"]
+
+                });
+            }
+
+            conn.Connection.Close();
+
+            foreach (var balanca in LstBalancas)
+            {
+                balanca.TransacoesEnviadas = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 1;");
+                balanca.TransacoesPendentes = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 0;");
+                balanca.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND NIntentos > 0;");
+                balanca.DefinirEstado();
+            }
+
+            return LstBalancas;
+        }
     }
 }
 
