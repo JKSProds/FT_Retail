@@ -328,6 +328,8 @@ namespace FT_Retail.Models
             string IPAdress = result["Dir_IP"];
             string DirecaoLogica = result["DireccionLogica"];
 
+            if (Directory.Exists(SW1100Folder + "\\Comunicaciones\\Logs\\UpdatesSender_log")) { 
+
             foreach (string file in Directory.EnumerateFiles(SW1100Folder + "\\Comunicaciones\\Logs\\UpdatesSender_log", "*_commL.log"))
             {
                 string[] linhas = File.ReadAllLines(file);
@@ -379,6 +381,8 @@ namespace FT_Retail.Models
                         lerLinha = (obterIPString(linha.ToString()) == IPAdress);
                     }
                     
+                }
+
                 }
 
             }
