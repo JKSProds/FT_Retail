@@ -38,6 +38,8 @@ namespace FT_Retail.Models
         [Display(Name = "Texto de Alergénios")]
         [DataType(DataType.MultilineText)]
         public string TxtAlergenos { get; set; }
+        [Display(Name = "Ultima Atualização")]
+        public DateTime UltimaAtualizacao { get; set; }
 
 
     }

@@ -28,7 +28,7 @@ namespace FT_Retail
         {
             services.AddControllersWithViews();
             services.AddMvc();
-            services.Add(new ServiceDescriptor(typeof(FT_RetailContext), new FT_RetailContext(Configuration.GetConnectionString("DefaultConnection"))));
+            services.Add(new ServiceDescriptor(typeof(FT_RetailContext), new FT_RetailContext(Configuration.GetConnectionString("DefaultConnection"), Configuration.GetSection("Variaveis").GetSection("SW1100FolderPath").Value)));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -18,18 +18,17 @@ namespace FT_Retail.Controllers
             ViewData["CurrentFilter"] = PLU;
             ViewData["CurrentFilter2"] = Nome;
 
-            int pageSize = 100;
-
             FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
-
+            int pageSize = 100;
             var pageNumber = page ?? 1;
 
-            var listArtigos = context.ObterTodosArtigos().ToPagedList(pageNumber, pageSize);
+            //var listArtigos = context.ObterTodosArtigos().ToPagedList(pageNumber, pageSize);
+            var listArtigos = context.ObterArtigosWhere(PLU, Nome).ToPagedList(pageNumber, pageSize);
 
-            if (!String.IsNullOrEmpty(PLU) || !String.IsNullOrEmpty(Nome))
-            {
-                 listArtigos = context.ObterArtigosWhere(PLU, Nome).ToPagedList(pageNumber, pageSize);
-            }
+            //if (!String.IsNullOrEmpty(PLU) || !String.IsNullOrEmpty(Nome))
+            //{
+            //     listArtigos = context.ObterArtigosWhere(PLU, Nome).ToPagedList(pageNumber, pageSize);
+            //}
             
 
             //switch (sortOrder)

@@ -1,6 +1,8 @@
 ﻿using MySql.Simple;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -9,10 +11,12 @@ namespace FT_Retail.Models
     public class FT_RetailContext
     {
         public string ConnectionString { get; set; }
+        public string SW1100Folder { get; set; }
 
-        public FT_RetailContext(string connectionString)
+        public FT_RetailContext(string connectionString, string sw1100Folder)
         {
             this.ConnectionString = connectionString;
+            this.SW1100Folder = sw1100Folder;
         }
 
         public Artigo ObterArtigo(int IdArtigo)
@@ -295,14 +299,108 @@ namespace FT_Retail.Models
 
             foreach (var balanca in LstBalancas)
             {
+                DateTime UltimaAtualizacaoSucesso = new DateTime();
+                conn.Connection.Open();
+                result = conn.Query("SELECT Fecha FROM sys_transacciones.dat_transacciones Where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 1 ORDER BY Fecha DESC LIMIT 1;");
+                result.Read();
+                if (result.reader.HasRows) { DateTime.TryParse(result["Fecha"], out UltimaAtualizacaoSucesso); }
+                conn.Connection.Close();
+
                 balanca.TransacoesEnviadas = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 1;");
                 balanca.TransacoesPendentes = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 0;");
                 balanca.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND NIntentos > 0;");
+                balanca.UltimaAtualizacaoSucesso = UltimaAtualizacaoSucesso;
                 balanca.DefinirEstado();
+
             }
 
             return LstBalancas;
         }
+
+        public List<Artigo> ObterListaArtigosBalanca(int IdBalanca, string Nome, string PLU)
+        {
+            List<Artigo> LstArtigos = new List<Artigo>();
+
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT IdBalanza, Nombre, Dir_IP, BalanzaTradicional, DireccionLogica, PuertoEnvio_Tx FROM dat_balanza Where IdBalanza = '"+IdBalanca+"' LIMIT 1");
+            result.Read();
+
+            string IPAdress = result["Dir_IP"];
+            string DirecaoLogica = result["DireccionLogica"];
+
+            foreach (string file in Directory.EnumerateFiles(SW1100Folder + "\\Comunicaciones\\Logs\\UpdatesSender_log", "*_commL.log"))
+            {
+                string[] linhas = File.ReadAllLines(file);
+                bool lerLinha = false;
+                foreach (var linha in linhas)
+                {
+                    
+
+                    if (linha.ToString().Contains("(TX)") && lerLinha && (linha.ToString().Substring(31, 4) == DirecaoLogica + "L2") && (linha.ToString().Substring(37, 1) != "B"))
+                    {
+                        int.TryParse(linha.ToString().Substring(38, 6), out int IdArtigo);
+                        double.TryParse(linha.ToString().Substring(119, 6) + "," + linha.ToString().Substring(125, 2), out double preco);
+                        double.TryParse(linha.ToString().Substring(127, 6) + "," + linha.ToString().Substring(133, 2), out double precoPromocao);
+
+                        var culture = new CultureInfo("en-us");
+                        DateTime.TryParse(linha.Substring(0, 18),culture, DateTimeStyles.AssumeUniversal,out DateTime dataAtualizacao);
+
+                        Artigo artigo = new Artigo();
+
+                        artigo.IdArtigo = IdArtigo;
+                        artigo.NomeArtigo = linha.Substring(47, 48);
+                        artigo.UltimaAtualizacao = dataAtualizacao;
+                        if (precoPromocao == 0)
+                        {
+                            artigo.Preco = preco;
+                        } else
+                        {
+                            artigo.Preco = precoPromocao;
+                        }
+
+                        if (IdArtigo.ToString().Contains(PLU) && artigo.NomeArtigo.Contains(Nome, StringComparison.CurrentCultureIgnoreCase))
+                        {
+                            int index = LstArtigos.IndexOf(LstArtigos.Where(a => a.IdArtigo == IdArtigo).FirstOrDefault());
+
+                            if (index >= 0)
+                            {
+                                LstArtigos[index] = artigo;
+                            }
+                            else
+                            {
+                                LstArtigos.Add(artigo);
+                            }
+                        } 
+
+                    }
+
+                    if (linha.ToString().Contains("Client connected to: "))
+                    {
+                        lerLinha = (obterIPString(linha.ToString()) == IPAdress);
+                    }
+                    
+                }
+
+            }
+
+            return LstArtigos.OrderByDescending(o => o.UltimaAtualizacao).ToList();
+        }
+
+        private string obterIPString (string linha)
+        {
+            int i = 52;
+            char c = linha[i];
+            string res = "";
+
+            while (c != ' ')
+            {
+                res += c;
+                i += 1;
+                c = linha[i];
+            }
+
+            return res;
+        } 
     }
 }
 

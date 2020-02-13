@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using FT_Retail.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using X.PagedList;
 
 namespace FT_Retail.Controllers
 {
@@ -19,10 +20,23 @@ namespace FT_Retail.Controllers
             return View(LstBalancas);
         }
 
-        // GET: Balancas/Details/5
-        public ActionResult Details(int id)
+        // GET: Balancas/Lista/5
+        public ActionResult Lista(int id, int? page, string PLU, string Nome)
         {
-            return View();
+            ViewData["CurrentFilter"] = PLU;
+            ViewData["CurrentFilter2"] = Nome;
+
+            FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
+
+            int pageSize = 100;
+            var pageNumber = page ?? 1;
+
+            if (PLU == null) { PLU = "";  }
+            if (Nome == null) { Nome = ""; }
+
+            var LstArtigos = context.ObterListaArtigosBalanca(id, Nome, PLU).ToPagedList(pageNumber,pageSize);
+
+            return View(LstArtigos);
         }
 
         // GET: Balancas/Create

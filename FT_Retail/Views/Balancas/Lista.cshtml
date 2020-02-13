@@ -1,0 +1,85 @@
+﻿@model IEnumerable<FT_Retail.Models.Artigo>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using X.PagedList.Mvc.Bootstrap4.NetCore;
+
+@{
+    ViewData["Title"] = "Integrações";
+}
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 align="left">Lista de Integrações</h1>
+        </div>
+        <div class="col-6">
+            <form asp-action="Lista" method="get">
+                <div class="input-group" style="margin-left:auto; margin-right:0; margin-bottom:5px;">
+                    <input type="text" style="min-width: 100px" class="form-control" placeholder="PLU" aria-label="PLU" aria-describedby="button-addon4" name="PLU" value="@ViewData["currentFilter"]">
+                    <input type="submit" style="margin-left:5px; width: 120px;" value="Pesquisar" class="btn btn-primary" />
+
+                </div>
+                <div class="input-group" style="margin-left:auto;margin-top:5px; margin-right:0;">
+                    <input type="text" style="min-width: 100px" class="form-control" placeholder="Nome do Artigo" aria-label="Nome do Artigo" aria-describedby="button-addon4" name="Nome" value="@ViewData["currentFilter2"]">
+                    <a asp-action="Lista" style="margin-left:5px; width: 120px;" class="btn btn-secondary">Limpar Filtro</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+@if (Model.Count() == 0)
+{
+    <br />
+    <button class="btn btn-lg btn-danger btn-block disabled">Não foram encontrados artigos!</button>
+}
+else
+{
+    <table class="table table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdArtigo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NomeArtigo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Preco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UltimaAtualizacao)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdArtigo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomeArtigo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preco)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UltimaAtualizacao)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Lista", new { page, searchString = @ViewData["currentFilter"] }), Bootstrap4PagedListRenderOptions.ClassicPlusFirstAndLast)
+}
+<br />
+    <div>
+        <a class="btn-danger btn-lg btn-block text-center" asp-controller="Balancas" asp-action="Index">Voltar</a>
+    </div>
