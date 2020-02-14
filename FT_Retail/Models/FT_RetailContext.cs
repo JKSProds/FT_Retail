@@ -211,6 +211,12 @@ namespace FT_Retail.Models
 
             using Database conn = ConnectionString;
             conn.Execute("update dat_articulo set Texto7='" + txtConservacao[0] + "', Texto8='" + txtConservacao[1] + "', Texto9='" + txtConservacao[2] + "', Texto10='" + txtConservacao[3] + "', Texto11='" + txtConservacao[4] + "', Texto12='" + txtConservacao[5] + "', Texto13='" + txtConservacao[6] + "', Texto14='" + txtUtilizacao[0] + "', Texto15='" + txtUtilizacao[1] + "', Texto16='" + txtUtilizacao[2] + "', Texto17='" + txtUtilizacao[3] + "', Texto18='" + txtUtilizacao[4] + "', Texto19='" + txtUtilizacao[5] + "', Texto20='" + txtUtilizacao[6] + "', DiasCaducidad='" + artigo.DiasValidade + "', TextoLibre='" + artigo.TxtIngredientes + "', TextoNutricionales='" + artigo.TxtInfoNutricional + "', TextoAlergenos='" + artigo.TxtAlergenos + "', Modificado=1, ModificadoTextos=1, ModificadoTextoG=1, ModificadoTextoNutricionales=1, ModificadoTextoAlergenos=1 where idarticulo=" + artigo.IdArtigo + "");
+            conn.Connection.Close();
+
+            if (artigo.Promocao.PromocaoAtiva) {
+                conn.Connection.Open();
+                conn.Execute("update dat_tarifa set modificado=1 where idarticulo="+artigo.IdArtigo+"");
+            }
         }
 
         public string[] obterTextos24Caracteres(string TxtCompleto)
