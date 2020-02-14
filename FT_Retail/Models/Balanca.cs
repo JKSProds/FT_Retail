@@ -22,7 +22,7 @@ namespace FT_Retail.Models
         public int TransacoesErro { get; set; }
         public int EstadoEquipamento { get; set; }  // 1- Tudo OK 2 - Envios Pendentes 3 - Envios com Erro
         public string MensagemInfo { get; set; }
-        [Display(Name = "Utilma Atualização com sucesso")]
+        [Display(Name = "Ultima Atualização com sucesso")]
         public DateTime UltimaAtualizacaoSucesso { get; set; }
 
         public void DefinirEstado()
