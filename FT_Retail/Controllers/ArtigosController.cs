@@ -22,7 +22,9 @@ namespace FT_Retail.Controllers
             int pageSize = 100;
             var pageNumber = page ?? 1;
 
-            //var listArtigos = context.ObterTodosArtigos().ToPagedList(pageNumber, pageSize);
+            if (PLU == null) { PLU = "";}
+            if (Nome == null) { Nome = "";}
+
             var listArtigos = context.ObterArtigosWhere(PLU, Nome).ToPagedList(pageNumber, pageSize);
 
             //if (!String.IsNullOrEmpty(PLU) || !String.IsNullOrEmpty(Nome))
@@ -49,35 +51,6 @@ namespace FT_Retail.Controllers
 
             return View(listArtigos);
         }
-
-        // GET: Artigos/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
-
-        //// GET: Artigos/Create
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        //// POST: Artigos/Create
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create(IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add insert logic here
-
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
 
         // GET: Artigos/Edit/5
         public ActionResult Edit(int id)
@@ -106,30 +79,8 @@ namespace FT_Retail.Controllers
             catch (Exception)
             {
                 return View();
+        }
     }
+    
 }
-
-        //// GET: Artigos/Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    return View();
-        //}
-
-        //// POST: Artigos/Delete/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add delete logic here
-
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
-    }
 }
