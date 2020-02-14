@@ -6,6 +6,7 @@ using FT_Retail.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using X.PagedList;
+using System.Diagnostics;
 
 namespace FT_Retail.Controllers
 {
@@ -14,6 +15,12 @@ namespace FT_Retail.Controllers
         // GET: Balancas
         public ActionResult Index()
         {
+
+            Process[] pnameRGI = Process.GetProcessesByName("RGI.exe");
+            Process[] pnameComunicaciones = Process.GetProcessesByName("ComunicacionesBalPCInterface.exe");
+            if (pnameRGI.Length == 0) {ViewData["RGI"] = "0";} else {ViewData["RGI"] = "1";}
+            if (pnameComunicaciones.Length == 0) {ViewData["Comunicaciones"] = "0";} else {ViewData["Comunicaciones"] = "1";}
+
             FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
 
             List<Balanca> LstBalancas = context.ObterListaBalancas();
