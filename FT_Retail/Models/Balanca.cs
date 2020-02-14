@@ -14,24 +14,60 @@ namespace FT_Retail.Models
         public string Dir_IP { get; set; }
         public string DirecaoLogica { get; set; }
         public int PortaTX { get; set; }
+        public int IDTipoBalanca { get; set; }
         public string TipoBalanca { get; set; }
         [Display(Name = "Envios Pendentes")]
+        public string RegistoArtigo { get; set; }
+        public string RegistoOferta { get; set; }
+        [Display(Name = "Artigos Pendentes")]
+        public int TransacoesPendentesArtigos { get; set; }
+        [Display(Name = "Promoções Pendentes")]
+        public int TransacoesPendentesOfertas { get; set; }
         public int TransacoesPendentes { get; set; }
-        [Display(Name = "Transações Enviadas")]
-        public int TransacoesEnviadas { get; set; }
         public int TransacoesErro { get; set; }
         public int EstadoEquipamento { get; set; }  // 1- Tudo OK 2 - Envios Pendentes 3 - Envios com Erro
         public string MensagemInfo { get; set; }
         [Display(Name = "Ultima Atualização com sucesso")]
         public DateTime UltimaAtualizacaoSucesso { get; set; }
 
+        public void DefinirTipo()
+        {
+
+            switch (IDTipoBalanca)
+            {
+                case 0:
+                    TipoBalanca = "CS1100";
+                    break;
+                case 1:
+                    TipoBalanca = "L-8XX";
+                    RegistoArtigo = "L2";
+                    RegistoOferta = "OI";
+                    break;
+                case 20:
+                    TipoBalanca = "Gama 500";
+                    RegistoArtigo = "L2";
+                    RegistoOferta = "OT";
+                    break;
+                case 40:
+                    TipoBalanca = "D-900";
+                    RegistoArtigo = "L2";
+                    RegistoOferta = "OT";
+                    break;
+                case 60:
+                    TipoBalanca = "LP3400";
+                    RegistoArtigo = "L2";
+                    RegistoOferta = "OI";
+                    break;
+            }
+            DirecaoLogica = DirecaoLogica.ToString().PadLeft(2, '0');
+        }
+
         public void DefinirEstado()
         {
 
-            if (TipoBalanca == "20") { TipoBalanca = "Gama 500"; } else if (TipoBalanca == "40") { TipoBalanca = "D-900"; } else if (TipoBalanca == "60") { TipoBalanca = "LP-3400"; }
-            DirecaoLogica = DirecaoLogica.ToString().PadLeft(2, '0');
+
             EstadoEquipamento = 1;
-            if (TransacoesPendentes > 0 ) { EstadoEquipamento = 2; }
+            if (TransacoesPendentes > 0) { EstadoEquipamento = 2; }
             if (TransacoesErro > 0) { EstadoEquipamento = 3; }
 
             switch (EstadoEquipamento)

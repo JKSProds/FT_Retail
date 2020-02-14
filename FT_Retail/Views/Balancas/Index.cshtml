@@ -17,15 +17,15 @@
                     <p class="card-text">
                         Modelo: <b>@Html.DisplayFor(modelItem => item.TipoBalanca)</b><br />
                         @Html.DisplayNameFor(model => model.Dir_IP) - <b> @Html.DisplayFor(modelItem => item.Dir_IP) (@Html.DisplayFor(modelItem => item.PortaTX))</b><br />
-                        @Html.DisplayNameFor(model => model.TransacoesEnviadas) : <b>@Html.DisplayFor(modelItem => item.TransacoesEnviadas)</b><br />
-                        @Html.DisplayNameFor(model => model.TransacoesPendentes) : <b>@Html.DisplayFor(modelItem => item.TransacoesPendentes)</b><br />
+                        @Html.DisplayNameFor(model => model.TransacoesPendentesArtigos) : <b>@Html.DisplayFor(modelItem => item.TransacoesPendentesArtigos)</b><br />
+                        @Html.DisplayNameFor(model => model.TransacoesPendentesOfertas) : <b>@Html.DisplayFor(modelItem => item.TransacoesPendentesOfertas)</b><br />
                     </p>
                     <div class="card-footer">
                         <small>
                             @Html.DisplayNameFor(model => model.UltimaAtualizacaoSucesso): 
                             @if (item.UltimaAtualizacaoSucesso.ToString() == new DateTime().ToString())
                             {
-                            <b>Impossivel obter ultima atualização</b>
+                            <b>N/A</b>
                             } else
                             {
                         <b>@Html.DisplayFor(modelItem => item.UltimaAtualizacaoSucesso)</b>

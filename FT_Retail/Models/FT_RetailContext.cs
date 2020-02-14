@@ -45,8 +45,8 @@ namespace FT_Retail.Models
                 TxtAlergenos = result["TextoAlergenos"],
                 TxtInfoNutricional = result["TextoNutricionales"]
             };
-        return artigo;
- 
+            return artigo;
+
         }
         public Promocao ObterPromocao(int idArtigo)
         {
@@ -127,7 +127,7 @@ namespace FT_Retail.Models
         {
             using Database conn = ConnectionString;
             QueryResult result = conn.Query("SELECT FechaInicio, FechaFin, dat_tarifa.idarticulo, dat_articulo.PrecioOferta as PrecioOferta FROM dat_tarifa INNER JOIN dat_articulo ON dat_tarifa.idarticulo = dat_articulo.idarticulo");
- 
+
             List<Promocao> lstPromocao = new List<Promocao>();
             DateTime dataInicio = new DateTime();
             DateTime dataFim = new DateTime();
@@ -149,22 +149,22 @@ namespace FT_Retail.Models
             QueryResult result = conn.Query("select idseccion, nombreseccion from dat_seccion");
 
             List<Seccao> lstSeccao = new List<Seccao>();
- 
-                while (result.Read())
+
+            while (result.Read())
+            {
+                lstSeccao.Add(new Seccao()
                 {
-                    lstSeccao.Add(new Seccao()
-                    {
-                        IdSeccao = result["idseccion"],
-                        NomeSeccao = result["nombreseccion"]
-                    });
-                }
+                    IdSeccao = result["idseccion"],
+                    NomeSeccao = result["nombreseccion"]
+                });
+            }
 
             return lstSeccao;
         }
 
         public List<Artigo> ObterTodosArtigos()
         {
-                return ObterListaArtigos("SELECT * from dat_articulo where descripcion not like ''");
+            return ObterListaArtigos("SELECT * from dat_articulo where descripcion not like ''");
         }
         public List<Artigo> ObterArtigosWhere(string PLU, string Nome)
         {
@@ -172,7 +172,7 @@ namespace FT_Retail.Models
         }
         public List<Artigo> ObterArtigosOrderBy(string orderBy, bool asc)
         {
-  
+
             string query = ("SELECT* from dat_articulo where descripcion not like ''");
 
             switch (orderBy)
@@ -208,9 +208,9 @@ namespace FT_Retail.Models
         {
             string[] txtConservacao = obterTextos24Caracteres(artigo.TxtConservacao);
             string[] txtUtilizacao = obterTextos24Caracteres(artigo.TxtInfoUtilizacao);
-            
+
             using Database conn = ConnectionString;
-            conn.Execute("update dat_articulo set Texto7='" + txtConservacao[0] + "', Texto8='" + txtConservacao[1] + "', Texto9='" + txtConservacao[2] + "', Texto10='" + txtConservacao[3] + "', Texto11='" + txtConservacao[4] + "', Texto12='" + txtConservacao[5] + "', Texto13='" + txtConservacao[6] + "', Texto14='" + txtUtilizacao[0] + "', Texto15='" + txtUtilizacao[1] + "', Texto16='" + txtUtilizacao[2] + "', Texto17='" + txtUtilizacao[3] + "', Texto18='" + txtUtilizacao[4] + "', Texto19='" + txtUtilizacao[5] + "', Texto20='" + txtUtilizacao[6] + "', DiasCaducidad='" + artigo.DiasValidade + "', TextoLibre='" + artigo.TxtIngredientes + "', TextoNutricionales='" + artigo.TxtInfoNutricional + "', TextoAlergenos='" + artigo.TxtAlergenos + "', Modificado=1, ModificadoTextos=1, ModificadoTextoG=1, ModificadoTextoNutricionales=1, ModificadoTextoAlergenos=1 where idarticulo=" + artigo.IdArtigo + "");    
+            conn.Execute("update dat_articulo set Texto7='" + txtConservacao[0] + "', Texto8='" + txtConservacao[1] + "', Texto9='" + txtConservacao[2] + "', Texto10='" + txtConservacao[3] + "', Texto11='" + txtConservacao[4] + "', Texto12='" + txtConservacao[5] + "', Texto13='" + txtConservacao[6] + "', Texto14='" + txtUtilizacao[0] + "', Texto15='" + txtUtilizacao[1] + "', Texto16='" + txtUtilizacao[2] + "', Texto17='" + txtUtilizacao[3] + "', Texto18='" + txtUtilizacao[4] + "', Texto19='" + txtUtilizacao[5] + "', Texto20='" + txtUtilizacao[6] + "', DiasCaducidad='" + artigo.DiasValidade + "', TextoLibre='" + artigo.TxtIngredientes + "', TextoNutricionales='" + artigo.TxtInfoNutricional + "', TextoAlergenos='" + artigo.TxtAlergenos + "', Modificado=1, ModificadoTextos=1, ModificadoTextoG=1, ModificadoTextoNutricionales=1, ModificadoTextoAlergenos=1 where idarticulo=" + artigo.IdArtigo + "");
         }
 
         public string[] obterTextos24Caracteres(string TxtCompleto)
@@ -239,7 +239,8 @@ namespace FT_Retail.Models
 
             result.Read();
 
-            Loja loja = new Loja(){
+            Loja loja = new Loja()
+            {
                 IdLoja = IdLoja,
                 NomeEmpresa = result["NombreEmpresa"],
                 NomeLoja = result["Nombre"],
@@ -254,7 +255,7 @@ namespace FT_Retail.Models
         {
             int res = 0;
             using Database conn = ConnectionString;
-            QueryResult result = conn.Query("Select COUNT(*) as NBalancas From dat_balanza where idtienda = '" + IdLoja+"' and ActivedScale = 1;");
+            QueryResult result = conn.Query("Select COUNT(*) as NBalancas From dat_balanza where idtienda = '" + IdLoja + "' and ActivedScale = 1;");
 
             result.Read();
 
@@ -274,114 +275,126 @@ namespace FT_Retail.Models
             return result[0];
         }
 
-        public List<Balanca> ObterBalancas()
+        public List<Balanca> ObterListaBalancas()
         {
             List<Balanca> LstBalancas = new List<Balanca>();
 
             using Database conn = ConnectionString;
-            QueryResult result = conn.Query("SELECT IdBalanza, Nombre, Dir_IP, BalanzaTradicional, DireccionLogica, PuertoEnvio_Tx FROM dat_balanza Order by DireccionLogica");
+            QueryResult result = conn.Query("SELECT IdBalanza FROM dat_balanza Where ActivedScale=1 Order by DireccionLogica");
 
             while (result.Read())
             {
-                LstBalancas.Add(new Balanca()
-                {
-                    IdBalanca = result["IdBalanza"],
-                    NomeBalanca = result["Nombre"],
-                    Dir_IP = result["Dir_IP"],
-                    DirecaoLogica = result["DireccionLogica"],
-                    PortaTX = result["PuertoEnvio_Tx"],
-                    TipoBalanca = result["BalanzaTradicional"]
-
-                });
-            }
-
-            conn.Connection.Close();
-
-            foreach (var balanca in LstBalancas)
-            {
-                DateTime UltimaAtualizacaoSucesso = new DateTime();
-                conn.Connection.Open();
-                result = conn.Query("SELECT Fecha FROM sys_transacciones.dat_transacciones Where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 1 ORDER BY Fecha DESC LIMIT 1;");
-                result.Read();
-                if (result.reader.HasRows) { DateTime.TryParse(result["Fecha"], out UltimaAtualizacaoSucesso); }
-                conn.Connection.Close();
-
-                balanca.TransacoesEnviadas = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 1;");
-                balanca.TransacoesPendentes = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND Enviado = 0;");
-                balanca.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + balanca.Dir_IP + "' AND NIntentos > 0;");
-                balanca.UltimaAtualizacaoSucesso = UltimaAtualizacaoSucesso;
-                balanca.DefinirEstado();
-
+                LstBalancas.Add(ObterBalanca(result["IdBalanza"]));
             }
 
             return LstBalancas;
+        }
+
+        public Balanca ObterBalanca(int IDBalanca)
+        {
+            Balanca res = new Balanca();
+
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT IdBalanza, Nombre, Dir_IP, BalanzaTradicional, DireccionLogica, PuertoEnvio_Tx FROM dat_balanza Where IdBalanza=" + IDBalanca + " Order by DireccionLogica");
+
+result.Read();
+
+            res = new Balanca()
+            {
+                IdBalanca = result["IdBalanza"],
+                NomeBalanca = result["Nombre"],
+                Dir_IP = result["Dir_IP"],
+                DirecaoLogica = result["DireccionLogica"],
+                PortaTX = result["PuertoEnvio_Tx"],
+                IDTipoBalanca = result["BalanzaTradicional"]
+
+            };
+            conn.Connection.Close();
+
+            res.DefinirTipo();
+
+            DateTime UltimaAtualizacaoSucesso = new DateTime();
+            conn.Connection.Open();
+            result = conn.Query("SELECT Fecha FROM sys_transacciones.dat_transacciones Where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 1 ORDER BY Fecha DESC LIMIT 1;");
+            result.Read();
+            if (result.reader.HasRows) { DateTime.TryParse(result["Fecha"], out UltimaAtualizacaoSucesso); }
+            conn.Connection.Close();
+
+            res.TransacoesPendentesArtigos = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoArtigo + "%';");
+            res.TransacoesPendentesOfertas = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoOferta + "%';");
+            res.TransacoesPendentes = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0;");
+            res.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND NIntentos > 0;");
+            res.UltimaAtualizacaoSucesso = UltimaAtualizacaoSucesso;
+            res.DefinirEstado();
+
+            return res;
         }
 
         public List<Artigo> ObterListaArtigosBalanca(int IdBalanca, string Nome, string PLU)
         {
             List<Artigo> LstArtigos = new List<Artigo>();
 
-            using Database conn = ConnectionString;
-            QueryResult result = conn.Query("SELECT IdBalanza, Nombre, Dir_IP, BalanzaTradicional, DireccionLogica, PuertoEnvio_Tx FROM dat_balanza Where IdBalanza = '"+IdBalanca+"' LIMIT 1");
-            result.Read();
+            Balanca balanca = ObterBalanca(IdBalanca);
 
-            string IPAdress = result["Dir_IP"];
-            string DirecaoLogica = result["DireccionLogica"];
-
-            if (Directory.Exists(SW1100Folder + "\\Comunicaciones\\Logs\\UpdatesSender_log")) { 
-
-            foreach (string file in Directory.EnumerateFiles(SW1100Folder + "\\Comunicaciones\\Logs\\UpdatesSender_log", "*_commL.log"))
+            if (Directory.Exists(SW1100Folder))
             {
-                string[] linhas = File.ReadAllLines(file);
-                bool lerLinha = false;
-                foreach (var linha in linhas)
+                DirectoryInfo info = new DirectoryInfo(SW1100Folder);
+                FileInfo[] files = info.GetFiles().OrderBy(p => p.CreationTime).ToArray();
+
+                foreach (FileInfo file in files)
                 {
-                    
-
-                    if (linha.ToString().Contains("(TX)") && lerLinha && (linha.ToString().Substring(31, 4) == DirecaoLogica + "L2") && (linha.ToString().Substring(37, 1) != "B"))
+                    if (!file.Name.Contains("commL"))
                     {
-                        int.TryParse(linha.ToString().Substring(38, 6), out int IdArtigo);
-                        double.TryParse(linha.ToString().Substring(119, 6) + "," + linha.ToString().Substring(125, 2), out double preco);
-                        double.TryParse(linha.ToString().Substring(127, 6) + "," + linha.ToString().Substring(133, 2), out double precoPromocao);
-
-                        var culture = new CultureInfo("en-us");
-                        DateTime.TryParse(linha.Substring(0, 18),culture, DateTimeStyles.AssumeUniversal,out DateTime dataAtualizacao);
-
-                        Artigo artigo = new Artigo();
-
-                        artigo.IdArtigo = IdArtigo;
-                        artigo.NomeArtigo = linha.Substring(47, 48);
-                        artigo.UltimaAtualizacao = dataAtualizacao;
-                        if (precoPromocao == 0)
+                        string[] linhas = File.ReadAllLines(file.FullName);
+                        bool lerLinha = false;
+                        foreach (var linha in linhas)
                         {
-                            artigo.Preco = preco;
-                        } else
-                        {
-                            artigo.Preco = precoPromocao;
+                            if (lerLinha && linha.Length == 177 && (linha.ToString().Substring(47, 4) == balanca.DirecaoLogica + balanca.RegistoArtigo) && (linha.ToString().Substring(53, 1) != "B"))
+                            {
+                                int.TryParse(linha.ToString().Substring(54, 6), out int IdArtigo);
+                                double.TryParse(linha.ToString().Substring(135, 6) + "," + linha.ToString().Substring(141, 2), out double preco);
+                                double.TryParse(linha.ToString().Substring(143, 6) + "," + linha.ToString().Substring(149, 2), out double precoPromocao);
+                                
+                                string Data = linha.Substring(0, 10) + " " + linha.Substring(12, 8);
+                                DateTime.TryParse(Data, out DateTime dataAtualizacao);
+
+                                Artigo artigo = new Artigo();
+
+                                artigo.IdArtigo = IdArtigo;
+                                artigo.NomeArtigo = linha.Substring(63, 48);
+                                artigo.UltimaAtualizacao = dataAtualizacao;
+                                if (precoPromocao == 0)
+                                {
+                                    artigo.Preco = preco;
+                                }
+                                else
+                                {
+                                    artigo.Preco = precoPromocao;
+                                }
+
+                                if (IdArtigo.ToString().Contains(PLU) && artigo.NomeArtigo.Contains(Nome, StringComparison.CurrentCultureIgnoreCase))
+                                {
+                                    int index = LstArtigos.IndexOf(LstArtigos.Where(a => a.IdArtigo == IdArtigo).FirstOrDefault());
+
+                                    if (index >= 0)
+                                    {
+                                        LstArtigos[index] = artigo;
+                                    }
+                                    else
+                                    {
+                                        LstArtigos.Add(artigo);
+                                    }
+                                }
+
+                            }
+
+                            if (linha.ToString().Contains("Socket cliente abierto correctamente. IP Balanza:"))
+                            {
+                                lerLinha = (obterIPString(linha.ToString()) == balanca.Dir_IP);
+                            }
+
                         }
-
-                        if (IdArtigo.ToString().Contains(PLU) && artigo.NomeArtigo.Contains(Nome, StringComparison.CurrentCultureIgnoreCase))
-                        {
-                            int index = LstArtigos.IndexOf(LstArtigos.Where(a => a.IdArtigo == IdArtigo).FirstOrDefault());
-
-                            if (index >= 0)
-                            {
-                                LstArtigos[index] = artigo;
-                            }
-                            else
-                            {
-                                LstArtigos.Add(artigo);
-                            }
-                        } 
-
                     }
-
-                    if (linha.ToString().Contains("Client connected to: "))
-                    {
-                        lerLinha = (obterIPString(linha.ToString()) == IPAdress);
-                    }
-                    
-                }
 
                 }
 
@@ -390,9 +403,9 @@ namespace FT_Retail.Models
             return LstArtigos.OrderByDescending(o => o.UltimaAtualizacao).ToList();
         }
 
-        private string obterIPString (string linha)
+        private string obterIPString(string linha)
         {
-            int i = 52;
+            int i = 78;
             char c = linha[i];
             string res = "";
 
@@ -404,7 +417,7 @@ namespace FT_Retail.Models
             }
 
             return res;
-        } 
+        }
     }
 }
 

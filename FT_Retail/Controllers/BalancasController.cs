@@ -16,7 +16,7 @@ namespace FT_Retail.Controllers
         {
             FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
 
-            List<Balanca> LstBalancas = context.ObterBalancas();
+            List<Balanca> LstBalancas = context.ObterListaBalancas();
             return View(LstBalancas);
         }
 
@@ -33,6 +33,10 @@ namespace FT_Retail.Controllers
 
             if (PLU == null) { PLU = "";  }
             if (Nome == null) { Nome = ""; }
+
+            Balanca balanca = context.ObterBalanca(id);
+            ViewData["Nome_Balanca"] = balanca.NomeBalanca;
+            ViewData["Dados_Balanca"] = balanca.Dir_IP + " - " + balanca.PortaTX ;
 
             var LstArtigos = context.ObterListaArtigosBalanca(id, Nome, PLU).ToPagedList(pageNumber,pageSize);
 
