@@ -5,18 +5,19 @@
 }
     
 <br />
-<div class="container">
-    <div class="row">
-        <div class="col-10">
-            <h1>Lista de Balanças</h1>
-        </div>
-        <div class="col-2" style="float: right;">
-        <b>RGI:         </b> <i class="float- right fas fa-circle @(ViewData["RGI"].ToString() == "1" ? "text-success" : "text-danger")"></i> <br>
-        <b>Comunicações:</b> <i class="fas fa-circle @(ViewData["Comunicaciones"].ToString() == "1" ? "text-success" : "text-danger")"></i> 
-        </div>
-    </div>
- </div>
-<div class="w-100"></div>      
+<table style="width: 100%;">
+    <tr>
+        <th>
+<h1>Lista de Balanças</h1>
+        </th>
+        <th class="float-right">
+            <i class="float- right fas fa-circle @(ViewData["RGI"].ToString() == "1" ? "text-success" : "text-danger")"></i><b> RGI</b> <br>
+            <i class="fas fa-circle @(ViewData["Comunicaciones"].ToString() == "1" ? "text-success" : "text-danger")"></i> <b> Comunicações</b> 
+       
+        </th>
+    </tr>
+</table>  
+
 <hr />
 <div class="row">
     @foreach (var item in Model)

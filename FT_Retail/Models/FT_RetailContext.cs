@@ -216,6 +216,7 @@ namespace FT_Retail.Models
             if (artigo.Promocao.PromocaoAtiva) {
                 conn.Connection.Open();
                 conn.Execute("update dat_tarifa set modificado=1 where idarticulo="+artigo.IdArtigo+"");
+                conn.Connection.Close();
             }
         }
 
