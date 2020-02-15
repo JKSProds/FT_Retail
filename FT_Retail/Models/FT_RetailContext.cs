@@ -425,6 +425,37 @@ result.Read();
 
             return res;
         }
+
+        public List<Rastreabilidade> ObterListaRastreabilidades() {
+            List<Rastreabilidade> res = new List<Rastreabilidade>();
+
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT IdElemAsociado FROM `sys_datos`.`dat_elem_asociado`");
+
+            while (result.Read())
+            {
+                res.Add(ObterRastreabilidade(result[0]));
+            }
+
+            return res;
+        }
+
+        public Rastreabilidade ObterRastreabilidade(int ID) {
+            Rastreabilidade res = new Rastreabilidade();
+
+            using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT IdElemAsociado, NombreElemAsociado FROM `sys_datos`.`dat_elem_asociado` Where IdElemAsociado=" + ID + ";");
+
+            result.Read();
+
+            res = new Rastreabilidade()
+            {
+                IDRast = result[0],
+                NomeRastreabilidade = result[1]
+            };
+
+            return res;
+        }
     }
 }
 

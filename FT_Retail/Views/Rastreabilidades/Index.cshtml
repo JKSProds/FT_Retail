@@ -1,0 +1,48 @@
+﻿@model IEnumerable<FT_Retail.Models.Rastreabilidade>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using X.PagedList.Mvc.Bootstrap4.NetCore;
+
+@{
+    ViewData["Title"] = "Rastreabilidades";
+}
+<br />
+
+            <h1 align="left">Rastreabilidades</h1>
+ 
+    <hr />
+
+    @if (Model.Count() == 0)
+    {
+        <br />
+        <button class="btn btn-lg btn-danger btn-block disabled">Não foram encontradas Rastreabilidades!</button>
+    }
+    else
+    {
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IDRast)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NomeRastreabilidade)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr onclick="location.href = '@(Url.Action("Edit", "Rastreabilidades", new { id = item.IDRast }))'">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IDRast)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NomeRastreabilidade)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
