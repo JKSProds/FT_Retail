@@ -37,12 +37,20 @@ else
             <div class="row" style="margin: 5px">
                 <b>@Html.TextBoxFor(modelItem => Model[i].IDLinha, new { @class = "form-control", @readonly = "true", @hidden=true})</b>
                 <div class="col">
+                    @if (Model[i].TextoLinha == "") {
+         <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true", @hidden=true })</b>
+                    }else{
                         <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true" })</b>
+                    }
                 </div>
                 <div class="col-8">
-                     @Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control"})
+                    @if (Model[i].TextoLinha == "") {
+                        <b>@Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control", @hidden=true })</b>
+                    }else{
+                        <b>@Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control"})</b>
+                    }
                 </div>
-        </div>
+</div>
             }
     </div>
 
@@ -57,7 +65,7 @@ else
             </div>
 }
 }
-<br />
+
         <div>
             <a asp-action="Index">Voltar</a>
         </div>
