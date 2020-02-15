@@ -19,22 +19,23 @@ namespace FT_Retail
         public ActionResult Edit(int ID)
         {
             FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
-
+            ViewData["Nome_Rast"] = context.ObterRastreabilidade(ID).NomeRastreabilidade;
             return View(context.ObterListaLinhaRastreabilidades(ID));
         }
 
         [HttpPost]
-        public ActionResult Edit(int id, Rastreabilidade rastreabilidade)
+        public ActionResult Edit(int ID, List<LinhaRastreabilidade> Linhas)
         {
             try
             {
                 FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
                 
-                context.atualizarRastreabilidade(rastreabilidade.LinhasRastreabilidade, id);
-                //return RedirectToAction(nameof(Index));
+                context.atualizarRastreabilidade(Linhas, ID);
+                
 
-                var artigo = context.ObterListaLinhaRastreabilidades(id);
-                return View(artigo);
+                
+                ViewData["Nome_Rast"] = context.ObterRastreabilidade(ID).NomeRastreabilidade;
+                return View(context.ObterListaLinhaRastreabilidades(ID));
             }
             catch (Exception)
             {

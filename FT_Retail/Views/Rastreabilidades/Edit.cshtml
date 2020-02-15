@@ -1,4 +1,4 @@
-﻿@model FT_Retail.Models.Rastreabilidade;
+﻿@model List<FT_Retail.Models.LinhaRastreabilidade>;
 @using X.PagedList.Mvc.Core;
 @using X.PagedList;
 @using X.PagedList.Mvc.Bootstrap4.NetCore;
@@ -7,28 +7,40 @@
     ViewData["Title"] = "Lotes de Animais";
 }
 <br />
-            <h1 align="left">Lotes de Animais</h1>
-            <h6>A obter dados de: <b>@Html.DisplayFor(modelItem => Model.NomeRastreabilidade)</b></h6>
+<table style="width: 100%;">
+    <tr>
+        <th>
+<h1 align="left">Lotes de Animais</h1>
+        </th>
+        <th class="text-right">
+<h6>A alterar dados de: <b>@ViewData["Nome_Rast"]</b></h6>
+        </th>
+    </tr>
+</table>
+            
+            
 <hr />
 
-@if (Model.LinhasRastreabilidade.Count() == 0)
+@if (Model.Count() == 0)
 {
     <br />
     <button class="btn btn-lg btn-danger btn-block disabled">Não foram encontradas linhas!</button>
 }
 else
 {
- <form asp-action="Edit">
-                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+@using (Html.BeginForm("Edit", "Rastreabilidades", FormMethod.Post, new { Rast = Model }))
+{
     <div class="container">
-            @foreach (var item in Model.LinhasRastreabilidade)
-            {
-            <div class="row" style="margin-bottom: 5px">
-                <div class="col" style="margin-top: 7px">
-                        <b>@Html.DisplayFor(modelItem => item.TextoLinha)</b>
+           
+            @for(int i=0; i < Model.Count(); i++) {
+            <div class="row" style="margin: 5px">
+                <b>@Html.TextBoxFor(modelItem => Model[i].IDLinha, new { @class = "form-control", @readonly = "true", @hidden=true})</b>
+                <div class="col">
+                        <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true" })</b>
                 </div>
                 <div class="col-8">
-                     @Html.TextBoxFor(modelItem => item.ValorLinha, new { @class = "form-control"})
+                     @Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control"})
                 </div>
         </div>
             }
@@ -43,7 +55,7 @@ else
                     </div>
                 </div>
             </div>
- </form>
+}
 }
 <br />
         <div>
