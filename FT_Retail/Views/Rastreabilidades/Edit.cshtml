@@ -1,0 +1,55 @@
+﻿@model FT_Retail.Models.Rastreabilidade;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@using X.PagedList.Mvc.Bootstrap4.NetCore;
+
+@{
+    ViewData["Title"] = "Lotes de Animais";
+}
+<br />
+            <h1 align="left">Lotes de Animais</h1>
+            <h6>A obter dados de: <b>@Html.DisplayFor(modelItem => Model.NomeRastreabilidade)</b></h6>
+<hr />
+
+@if (Model.LinhasRastreabilidade.Count() == 0)
+{
+    <br />
+    <button class="btn btn-lg btn-danger btn-block disabled">Não foram encontradas linhas!</button>
+}
+else
+{
+ <form asp-action="Edit">
+                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="container">
+            @foreach (var item in Model.LinhasRastreabilidade)
+            {
+            <div class="row" style="margin-bottom: 5px">
+                <div class="col" style="margin-top: 7px">
+                        <b>@Html.DisplayFor(modelItem => item.TextoLinha)</b>
+                </div>
+                <div class="col-8">
+                     @Html.TextBoxFor(modelItem => item.ValorLinha, new { @class = "form-control"})
+                </div>
+        </div>
+            }
+    </div>
+
+    <br>
+
+    <div class="container">
+                <div class="row">
+                    <div class="form-group" style="width: 100%">
+                        <input type="submit" value="Guardar | Enviar" class="btn btn-lg btn-primary btn-block" />
+                    </div>
+                </div>
+            </div>
+ </form>
+}
+<br />
+        <div>
+            <a asp-action="Index">Voltar</a>
+        </div>
+
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }

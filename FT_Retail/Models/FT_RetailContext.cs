@@ -430,7 +430,7 @@ result.Read();
             List<Rastreabilidade> res = new List<Rastreabilidade>();
 
             using Database conn = ConnectionString;
-            QueryResult result = conn.Query("SELECT IdElemAsociado FROM `sys_datos`.`dat_elem_asociado`");
+            QueryResult result = conn.Query("SELECT IdElemAsociado FROM `sys_datos`.`dat_elem_asociado` Order by IdElemAsociado");
 
             while (result.Read())
             {
@@ -455,6 +455,36 @@ result.Read();
             };
 
             return res;
+        }
+
+        public Rastreabilidade ObterListaLinhaRastreabilidades(int ID) {
+            List<LinhaRastreabilidade> LstLinhas = new List<LinhaRastreabilidade>();
+
+             using Database conn = ConnectionString;
+            QueryResult result = conn.Query("SELECT IdParametro, Parametro, Valor FROM `sys_datos`.`dat_detalle_elem_asociado` Where IdElemAsociado=" + ID + ";");
+
+            while (result.Read()) {
+                LstLinhas.Add(new LinhaRastreabilidade() {
+                    IDLinha = result[0],
+                    TextoLinha = result[1],
+                    ValorLinha = result[2]
+                });
+            }
+            
+            Rastreabilidade res = ObterRastreabilidade(ID);
+            res.LinhasRastreabilidade = LstLinhas;
+
+            return res;
+        }
+
+        public void atualizarRastreabilidade (List<LinhaRastreabilidade> rastreabilidades, int IDRast) {
+                 using Database conn = ConnectionString;
+
+            foreach (var linha in rastreabilidades) {
+                conn.Execute("update dat_detalle_elem_asociado set Valor='"+linha.ValorLinha+"' where IdParametro="+linha.IDLinha+" AND IdElemAsociado="+IDRast+";");
+            }
+                
+            conn.Connection.Close();
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace FT_Retail.Models
 {
@@ -8,5 +9,6 @@ namespace FT_Retail.Models
         public int IDRast { get; set; }
         [Display(Name = "Nome")]
         public string NomeRastreabilidade { get; set; }
+        public List<LinhaRastreabilidade> LinhasRastreabilidade { get; set; }
     }
 }
