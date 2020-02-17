@@ -15,9 +15,8 @@ namespace FT_Retail.Controllers
         // GET: Balancas
         public ActionResult Index()
         {
-
-            Process[] pnameRGI = Process.GetProcessesByName("RGI.exe");
-            Process[] pnameComunicaciones = Process.GetProcessesByName("ComunicacionesBalPCInterface.exe");
+            Process[] pnameRGI = Process.GetProcessesByName("RGI");
+            Process[] pnameComunicaciones = Process.GetProcessesByName("ComunicacionesBalPCInterface");
             if (pnameRGI.Length == 0) {ViewData["RGI"] = "0";} else {ViewData["RGI"] = "1";}
             if (pnameComunicaciones.Length == 0) {ViewData["Comunicaciones"] = "0";} else {ViewData["Comunicaciones"] = "1";}
 
