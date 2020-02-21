@@ -1,0 +1,73 @@
+02/18/20 05:22:20 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:22:43 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT504200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:22:44 -- (DLL)     Client socket has been closed
+02/18/20 05:23:04 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:23:06 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:23:11 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT504500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:23:11 -- (DLL)     Client socket has been closed
+02/18/20 05:23:20 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:23:25 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT504718022001002402202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:23:26 -- (DLL)     Client socket has been closed
+02/18/20 05:23:46 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:24:02 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:24:33 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT504418022001002403202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:24:34 -- (DLL)     Client socket has been closed
+02/18/20 05:24:43 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:24:48 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT505000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:24:48 -- (DLL)     Client socket has been closed
+02/18/20 05:25:08 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:28:33 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:28:58 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT505200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:28:59 -- (DLL)     Client socket has been closed
+02/18/20 05:29:08 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:29:13 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT505418022001002403202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:29:14 -- (DLL)     Client socket has been closed
+02/18/20 05:29:34 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:29:50 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:30:14 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT506018022001002402202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:30:14 -- (DLL)     Client socket has been closed
+02/18/20 05:30:23 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:30:29 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT506518022001002402202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:30:29 -- (DLL)     Client socket has been closed
+02/18/20 05:30:49 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:31:47 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:32:11 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT507118022001002402202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:32:12 -- (DLL)     Client socket has been closed
+02/18/20 05:32:21 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:32:26 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT507618022001002402202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:32:27 -- (DLL)     Client socket has been closed
+02/18/20 05:32:47 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:33:19 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:33:42 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT508000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:33:43 -- (DLL)     Client socket has been closed
+02/18/20 05:34:03 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:34:06 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:34:11 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT508600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:34:11 -- (DLL)     Client socket has been closed
+02/18/20 05:34:31 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:34:36 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:34:41 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT508900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:34:42 -- (DLL)     Client socket has been closed
+02/18/20 05:35:02 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:35:07 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:35:12 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT509718022001003112202359000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:35:13 -- (DLL)     Client socket has been closed
+02/18/20 05:35:33 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:35:33 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:35:34 -- (DLL)     Client socket has been closed
+02/18/20 05:35:40 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:35:45 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 09OT508900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000
+02/18/20 05:35:46 -- (DLL)     Client socket has been closed
+02/18/20 05:36:06 -- (DLL)     Client socket couldn't find the scale 10.7.18.139 (port 3000)
+02/18/20 05:36:11 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:36:11 -- (DLL)     Client socket has been closed
+02/18/20 05:36:17 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 05:36:18 -- (DLL)     Client socket has been closed
+02/18/20 09:18:42 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 09:18:42 -- (DLL)     Client socket has been closed
+02/18/20 12:30:37 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 12:30:38 -- (DLL)     Client socket has been closed
+02/18/20 15:10:41 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 15:10:42 -- (DLL)     Client socket has been closed
+02/18/20 20:31:42 -- (DLL)     Client connected to: 10.7.18.139 (port 3000)
+02/18/20 20:31:48 -- (DLL)     Client socket has been closed
