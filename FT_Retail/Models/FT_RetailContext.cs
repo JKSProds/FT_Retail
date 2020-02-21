@@ -330,7 +330,7 @@ result.Read();
             res.TransacoesPendentesArtigos = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoArtigo + "%';");
             res.TransacoesPendentesOfertas = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoOferta + "%';");
             res.TransacoesPendentes = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0;");
-            res.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND NIntentos > 0;");
+            res.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND NIntentos > 0 AND Enviado=0;");
             res.UltimaAtualizacaoSucesso = UltimaAtualizacaoSucesso;
             res.DefinirEstado();
 
