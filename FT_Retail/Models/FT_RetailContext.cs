@@ -478,7 +478,7 @@ result.Read();
                  using Database conn = ConnectionString;
 
             foreach (var linha in rastreabilidades) {
-                conn.Execute("update dat_detalle_elem_asociado set Valor='"+linha.ValorLinha+"', Modificado=1 where IdParametro="+linha.IDLinha+" AND IdElemAsociado="+IDRast+";");
+                conn.Execute("update dat_elem_asociado set Valor='"+linha.ValorLinha+"', Modificado=1 where IdParametro="+linha.IDLinha+" AND IdElemAsociado="+IDRast+";");
             }
                 
             conn.Connection.Close();
