@@ -1,0 +1,7 @@
+02/15/20 19:54:56 -- (DLL)     Client connected to: 10.7.18.138 (port 3000)
+02/15/20 19:55:11 -- (DLL)     ERROR: Socket not ready for writing. 'Select' timeout: 08H3500671521000000700000000000000000000000000010000000000000001266715200000000000000000000000000000000000000000000000000000000000
+02/15/20 19:55:11 -- (DLL)     Client socket has been closed
+02/15/20 19:55:20 -- (DLL)     Client connected to: 10.7.18.138 (port 3000)
+02/15/20 19:55:34 -- (DLL)     Client socket has been closed
+02/15/20 20:31:36 -- (DLL)     Client connected to: 10.7.18.138 (port 3000)
+02/15/20 20:31:37 -- (DLL)     Client socket has been closed
