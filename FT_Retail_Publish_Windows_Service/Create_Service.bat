@@ -1,1 +1,0 @@
-sc create FTRetail_Service binPath= "PATH --service" start=auto

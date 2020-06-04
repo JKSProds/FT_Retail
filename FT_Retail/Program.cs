@@ -36,7 +36,7 @@ namespace FT_Retail
                 var webHostArgs = args.Where(arg => arg != "--console").ToArray();
 
                 string ConfigurationFile = ""; //Configuration file.
-                string portNo = "5001"; //Port
+                string portNo = "1997"; //Port
 
                 var pathToExe = Process.GetCurrentProcess().MainModule.FileName;
                 pathToContentRoot = Path.GetDirectoryName(pathToExe);
@@ -59,7 +59,7 @@ namespace FT_Retail
                 var host = WebHost.CreateDefaultBuilder(webHostArgs)
                 .UseContentRoot(pathToContentRoot)
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:" + portNo)
+                .UseUrls("http://*:" + portNo)
                 .Build();
 
                 host.RunAsService();
