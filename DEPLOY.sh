@@ -16,7 +16,7 @@ chmod -R 777 FT_Retail
 
 rm -r FT_Retail
 
-docker run -d -p 8080:80 --name FT_Retail aspnetapp
+docker run -d -p 8080:80 --restart always --name FT_Retail aspnetapp
 
 
 
