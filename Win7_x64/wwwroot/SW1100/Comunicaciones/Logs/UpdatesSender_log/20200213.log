@@ -1,0 +1,2693 @@
+﻿13-02-2020| 05:16:30.012623| Inicio Envio Transacciones
+13-02-2020| 05:16:30.027583| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.037559| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.046632| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.055602| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.063581| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.073553| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.082558| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.091505| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.100481| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.111452| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.120428| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.129404| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.139378| Datos de balanza obtenidos correctamente
+13-02-2020| 05:16:30.141372| Numero de balanzas con modificaciones: 13
+13-02-2020| 05:16:30.142376| Inicio Hilo Envio. IP: 10.7.18.133 Dir: 03
+13-02-2020| 05:16:30.144368| Inicio Hilo Envio. IP: 10.7.18.134 Dir: 04
+13-02-2020| 05:16:30.155339| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 05:16:30.158332| Inicio Hilo Envio. IP: 10.7.18.137 Dir: 07
+13-02-2020| 05:16:30.161323| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 05:16:30.169408| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 05:16:30.172293| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 05:16:30.174288| Inicio Hilo Envio. IP: 10.7.18.145 Dir: 15
+13-02-2020| 05:16:30.180273| Inicio Hilo Envio. IP: 10.7.18.146 Dir: 16
+13-02-2020| 05:16:30.189384| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 05:16:30.193237| Inicio Hilo Envio. IP: 10.7.18.139 Dir: 09
+13-02-2020| 05:16:30.196230| Inicio Hilo Envio. IP: 10.7.18.140 Dir: 10
+13-02-2020| 05:16:30.203211| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 05:16:53.569909| Fin Envio Transacciones
+13-02-2020| 05:31:43.136250| Inicio Envio Transacciones
+13-02-2020| 05:31:43.150213| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.159693| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.167672| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.176649| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.186651| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.195629| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.204573| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.212552| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.221529| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.229507| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.238484| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.247459| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.256434| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.265410| Datos de balanza obtenidos correctamente
+13-02-2020| 05:31:43.267405| Numero de balanzas con modificaciones: 14
+13-02-2020| 05:31:43.268402| Inicio Hilo Envio. IP: 10.7.18.133 Dir: 03
+13-02-2020| 05:31:43.270397| Inicio Hilo Envio. IP: 10.7.18.134 Dir: 04
+13-02-2020| 05:31:43.277379| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 05:31:43.279373| Inicio Hilo Envio. IP: 10.7.18.137 Dir: 07
+13-02-2020| 05:31:43.282365| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 05:31:43.292339| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 05:31:43.295331| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 05:31:43.298323| Inicio Hilo Envio. IP: 10.7.18.145 Dir: 15
+13-02-2020| 05:31:43.304307| Inicio Hilo Envio. IP: 10.7.18.146 Dir: 16
+13-02-2020| 05:31:43.306301| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:31:43.310291| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 05:31:43.319266| Inicio Hilo Envio. IP: 10.7.18.139 Dir: 09
+13-02-2020| 05:31:43.325251| Inicio Hilo Envio. IP: 10.7.18.140 Dir: 10
+13-02-2020| 05:31:43.337220| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 05:38:17.955591| Fin Envio Transacciones
+13-02-2020| 05:38:23.519854| Inicio Envio Transacciones
+13-02-2020| 05:38:23.535583| Datos de balanza obtenidos correctamente
+13-02-2020| 05:38:23.540080| Numero de balanzas con modificaciones: 1
+13-02-2020| 05:38:23.540080| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:38:29.571095| Reintento 1 Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:38:35.600193| Reintento 2 Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:40:50.485629| Fin Envio Transacciones
+13-02-2020| 05:40:56.048121| Inicio Envio Transacciones
+13-02-2020| 05:40:56.061899| Datos de balanza obtenidos correctamente
+13-02-2020| 05:40:56.066968| Numero de balanzas con modificaciones: 1
+13-02-2020| 05:40:56.067883| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:41:02.099345| Reintento 1 Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:41:08.129335| Reintento 2 Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:42:03.605446| Fin Envio Transacciones
+13-02-2020| 05:42:09.168837| Inicio Envio Transacciones
+13-02-2020| 05:42:09.182611| Datos de balanza obtenidos correctamente
+13-02-2020| 05:42:09.188567| Numero de balanzas con modificaciones: 1
+13-02-2020| 05:42:09.188567| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:42:35.427985| Fin Envio Transacciones
+13-02-2020| 05:42:40.990787| Inicio Envio Transacciones
+13-02-2020| 05:42:41.004748| Datos de balanza obtenidos correctamente
+13-02-2020| 05:42:41.010702| Numero de balanzas con modificaciones: 1
+13-02-2020| 05:42:41.011699| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 05:42:42.245192| Fin Envio Transacciones
+13-02-2020| 06:07:16.054256| Inicio Envio Transacciones
+13-02-2020| 06:07:18.521374| Datos de balanza obtenidos correctamente
+13-02-2020| 06:07:18.529352| Datos de balanza obtenidos correctamente
+13-02-2020| 06:07:18.539325| Datos de balanza obtenidos correctamente
+13-02-2020| 06:07:18.548301| Datos de balanza obtenidos correctamente
+13-02-2020| 06:07:18.551293| Numero de balanzas con modificaciones: 4
+13-02-2020| 06:07:18.551293| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 06:07:18.554314| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 06:07:18.556309| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 06:07:18.561266| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 06:07:21.764823| Fin Envio Transacciones
+13-02-2020| 07:59:00.272028| Inicio Envio Transacciones
+13-02-2020| 07:59:00.285779| Datos de balanza obtenidos correctamente
+13-02-2020| 07:59:00.296788| Datos de balanza obtenidos correctamente
+13-02-2020| 07:59:00.305764| Datos de balanza obtenidos correctamente
+13-02-2020| 07:59:00.312716| Datos de balanza obtenidos correctamente
+13-02-2020| 07:59:00.318729| Numero de balanzas con modificaciones: 4
+13-02-2020| 07:59:00.318729| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 07:59:00.321811| Inicio Hilo Envio. IP: 10.7.18.145 Dir: 15
+13-02-2020| 07:59:00.323687| Inicio Hilo Envio. IP: 10.7.18.146 Dir: 16
+13-02-2020| 07:59:00.325682| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 07:59:52.790439| Fin Envio Transacciones
+13-02-2020| 07:59:58.352655| Inicio Envio Transacciones
+13-02-2020| 07:59:58.367617| Datos de balanza obtenidos correctamente
+13-02-2020| 07:59:58.371772| Numero de balanzas con modificaciones: 1
+13-02-2020| 07:59:58.372636| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 08:00:24.612177| Fin Envio Transacciones
+13-02-2020| 08:00:30.173534| Inicio Envio Transacciones
+13-02-2020| 08:00:30.188525| Datos de balanza obtenidos correctamente
+13-02-2020| 08:00:30.193510| Numero de balanzas con modificaciones: 1
+13-02-2020| 08:00:30.193510| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 08:00:31.425532| Fin Envio Transacciones
+13-02-2020| 11:15:33.052607| Inicio Envio Transacciones
+13-02-2020| 11:15:33.564809| Datos de balanza obtenidos correctamente
+13-02-2020| 11:15:33.573785| Datos de balanza obtenidos correctamente
+13-02-2020| 11:15:33.583758| Datos de balanza obtenidos correctamente
+13-02-2020| 11:15:33.592762| Datos de balanza obtenidos correctamente
+13-02-2020| 11:15:33.594757| Numero de balanzas con modificaciones: 4
+13-02-2020| 11:15:33.595754| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 11:15:33.597721| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 11:15:33.599714| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 11:15:33.604702| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 11:15:35.252865| Fin Envio Transacciones
+13-02-2020| 12:30:40.123116| Inicio Envio Transacciones
+13-02-2020| 12:30:42.418206| Datos de balanza obtenidos correctamente
+13-02-2020| 12:30:42.426184| Datos de balanza obtenidos correctamente
+13-02-2020| 12:30:42.436157| Datos de balanza obtenidos correctamente
+13-02-2020| 12:30:42.445134| Datos de balanza obtenidos correctamente
+13-02-2020| 12:30:42.449123| Numero de balanzas con modificaciones: 4
+13-02-2020| 12:30:42.449123| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 12:30:42.451117| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 12:30:42.453112| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 12:30:42.458099| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 12:30:43.917043| Fin Envio Transacciones
+13-02-2020| 12:46:29.402803| Inicio Envio Transacciones
+13-02-2020| 12:46:30.349966| Datos de balanza obtenidos correctamente
+13-02-2020| 12:46:30.359969| Datos de balanza obtenidos correctamente
+13-02-2020| 12:46:30.367919| Datos de balanza obtenidos correctamente
+13-02-2020| 12:46:30.374913| Datos de balanza obtenidos correctamente
+13-02-2020| 12:46:30.379900| Numero de balanzas con modificaciones: 4
+13-02-2020| 12:46:30.380898| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 12:46:30.382892| Inicio Hilo Envio. IP: 10.7.18.145 Dir: 15
+13-02-2020| 12:46:30.384887| Inicio Hilo Envio. IP: 10.7.18.146 Dir: 16
+13-02-2020| 12:46:30.386882| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 12:47:22.851688| Fin Envio Transacciones
+13-02-2020| 12:47:28.411932| Inicio Envio Transacciones
+13-02-2020| 12:47:28.426835| Datos de balanza obtenidos correctamente
+13-02-2020| 12:47:28.431664| Numero de balanzas con modificaciones: 1
+13-02-2020| 12:47:28.431664| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 12:47:54.669511| Fin Envio Transacciones
+13-02-2020| 12:48:00.229222| Inicio Envio Transacciones
+13-02-2020| 12:48:00.243992| Datos de balanza obtenidos correctamente
+13-02-2020| 12:48:00.248951| Numero de balanzas con modificaciones: 1
+13-02-2020| 12:48:00.248951| Inicio Hilo Envio. IP: 10.7.18.148 Dir: 00
+13-02-2020| 12:48:01.481810| Fin Envio Transacciones
+13-02-2020| 14:22:50.929041| Inicio Envio Transacciones
+13-02-2020| 14:22:52.130263| Datos de balanza obtenidos correctamente
+13-02-2020| 14:22:52.138241| Datos de balanza obtenidos correctamente
+13-02-2020| 14:22:52.149212| Datos de balanza obtenidos correctamente
+13-02-2020| 14:22:52.159186| Datos de balanza obtenidos correctamente
+13-02-2020| 14:22:52.161180| Numero de balanzas con modificaciones: 4
+13-02-2020| 14:22:52.162177| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 14:22:52.164172| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 14:22:52.166167| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 14:22:52.171154| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 14:22:54.457980| Fin Envio Transacciones
+13-02-2020| 15:45:37.609883| Inicio Envio Transacciones
+13-02-2020| 15:45:37.622788| Datos de balanza obtenidos correctamente
+13-02-2020| 15:45:37.636722| Datos de balanza obtenidos correctamente
+13-02-2020| 15:45:37.638747| Numero de balanzas con modificaciones: 2
+13-02-2020| 15:45:37.639713| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 15:45:37.641708| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 15:45:39.028222| Fin Envio Transacciones
+13-02-2020| 15:47:30.306985| Inicio Envio Transacciones
+13-02-2020| 15:47:30.320752| Datos de balanza obtenidos correctamente
+13-02-2020| 15:47:30.333686| Datos de balanza obtenidos correctamente
+13-02-2020| 15:47:30.336707| Numero de balanzas con modificaciones: 2
+13-02-2020| 15:47:30.337704| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 15:47:30.339696| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 15:47:31.185757| Fin Envio Transacciones
+13-02-2020| 15:48:35.180178| Inicio Envio Transacciones
+13-02-2020| 15:48:35.192985| Datos de balanza obtenidos correctamente
+13-02-2020| 15:48:35.205951| Datos de balanza obtenidos correctamente
+13-02-2020| 15:48:35.207974| Numero de balanzas con modificaciones: 2
+13-02-2020| 15:48:35.208943| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 15:48:35.212931| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 15:48:36.556961| Fin Envio Transacciones
+13-02-2020| 20:31:18.589745| Inicio Envio Transacciones
+13-02-2020| 20:31:18.603487| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.612465| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.621440| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.630415| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.638394| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.647370| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.659337| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.668313| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.677289| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.688260| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.697236| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.706212| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.716185| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:18.718180| Numero de balanzas con modificaciones: 13
+13-02-2020| 20:31:18.718180| Inicio Hilo Envio. IP: 10.7.18.133 Dir: 03
+13-02-2020| 20:31:18.721172| Inicio Hilo Envio. IP: 10.7.18.134 Dir: 04
+13-02-2020| 20:31:18.723167| Inicio Hilo Envio. IP: 10.7.18.135 Dir: 05
+13-02-2020| 20:31:18.730149| Inicio Hilo Envio. IP: 10.7.18.137 Dir: 07
+13-02-2020| 20:31:18.733141| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:31:18.736133| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 20:31:18.739236| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 20:31:18.743114| Inicio Hilo Envio. IP: 10.7.18.145 Dir: 15
+13-02-2020| 20:31:18.745108| Inicio Hilo Envio. IP: 10.7.18.146 Dir: 16
+13-02-2020| 20:31:18.753086| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 20:31:18.756079| Inicio Hilo Envio. IP: 10.7.18.139 Dir: 09
+13-02-2020| 20:31:18.759218| Inicio Hilo Envio. IP: 10.7.18.140 Dir: 10
+13-02-2020| 20:31:18.762064| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 20:31:30.662661| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:31:40.661645| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:31:50.662194| Fin Envio Transacciones
+13-02-2020| 20:31:56.227732| Inicio Envio Transacciones
+13-02-2020| 20:31:56.242499| Datos de balanza obtenidos correctamente
+13-02-2020| 20:31:56.250449| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:31:56.251446| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:32:06.162310| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:32:16.161134| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:32:26.161620| Fin Envio Transacciones
+13-02-2020| 20:32:31.722401| Inicio Envio Transacciones
+13-02-2020| 20:32:31.737169| Datos de balanza obtenidos correctamente
+13-02-2020| 20:32:31.745119| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:32:31.745119| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:32:41.662899| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:32:51.661981| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:33:01.663139| Fin Envio Transacciones
+13-02-2020| 20:33:07.223790| Inicio Envio Transacciones
+13-02-2020| 20:33:07.238514| Datos de balanza obtenidos correctamente
+13-02-2020| 20:33:07.246493| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:33:07.247488| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:33:17.161958| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:33:27.161803| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:33:37.161306| Fin Envio Transacciones
+13-02-2020| 20:33:42.722532| Inicio Envio Transacciones
+13-02-2020| 20:33:42.737524| Datos de balanza obtenidos correctamente
+13-02-2020| 20:33:42.746471| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:33:42.747469| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:33:52.661896| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:34:02.662308| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:34:12.661932| Fin Envio Transacciones
+13-02-2020| 20:34:18.224672| Inicio Envio Transacciones
+13-02-2020| 20:34:18.239603| Datos de balanza obtenidos correctamente
+13-02-2020| 20:34:18.247582| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:34:18.248579| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:34:28.161643| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:34:38.162345| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:34:48.161384| Fin Envio Transacciones
+13-02-2020| 20:34:53.727116| Inicio Envio Transacciones
+13-02-2020| 20:34:53.741106| Datos de balanza obtenidos correctamente
+13-02-2020| 20:34:53.749055| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:34:53.749055| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:35:03.660464| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:35:13.661539| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:35:23.660757| Fin Envio Transacciones
+13-02-2020| 20:35:29.231674| Inicio Envio Transacciones
+13-02-2020| 20:35:29.246535| Datos de balanza obtenidos correctamente
+13-02-2020| 20:35:29.254480| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:35:29.255477| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:35:39.162463| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:35:49.162270| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:35:59.162867| Fin Envio Transacciones
+13-02-2020| 20:36:04.724760| Inicio Envio Transacciones
+13-02-2020| 20:36:04.739689| Datos de balanza obtenidos correctamente
+13-02-2020| 20:36:04.747668| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:36:04.748665| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:36:14.662520| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:36:24.662904| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:36:34.662349| Fin Envio Transacciones
+13-02-2020| 20:36:40.223893| Inicio Envio Transacciones
+13-02-2020| 20:36:40.238634| Datos de balanza obtenidos correctamente
+13-02-2020| 20:36:40.247610| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:36:40.248608| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:36:50.161399| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:37:00.161393| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:37:10.161397| Fin Envio Transacciones
+13-02-2020| 20:37:15.724317| Inicio Envio Transacciones
+13-02-2020| 20:37:15.739082| Datos de balanza obtenidos correctamente
+13-02-2020| 20:37:15.747033| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:37:15.748029| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:37:25.662172| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:37:35.662548| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:37:45.661798| Fin Envio Transacciones
+13-02-2020| 20:37:51.224394| Inicio Envio Transacciones
+13-02-2020| 20:37:51.239386| Datos de balanza obtenidos correctamente
+13-02-2020| 20:37:51.247359| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:37:51.247359| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:38:01.162558| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:38:11.161832| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:38:21.161304| Fin Envio Transacciones
+13-02-2020| 20:38:26.722404| Inicio Envio Transacciones
+13-02-2020| 20:38:26.737364| Datos de balanza obtenidos correctamente
+13-02-2020| 20:38:26.744345| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:38:26.745342| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:38:36.661671| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:38:46.661889| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:38:56.660532| Fin Envio Transacciones
+13-02-2020| 20:39:02.225077| Inicio Envio Transacciones
+13-02-2020| 20:39:02.238951| Datos de balanza obtenidos correctamente
+13-02-2020| 20:39:02.246929| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:39:02.246929| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:39:12.160395| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:39:22.161596| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:39:32.161587| Fin Envio Transacciones
+13-02-2020| 20:39:37.723991| Inicio Envio Transacciones
+13-02-2020| 20:39:37.739752| Datos de balanza obtenidos correctamente
+13-02-2020| 20:39:37.746709| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:39:37.747707| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:39:47.660876| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:39:57.660436| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:40:07.661708| Fin Envio Transacciones
+13-02-2020| 20:40:13.223184| Inicio Envio Transacciones
+13-02-2020| 20:40:13.236148| Datos de balanza obtenidos correctamente
+13-02-2020| 20:40:13.245124| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:40:13.246121| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:40:23.162362| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:40:33.161423| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:40:43.161255| Fin Envio Transacciones
+13-02-2020| 20:40:48.726092| Inicio Envio Transacciones
+13-02-2020| 20:40:48.741055| Datos de balanza obtenidos correctamente
+13-02-2020| 20:40:48.749033| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:40:48.750030| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:40:58.662816| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:41:08.661525| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:41:18.660622| Fin Envio Transacciones
+13-02-2020| 20:41:24.224988| Inicio Envio Transacciones
+13-02-2020| 20:41:24.239983| Datos de balanza obtenidos correctamente
+13-02-2020| 20:41:24.247958| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:41:24.247958| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:41:34.159804| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:41:44.161142| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:41:54.161960| Fin Envio Transacciones
+13-02-2020| 20:41:59.723910| Inicio Envio Transacciones
+13-02-2020| 20:41:59.739649| Datos de balanza obtenidos correctamente
+13-02-2020| 20:41:59.746654| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:41:59.747651| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:42:09.660466| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:42:19.660358| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:42:29.660626| Fin Envio Transacciones
+13-02-2020| 20:42:35.222972| Inicio Envio Transacciones
+13-02-2020| 20:42:35.237755| Datos de balanza obtenidos correctamente
+13-02-2020| 20:42:35.245689| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:42:35.245689| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:42:45.160149| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:42:55.160937| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:43:05.160236| Fin Envio Transacciones
+13-02-2020| 20:43:10.720832| Inicio Envio Transacciones
+13-02-2020| 20:43:10.735576| Datos de balanza obtenidos correctamente
+13-02-2020| 20:43:10.743555| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:43:10.744552| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:43:20.661964| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:43:30.662159| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:43:40.661383| Fin Envio Transacciones
+13-02-2020| 20:43:46.225434| Inicio Envio Transacciones
+13-02-2020| 20:43:46.240174| Datos de balanza obtenidos correctamente
+13-02-2020| 20:43:46.248152| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:43:46.248152| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:43:56.161207| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:44:06.160725| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:44:16.161259| Fin Envio Transacciones
+13-02-2020| 20:44:21.732658| Inicio Envio Transacciones
+13-02-2020| 20:44:21.748399| Datos de balanza obtenidos correctamente
+13-02-2020| 20:44:21.756377| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:44:21.756959| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:44:31.660267| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:44:41.661265| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:44:51.660401| Fin Envio Transacciones
+13-02-2020| 20:44:57.223953| Inicio Envio Transacciones
+13-02-2020| 20:44:57.238681| Datos de balanza obtenidos correctamente
+13-02-2020| 20:44:57.246659| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:44:57.247657| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:45:07.160563| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:45:17.161433| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:45:27.159533| Fin Envio Transacciones
+13-02-2020| 20:45:32.725473| Inicio Envio Transacciones
+13-02-2020| 20:45:32.739706| Datos de balanza obtenidos correctamente
+13-02-2020| 20:45:32.746687| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:45:32.747685| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:45:42.660077| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:45:52.661696| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:46:02.660735| Fin Envio Transacciones
+13-02-2020| 20:46:08.223550| Inicio Envio Transacciones
+13-02-2020| 20:46:08.238290| Datos de balanza obtenidos correctamente
+13-02-2020| 20:46:08.245272| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:46:08.246269| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:46:18.160157| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:46:28.159970| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:46:38.160901| Fin Envio Transacciones
+13-02-2020| 20:46:43.724121| Inicio Envio Transacciones
+13-02-2020| 20:46:43.739116| Datos de balanza obtenidos correctamente
+13-02-2020| 20:46:43.747063| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:46:43.748060| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:46:53.661104| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:47:03.661222| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:47:13.661329| Fin Envio Transacciones
+13-02-2020| 20:47:19.226143| Inicio Envio Transacciones
+13-02-2020| 20:47:19.240878| Datos de balanza obtenidos correctamente
+13-02-2020| 20:47:19.248856| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:47:19.249853| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:47:29.161590| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:47:39.162305| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:47:49.161358| Fin Envio Transacciones
+13-02-2020| 20:47:54.725347| Inicio Envio Transacciones
+13-02-2020| 20:47:54.741215| Datos de balanza obtenidos correctamente
+13-02-2020| 20:47:54.748167| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:47:54.749164| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:48:04.660764| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:48:14.659791| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:48:24.660741| Fin Envio Transacciones
+13-02-2020| 20:48:30.222436| Inicio Envio Transacciones
+13-02-2020| 20:48:30.236173| Datos de balanza obtenidos correctamente
+13-02-2020| 20:48:30.245183| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:48:30.246180| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:48:40.161183| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:48:50.160114| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:49:00.161149| Fin Envio Transacciones
+13-02-2020| 20:49:05.723785| Inicio Envio Transacciones
+13-02-2020| 20:49:05.737747| Datos de balanza obtenidos correctamente
+13-02-2020| 20:49:05.745725| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:49:05.746723| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:49:15.660397| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:49:25.661403| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:49:35.659763| Fin Envio Transacciones
+13-02-2020| 20:49:41.226796| Inicio Envio Transacciones
+13-02-2020| 20:49:41.241759| Datos de balanza obtenidos correctamente
+13-02-2020| 20:49:41.249737| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:49:41.250735| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:49:51.160373| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:50:01.160649| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:50:11.161128| Fin Envio Transacciones
+13-02-2020| 20:50:16.726452| Inicio Envio Transacciones
+13-02-2020| 20:50:16.740415| Datos de balanza obtenidos correctamente
+13-02-2020| 20:50:16.748422| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:50:16.749391| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:50:26.659595| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:50:36.660948| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:50:46.661079| Fin Envio Transacciones
+13-02-2020| 20:50:52.222100| Inicio Envio Transacciones
+13-02-2020| 20:50:52.237029| Datos de balanza obtenidos correctamente
+13-02-2020| 20:50:52.246004| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:50:52.246153| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:51:02.160416| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:51:12.159399| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:51:22.160701| Fin Envio Transacciones
+13-02-2020| 20:51:27.721323| Inicio Envio Transacciones
+13-02-2020| 20:51:27.736091| Datos de balanza obtenidos correctamente
+13-02-2020| 20:51:27.743086| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:51:27.744083| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:51:37.660386| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:51:47.660867| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:51:57.660984| Fin Envio Transacciones
+13-02-2020| 20:52:03.226546| Inicio Envio Transacciones
+13-02-2020| 20:52:03.241865| Datos de balanza obtenidos correctamente
+13-02-2020| 20:52:03.249542| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:52:03.249542| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:52:13.159065| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:52:23.160686| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:52:33.160044| Fin Envio Transacciones
+13-02-2020| 20:52:38.732170| Inicio Envio Transacciones
+13-02-2020| 20:52:38.747634| Datos de balanza obtenidos correctamente
+13-02-2020| 20:52:38.754614| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:52:38.755611| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:52:48.662906| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:52:58.660548| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:53:08.660947| Fin Envio Transacciones
+13-02-2020| 20:53:14.226396| Inicio Envio Transacciones
+13-02-2020| 20:53:14.243350| Datos de balanza obtenidos correctamente
+13-02-2020| 20:53:14.250331| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:53:14.251330| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:53:24.160804| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:53:34.160811| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:53:44.162001| Fin Envio Transacciones
+13-02-2020| 20:53:49.727679| Inicio Envio Transacciones
+13-02-2020| 20:53:49.741684| Datos de balanza obtenidos correctamente
+13-02-2020| 20:53:49.750686| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:53:49.751684| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:53:59.661159| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:54:09.660850| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:54:19.660591| Fin Envio Transacciones
+13-02-2020| 20:54:25.227554| Inicio Envio Transacciones
+13-02-2020| 20:54:25.242527| Datos de balanza obtenidos correctamente
+13-02-2020| 20:54:25.249508| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:54:25.250505| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:54:35.159359| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:54:45.159931| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:54:55.159490| Fin Envio Transacciones
+13-02-2020| 20:55:00.721866| Inicio Envio Transacciones
+13-02-2020| 20:55:00.737596| Datos de balanza obtenidos correctamente
+13-02-2020| 20:55:00.744593| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:55:00.745591| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:55:10.661064| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:55:20.658889| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:55:30.659082| Fin Envio Transacciones
+13-02-2020| 20:55:36.222552| Inicio Envio Transacciones
+13-02-2020| 20:55:36.237326| Datos de balanza obtenidos correctamente
+13-02-2020| 20:55:36.245277| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:55:36.245277| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:55:46.160330| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:55:56.160499| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:56:06.161059| Fin Envio Transacciones
+13-02-2020| 20:56:11.724136| Inicio Envio Transacciones
+13-02-2020| 20:56:11.740091| Datos de balanza obtenidos correctamente
+13-02-2020| 20:56:11.747072| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:56:11.748069| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:56:21.661336| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:56:31.660916| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:56:41.660608| Fin Envio Transacciones
+13-02-2020| 20:56:47.222154| Inicio Envio Transacciones
+13-02-2020| 20:56:47.236949| Datos de balanza obtenidos correctamente
+13-02-2020| 20:56:47.245928| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:56:47.246925| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:56:57.160692| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:57:07.159784| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:57:17.160287| Fin Envio Transacciones
+13-02-2020| 20:57:22.721984| Inicio Envio Transacciones
+13-02-2020| 20:57:22.736750| Datos de balanza obtenidos correctamente
+13-02-2020| 20:57:22.744765| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:57:22.744765| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:57:32.660824| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:57:42.659308| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:57:52.660683| Fin Envio Transacciones
+13-02-2020| 20:57:58.228197| Inicio Envio Transacciones
+13-02-2020| 20:57:58.243160| Datos de balanza obtenidos correctamente
+13-02-2020| 20:57:58.251138| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:57:58.252135| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:58:08.160520| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:58:18.159029| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:58:28.159504| Fin Envio Transacciones
+13-02-2020| 20:58:33.724558| Inicio Envio Transacciones
+13-02-2020| 20:58:33.739327| Datos de balanza obtenidos correctamente
+13-02-2020| 20:58:33.746336| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:58:33.747334| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:58:43.660174| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:58:53.660615| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:59:03.661402| Fin Envio Transacciones
+13-02-2020| 20:59:09.225106| Inicio Envio Transacciones
+13-02-2020| 20:59:09.239986| Datos de balanza obtenidos correctamente
+13-02-2020| 20:59:09.248962| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:59:09.249959| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:59:19.159054| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:59:29.159537| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:59:39.160616| Fin Envio Transacciones
+13-02-2020| 20:59:44.724855| Inicio Envio Transacciones
+13-02-2020| 20:59:44.740593| Datos de balanza obtenidos correctamente
+13-02-2020| 20:59:44.747574| Numero de balanzas con modificaciones: 1
+13-02-2020| 20:59:44.748572| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 20:59:54.659975| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:00:04.659776| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:00:14.660526| Fin Envio Transacciones
+13-02-2020| 21:00:20.223492| Inicio Envio Transacciones
+13-02-2020| 21:00:20.238372| Datos de balanza obtenidos correctamente
+13-02-2020| 21:00:20.246358| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:00:20.247380| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:00:30.160380| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:00:40.158600| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:00:50.160795| Fin Envio Transacciones
+13-02-2020| 21:00:55.724791| Inicio Envio Transacciones
+13-02-2020| 21:00:55.739556| Datos de balanza obtenidos correctamente
+13-02-2020| 21:00:55.747506| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:00:55.747506| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:01:05.660943| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:01:15.660297| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:01:25.662000| Fin Envio Transacciones
+13-02-2020| 21:01:31.226845| Inicio Envio Transacciones
+13-02-2020| 21:01:31.242605| Datos de balanza obtenidos correctamente
+13-02-2020| 21:01:31.250583| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:01:31.250583| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:01:41.160872| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:01:51.160294| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:02:01.160028| Fin Envio Transacciones
+13-02-2020| 21:02:06.726915| Inicio Envio Transacciones
+13-02-2020| 21:02:06.741651| Datos de balanza obtenidos correctamente
+13-02-2020| 21:02:06.750640| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:02:06.751650| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:02:16.658554| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:02:26.660071| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:02:36.660001| Fin Envio Transacciones
+13-02-2020| 21:02:42.221500| Inicio Envio Transacciones
+13-02-2020| 21:02:42.236240| Datos de balanza obtenidos correctamente
+13-02-2020| 21:02:42.243221| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:02:42.244218| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:02:52.160044| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:03:02.160103| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:03:12.159029| Fin Envio Transacciones
+13-02-2020| 21:03:17.720334| Inicio Envio Transacciones
+13-02-2020| 21:03:17.735076| Datos de balanza obtenidos correctamente
+13-02-2020| 21:03:17.743080| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:03:17.743080| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:03:27.659318| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:03:37.659900| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:03:47.658495| Fin Envio Transacciones
+13-02-2020| 21:03:53.220452| Inicio Envio Transacciones
+13-02-2020| 21:03:53.235415| Datos de balanza obtenidos correctamente
+13-02-2020| 21:03:53.243428| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:03:53.243428| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:04:03.159805| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:04:13.159483| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:04:23.159633| Fin Envio Transacciones
+13-02-2020| 21:04:28.720798| Inicio Envio Transacciones
+13-02-2020| 21:04:28.735537| Datos de balanza obtenidos correctamente
+13-02-2020| 21:04:28.742518| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:04:28.743515| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:04:38.659639| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:04:48.659823| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:04:58.659276| Fin Envio Transacciones
+13-02-2020| 21:05:04.222594| Inicio Envio Transacciones
+13-02-2020| 21:05:04.237558| Datos de balanza obtenidos correctamente
+13-02-2020| 21:05:04.244533| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:05:04.245530| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:05:14.159731| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:05:24.159995| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:05:34.157689| Fin Envio Transacciones
+13-02-2020| 21:05:39.720077| Inicio Envio Transacciones
+13-02-2020| 21:05:39.734877| Datos de balanza obtenidos correctamente
+13-02-2020| 21:05:39.742827| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:05:39.744821| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:05:49.660821| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:05:59.659985| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:06:09.659381| Fin Envio Transacciones
+13-02-2020| 21:06:15.224140| Inicio Envio Transacciones
+13-02-2020| 21:06:15.238099| Datos de balanza obtenidos correctamente
+13-02-2020| 21:06:15.245054| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:06:15.246051| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:06:25.159467| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:06:35.159061| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:06:45.158359| Fin Envio Transacciones
+13-02-2020| 21:06:50.723029| Inicio Envio Transacciones
+13-02-2020| 21:06:50.736771| Datos de balanza obtenidos correctamente
+13-02-2020| 21:06:50.744750| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:06:50.744750| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:07:00.660699| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:07:10.661159| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:07:20.658601| Fin Envio Transacciones
+13-02-2020| 21:07:26.221555| Inicio Envio Transacciones
+13-02-2020| 21:07:26.237542| Datos de balanza obtenidos correctamente
+13-02-2020| 21:07:26.245492| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:07:26.246521| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:07:36.158972| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:07:46.158787| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:07:56.159980| Fin Envio Transacciones
+13-02-2020| 21:08:01.729537| Inicio Envio Transacciones
+13-02-2020| 21:08:01.744280| Datos de balanza obtenidos correctamente
+13-02-2020| 21:08:01.752258| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:08:01.752258| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:08:11.658079| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:08:21.659357| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:08:31.658820| Fin Envio Transacciones
+13-02-2020| 21:08:37.224217| Inicio Envio Transacciones
+13-02-2020| 21:08:37.238961| Datos de balanza obtenidos correctamente
+13-02-2020| 21:08:37.245969| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:08:37.246963| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:08:47.158907| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:08:57.159547| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:09:07.159880| Fin Envio Transacciones
+13-02-2020| 21:09:12.723228| Inicio Envio Transacciones
+13-02-2020| 21:09:12.737189| Datos de balanza obtenidos correctamente
+13-02-2020| 21:09:12.745194| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:09:12.746189| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:09:22.659208| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:09:32.659609| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:09:42.660058| Fin Envio Transacciones
+13-02-2020| 21:09:48.225766| Inicio Envio Transacciones
+13-02-2020| 21:09:48.242500| Datos de balanza obtenidos correctamente
+13-02-2020| 21:09:48.249506| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:09:48.250502| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:09:58.159416| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:10:08.158209| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:10:18.157983| Fin Envio Transacciones
+13-02-2020| 21:10:23.725319| Inicio Envio Transacciones
+13-02-2020| 21:10:23.739308| Datos de balanza obtenidos correctamente
+13-02-2020| 21:10:23.747283| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:10:23.748280| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:10:33.659871| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:10:43.658283| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:10:53.658692| Fin Envio Transacciones
+13-02-2020| 21:10:59.224300| Inicio Envio Transacciones
+13-02-2020| 21:10:59.239147| Datos de balanza obtenidos correctamente
+13-02-2020| 21:10:59.247221| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:10:59.248150| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:11:09.159079| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:11:19.160195| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:11:29.158493| Fin Envio Transacciones
+13-02-2020| 21:11:34.723044| Inicio Envio Transacciones
+13-02-2020| 21:11:34.737787| Datos de balanza obtenidos correctamente
+13-02-2020| 21:11:34.744791| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:11:34.745763| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:11:44.660007| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:11:54.660227| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:12:04.659559| Fin Envio Transacciones
+13-02-2020| 21:12:10.225120| Inicio Envio Transacciones
+13-02-2020| 21:12:10.239852| Datos de balanza obtenidos correctamente
+13-02-2020| 21:12:10.247858| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:12:10.248855| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:12:20.159299| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:12:30.157761| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:12:40.159459| Fin Envio Transacciones
+13-02-2020| 21:12:45.720769| Inicio Envio Transacciones
+13-02-2020| 21:12:45.734703| Datos de balanza obtenidos correctamente
+13-02-2020| 21:12:45.741713| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:12:45.742712| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:12:55.657938| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:13:05.658532| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:13:15.658571| Fin Envio Transacciones
+13-02-2020| 21:13:21.219872| Inicio Envio Transacciones
+13-02-2020| 21:13:21.234834| Datos de balanza obtenidos correctamente
+13-02-2020| 21:13:21.242815| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:13:21.243811| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:13:31.158175| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:13:41.158543| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:13:51.159518| Fin Envio Transacciones
+13-02-2020| 21:13:56.721653| Inicio Envio Transacciones
+13-02-2020| 21:13:56.735446| Datos de balanza obtenidos correctamente
+13-02-2020| 21:13:56.744459| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:13:56.745461| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:14:06.658641| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:14:16.659032| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:14:26.658407| Fin Envio Transacciones
+13-02-2020| 21:14:32.220688| Inicio Envio Transacciones
+13-02-2020| 21:14:32.235427| Datos de balanza obtenidos correctamente
+13-02-2020| 21:14:32.242409| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:14:32.243407| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:14:42.158349| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:14:52.159934| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:15:02.158658| Fin Envio Transacciones
+13-02-2020| 21:15:07.720856| Inicio Envio Transacciones
+13-02-2020| 21:15:07.735313| Datos de balanza obtenidos correctamente
+13-02-2020| 21:15:07.742319| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:15:07.743317| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:15:17.659821| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:15:27.658169| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:15:37.659041| Fin Envio Transacciones
+13-02-2020| 21:15:43.219324| Inicio Envio Transacciones
+13-02-2020| 21:15:43.233059| Datos de balanza obtenidos correctamente
+13-02-2020| 21:15:43.241125| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:15:43.242034| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:15:53.157431| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:16:03.158116| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:16:13.158148| Fin Envio Transacciones
+13-02-2020| 21:16:18.719506| Inicio Envio Transacciones
+13-02-2020| 21:16:18.735496| Datos de balanza obtenidos correctamente
+13-02-2020| 21:16:18.743468| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:16:18.743468| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:16:28.658007| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:16:38.659038| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:16:48.657748| Fin Envio Transacciones
+13-02-2020| 21:16:54.219267| Inicio Envio Transacciones
+13-02-2020| 21:16:54.234003| Datos de balanza obtenidos correctamente
+13-02-2020| 21:16:54.241981| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:16:54.242979| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:17:04.157805| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:17:14.157451| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:17:24.158607| Fin Envio Transacciones
+13-02-2020| 21:17:29.721016| Inicio Envio Transacciones
+13-02-2020| 21:17:29.736732| Datos de balanza obtenidos correctamente
+13-02-2020| 21:17:29.743713| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:17:29.744710| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:17:39.658783| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:17:49.657599| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:17:59.659998| Fin Envio Transacciones
+13-02-2020| 21:18:05.224076| Inicio Envio Transacciones
+13-02-2020| 21:18:05.238818| Datos de balanza obtenidos correctamente
+13-02-2020| 21:18:05.246797| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:18:05.246797| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:18:15.159197| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:18:25.159655| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:18:35.159377| Fin Envio Transacciones
+13-02-2020| 21:18:40.722249| Inicio Envio Transacciones
+13-02-2020| 21:18:40.737998| Datos de balanza obtenidos correctamente
+13-02-2020| 21:18:40.744970| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:18:40.745967| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:18:50.658260| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:19:00.659073| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:19:10.659468| Fin Envio Transacciones
+13-02-2020| 21:19:16.226327| Inicio Envio Transacciones
+13-02-2020| 21:19:16.241322| Datos de balanza obtenidos correctamente
+13-02-2020| 21:19:16.249301| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:19:16.250298| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:19:26.158194| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:19:36.158447| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:19:46.158632| Fin Envio Transacciones
+13-02-2020| 21:19:51.725531| Inicio Envio Transacciones
+13-02-2020| 21:19:51.741254| Datos de balanza obtenidos correctamente
+13-02-2020| 21:19:51.748273| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:19:51.749273| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:20:01.658635| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:20:11.658938| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:20:21.658665| Fin Envio Transacciones
+13-02-2020| 21:20:27.220952| Inicio Envio Transacciones
+13-02-2020| 21:20:27.234692| Datos de balanza obtenidos correctamente
+13-02-2020| 21:20:27.242670| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:20:27.242670| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:20:37.159873| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:20:47.157985| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:20:57.158482| Fin Envio Transacciones
+13-02-2020| 21:21:02.720294| Inicio Envio Transacciones
+13-02-2020| 21:21:02.734601| Datos de balanza obtenidos correctamente
+13-02-2020| 21:21:02.742589| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:21:02.743582| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:21:12.659438| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:21:22.657744| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:21:32.658109| Fin Envio Transacciones
+13-02-2020| 21:21:38.222064| Inicio Envio Transacciones
+13-02-2020| 21:21:38.236762| Datos de balanza obtenidos correctamente
+13-02-2020| 21:21:38.244603| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:21:38.244603| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:21:48.158315| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:21:58.157741| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:22:08.159272| Fin Envio Transacciones
+13-02-2020| 21:22:13.721295| Inicio Envio Transacciones
+13-02-2020| 21:22:13.737205| Datos de balanza obtenidos correctamente
+13-02-2020| 21:22:13.745151| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:22:13.745151| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:22:23.658491| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:22:33.658275| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:22:43.657813| Fin Envio Transacciones
+13-02-2020| 21:22:49.220258| Inicio Envio Transacciones
+13-02-2020| 21:22:49.235001| Datos de balanza obtenidos correctamente
+13-02-2020| 21:22:49.242979| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:22:49.243976| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:22:59.159199| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:23:09.158789| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:23:19.157737| Fin Envio Transacciones
+13-02-2020| 21:23:24.719410| Inicio Envio Transacciones
+13-02-2020| 21:23:24.734144| Datos de balanza obtenidos correctamente
+13-02-2020| 21:23:24.742123| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:23:24.743120| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:23:34.659550| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:23:44.659915| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:23:54.659182| Fin Envio Transacciones
+13-02-2020| 21:24:00.221568| Inicio Envio Transacciones
+13-02-2020| 21:24:00.236301| Datos de balanza obtenidos correctamente
+13-02-2020| 21:24:00.243304| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:24:00.244304| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:24:10.158629| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:24:20.157927| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:24:30.158891| Fin Envio Transacciones
+13-02-2020| 21:24:35.720720| Inicio Envio Transacciones
+13-02-2020| 21:24:35.735561| Datos de balanza obtenidos correctamente
+13-02-2020| 21:24:35.742541| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:24:35.743538| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:24:45.658201| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:24:55.657920| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:25:05.657188| Fin Envio Transacciones
+13-02-2020| 21:25:11.219297| Inicio Envio Transacciones
+13-02-2020| 21:25:11.234032| Datos de balanza obtenidos correctamente
+13-02-2020| 21:25:11.243008| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:25:11.244006| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:25:21.157930| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:25:31.159054| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:25:41.159060| Fin Envio Transacciones
+13-02-2020| 21:25:46.721454| Inicio Envio Transacciones
+13-02-2020| 21:25:46.737197| Datos de balanza obtenidos correctamente
+13-02-2020| 21:25:46.744744| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:25:46.745740| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:25:56.658509| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:26:06.658333| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:26:16.658654| Fin Envio Transacciones
+13-02-2020| 21:26:22.224824| Inicio Envio Transacciones
+13-02-2020| 21:26:22.239639| Datos de balanza obtenidos correctamente
+13-02-2020| 21:26:22.247614| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:26:22.247614| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:26:32.157270| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:26:42.157456| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:26:52.158309| Fin Envio Transacciones
+13-02-2020| 21:26:57.719802| Inicio Envio Transacciones
+13-02-2020| 21:26:57.735567| Datos de balanza obtenidos correctamente
+13-02-2020| 21:26:57.742518| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:26:57.743516| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:27:07.657520| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:27:17.658305| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:27:27.658633| Fin Envio Transacciones
+13-02-2020| 21:27:33.230441| Inicio Envio Transacciones
+13-02-2020| 21:27:33.245182| Datos de balanza obtenidos correctamente
+13-02-2020| 21:27:33.253161| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:27:33.254158| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:27:43.156929| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:27:53.158557| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:28:03.158212| Fin Envio Transacciones
+13-02-2020| 21:28:08.722705| Inicio Envio Transacciones
+13-02-2020| 21:28:08.737514| Datos de balanza obtenidos correctamente
+13-02-2020| 21:28:08.745493| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:28:08.745493| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:28:18.658797| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:28:28.658006| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:28:38.658711| Fin Envio Transacciones
+13-02-2020| 21:28:44.219119| Inicio Envio Transacciones
+13-02-2020| 21:28:44.233875| Datos de balanza obtenidos correctamente
+13-02-2020| 21:28:44.240920| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:28:44.241918| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:28:54.158669| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:29:04.158003| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:29:14.158341| Fin Envio Transacciones
+13-02-2020| 21:29:19.719216| Inicio Envio Transacciones
+13-02-2020| 21:29:19.733965| Datos de balanza obtenidos correctamente
+13-02-2020| 21:29:19.741944| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:29:19.742941| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:29:29.658545| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:29:39.657349| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:29:49.658099| Fin Envio Transacciones
+13-02-2020| 21:29:55.224938| Inicio Envio Transacciones
+13-02-2020| 21:29:55.240397| Datos de balanza obtenidos correctamente
+13-02-2020| 21:29:55.248406| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:29:55.249403| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:30:05.158366| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:30:15.158090| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:30:25.157708| Fin Envio Transacciones
+13-02-2020| 21:30:30.718275| Inicio Envio Transacciones
+13-02-2020| 21:30:30.734059| Datos de balanza obtenidos correctamente
+13-02-2020| 21:30:30.741047| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:30:30.742044| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:30:40.657212| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:30:50.656964| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:31:00.658311| Fin Envio Transacciones
+13-02-2020| 21:31:06.223221| Inicio Envio Transacciones
+13-02-2020| 21:31:06.237182| Datos de balanza obtenidos correctamente
+13-02-2020| 21:31:06.245161| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:31:06.246187| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:31:16.159569| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:31:26.158071| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:31:36.157810| Fin Envio Transacciones
+13-02-2020| 21:31:41.718910| Inicio Envio Transacciones
+13-02-2020| 21:31:41.732875| Datos de balanza obtenidos correctamente
+13-02-2020| 21:31:41.740854| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:31:41.741852| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:31:51.657244| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:32:01.657559| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:32:11.656933| Fin Envio Transacciones
+13-02-2020| 21:32:17.217768| Inicio Envio Transacciones
+13-02-2020| 21:32:17.231700| Datos de balanza obtenidos correctamente
+13-02-2020| 21:32:17.239723| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:32:17.239723| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:32:27.157748| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:32:37.157975| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:32:47.158291| Fin Envio Transacciones
+13-02-2020| 21:32:52.719393| Inicio Envio Transacciones
+13-02-2020| 21:32:52.733148| Datos de balanza obtenidos correctamente
+13-02-2020| 21:32:52.741126| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:32:52.742123| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:33:02.658432| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:33:12.658338| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:33:22.658508| Fin Envio Transacciones
+13-02-2020| 21:33:28.224734| Inicio Envio Transacciones
+13-02-2020| 21:33:28.240467| Datos de balanza obtenidos correctamente
+13-02-2020| 21:33:28.248445| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:33:28.248445| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:33:38.159031| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:33:48.158994| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:33:58.157796| Fin Envio Transacciones
+13-02-2020| 21:34:03.719630| Inicio Envio Transacciones
+13-02-2020| 21:34:03.734560| Datos de balanza obtenidos correctamente
+13-02-2020| 21:34:03.742537| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:34:03.743535| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:34:13.657607| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:34:23.657500| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:34:33.658143| Fin Envio Transacciones
+13-02-2020| 21:34:39.221919| Inicio Envio Transacciones
+13-02-2020| 21:34:39.236664| Datos de balanza obtenidos correctamente
+13-02-2020| 21:34:39.243643| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:34:39.244638| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:34:49.158528| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:34:59.156806| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:35:09.157523| Fin Envio Transacciones
+13-02-2020| 21:35:14.718847| Inicio Envio Transacciones
+13-02-2020| 21:35:14.734586| Datos de balanza obtenidos correctamente
+13-02-2020| 21:35:14.742565| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:35:14.742565| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:35:24.656523| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:35:34.658036| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:35:44.658258| Fin Envio Transacciones
+13-02-2020| 21:35:50.219815| Inicio Envio Transacciones
+13-02-2020| 21:35:50.234697| Datos de balanza obtenidos correctamente
+13-02-2020| 21:35:50.242675| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:35:50.243672| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:36:00.156908| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:36:10.158458| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:36:20.157761| Fin Envio Transacciones
+13-02-2020| 21:36:25.718637| Inicio Envio Transacciones
+13-02-2020| 21:36:25.733379| Datos de balanza obtenidos correctamente
+13-02-2020| 21:36:25.740362| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:36:25.741358| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:36:35.656980| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:36:45.658009| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:36:55.658387| Fin Envio Transacciones
+13-02-2020| 21:37:01.220083| Inicio Envio Transacciones
+13-02-2020| 21:37:01.235043| Datos de balanza obtenidos correctamente
+13-02-2020| 21:37:01.241994| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:37:01.242991| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:37:11.157294| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:37:21.156291| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:37:31.156521| Fin Envio Transacciones
+13-02-2020| 21:37:36.719941| Inicio Envio Transacciones
+13-02-2020| 21:37:36.734686| Datos de balanza obtenidos correctamente
+13-02-2020| 21:37:36.742665| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:37:36.743202| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:37:46.659316| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:37:56.657461| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:38:06.657838| Fin Envio Transacciones
+13-02-2020| 21:38:12.219678| Inicio Envio Transacciones
+13-02-2020| 21:38:12.234453| Datos de balanza obtenidos correctamente
+13-02-2020| 21:38:12.241461| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:38:12.242460| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:38:22.158008| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:38:32.156341| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:38:42.156661| Fin Envio Transacciones
+13-02-2020| 21:38:47.717316| Inicio Envio Transacciones
+13-02-2020| 21:38:47.732074| Datos de balanza obtenidos correctamente
+13-02-2020| 21:38:47.740893| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:38:47.740893| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:38:57.658347| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:39:07.657846| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:39:17.657015| Fin Envio Transacciones
+13-02-2020| 21:39:23.220627| Inicio Envio Transacciones
+13-02-2020| 21:39:23.235514| Datos de balanza obtenidos correctamente
+13-02-2020| 21:39:23.243492| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:39:23.243492| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:39:33.158825| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:39:43.158305| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:39:53.157086| Fin Envio Transacciones
+13-02-2020| 21:39:58.718271| Inicio Envio Transacciones
+13-02-2020| 21:39:58.733011| Datos de balanza obtenidos correctamente
+13-02-2020| 21:39:58.740989| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:39:58.741986| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:40:08.657751| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:40:18.657151| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:40:28.657706| Fin Envio Transacciones
+13-02-2020| 21:40:34.218404| Inicio Envio Transacciones
+13-02-2020| 21:40:34.231370| Datos de balanza obtenidos correctamente
+13-02-2020| 21:40:34.239159| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:40:34.239197| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:40:44.157659| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:40:54.157610| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:41:04.157926| Fin Envio Transacciones
+13-02-2020| 21:41:09.719433| Inicio Envio Transacciones
+13-02-2020| 21:41:09.735203| Datos de balanza obtenidos correctamente
+13-02-2020| 21:41:09.743153| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:41:09.743153| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:41:19.656287| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:41:29.656928| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:41:39.658461| Fin Envio Transacciones
+13-02-2020| 21:41:45.221915| Inicio Envio Transacciones
+13-02-2020| 21:41:45.235877| Datos de balanza obtenidos correctamente
+13-02-2020| 21:41:45.244853| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:41:45.244853| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:41:55.157505| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:42:05.156894| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:42:15.157830| Fin Envio Transacciones
+13-02-2020| 21:42:20.720710| Inicio Envio Transacciones
+13-02-2020| 21:42:20.735475| Datos de balanza obtenidos correctamente
+13-02-2020| 21:42:20.742452| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:42:20.743451| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:42:30.658405| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:42:40.657822| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:42:50.657122| Fin Envio Transacciones
+13-02-2020| 21:42:56.217958| Inicio Envio Transacciones
+13-02-2020| 21:42:56.231891| Datos de balanza obtenidos correctamente
+13-02-2020| 21:42:56.240867| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:42:56.240867| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:43:06.157829| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:43:16.157476| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:43:26.157715| Fin Envio Transacciones
+13-02-2020| 21:43:31.719721| Inicio Envio Transacciones
+13-02-2020| 21:43:31.733687| Datos de balanza obtenidos correctamente
+13-02-2020| 21:43:31.742687| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:43:31.743686| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:43:41.655915| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:43:51.657137| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:44:01.656912| Fin Envio Transacciones
+13-02-2020| 21:44:07.223394| Inicio Envio Transacciones
+13-02-2020| 21:44:07.238398| Datos de balanza obtenidos correctamente
+13-02-2020| 21:44:07.246349| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:44:07.246349| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:44:17.158904| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:44:27.157819| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:44:37.156780| Fin Envio Transacciones
+13-02-2020| 21:44:42.718106| Inicio Envio Transacciones
+13-02-2020| 21:44:42.732872| Datos de balanza obtenidos correctamente
+13-02-2020| 21:44:42.739883| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:44:42.740881| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:44:52.656812| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:45:02.657155| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:45:12.656321| Fin Envio Transacciones
+13-02-2020| 21:45:18.221763| Inicio Envio Transacciones
+13-02-2020| 21:45:18.236743| Datos de balanza obtenidos correctamente
+13-02-2020| 21:45:18.244721| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:45:18.244721| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:45:28.158686| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:45:38.156648| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:45:48.157869| Fin Envio Transacciones
+13-02-2020| 21:45:53.724015| Inicio Envio Transacciones
+13-02-2020| 21:45:53.740355| Datos de balanza obtenidos correctamente
+13-02-2020| 21:45:53.747338| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:45:53.748334| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:46:03.657919| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:46:13.657424| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:46:23.657383| Fin Envio Transacciones
+13-02-2020| 21:46:29.218940| Inicio Envio Transacciones
+13-02-2020| 21:46:29.232904| Datos de balanza obtenidos correctamente
+13-02-2020| 21:46:29.240885| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:46:29.241883| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:46:39.156524| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:46:49.157531| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:46:59.156658| Fin Envio Transacciones
+13-02-2020| 21:47:04.717521| Inicio Envio Transacciones
+13-02-2020| 21:47:04.733425| Datos de balanza obtenidos correctamente
+13-02-2020| 21:47:04.740432| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:47:04.741428| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:47:14.657209| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:47:24.656264| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:47:34.656753| Fin Envio Transacciones
+13-02-2020| 21:47:40.220684| Inicio Envio Transacciones
+13-02-2020| 21:47:40.235613| Datos de balanza obtenidos correctamente
+13-02-2020| 21:47:40.246552| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:47:40.247550| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:47:50.158377| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:48:00.157513| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:48:10.156432| Fin Envio Transacciones
+13-02-2020| 21:48:15.720364| Inicio Envio Transacciones
+13-02-2020| 21:48:15.734529| Datos de balanza obtenidos correctamente
+13-02-2020| 21:48:15.742507| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:48:15.743504| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:48:25.657103| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:48:35.656402| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:48:45.656689| Fin Envio Transacciones
+13-02-2020| 21:48:51.219805| Inicio Envio Transacciones
+13-02-2020| 21:48:51.233789| Datos de balanza obtenidos correctamente
+13-02-2020| 21:48:51.240747| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:48:51.241744| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:49:01.157417| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:49:11.156641| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:49:21.156252| Fin Envio Transacciones
+13-02-2020| 21:49:26.722233| Inicio Envio Transacciones
+13-02-2020| 21:49:26.739216| Datos de balanza obtenidos correctamente
+13-02-2020| 21:49:26.747195| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:49:26.748164| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:49:36.656900| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:49:46.656315| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:49:56.656228| Fin Envio Transacciones
+13-02-2020| 21:50:02.219583| Inicio Envio Transacciones
+13-02-2020| 21:50:02.234545| Datos de balanza obtenidos correctamente
+13-02-2020| 21:50:02.242525| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:50:02.243522| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:50:12.156007| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:50:22.155964| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:50:32.157340| Fin Envio Transacciones
+13-02-2020| 21:50:37.718762| Inicio Envio Transacciones
+13-02-2020| 21:50:37.733504| Datos de balanza obtenidos correctamente
+13-02-2020| 21:50:37.741482| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:50:37.741482| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:50:47.658240| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:50:57.656424| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:51:07.656299| Fin Envio Transacciones
+13-02-2020| 21:51:13.218389| Inicio Envio Transacciones
+13-02-2020| 21:51:13.232352| Datos de balanza obtenidos correctamente
+13-02-2020| 21:51:13.239435| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:51:13.240331| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:51:23.156924| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:51:33.155962| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:51:43.156191| Fin Envio Transacciones
+13-02-2020| 21:51:48.720555| Inicio Envio Transacciones
+13-02-2020| 21:51:48.736299| Datos de balanza obtenidos correctamente
+13-02-2020| 21:51:48.743280| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:51:48.744277| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:51:58.656277| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:52:08.656219| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:52:18.656610| Fin Envio Transacciones
+13-02-2020| 21:52:24.221293| Inicio Envio Transacciones
+13-02-2020| 21:52:24.236022| Datos de balanza obtenidos correctamente
+13-02-2020| 21:52:24.244001| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:52:24.244998| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:52:34.157239| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:52:44.156686| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:52:54.156029| Fin Envio Transacciones
+13-02-2020| 21:52:59.716506| Inicio Envio Transacciones
+13-02-2020| 21:52:59.732498| Datos de balanza obtenidos correctamente
+13-02-2020| 21:52:59.740480| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:52:59.741481| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:53:09.656601| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:53:19.656559| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:53:29.656392| Fin Envio Transacciones
+13-02-2020| 21:53:35.217999| Inicio Envio Transacciones
+13-02-2020| 21:53:35.232737| Datos de balanza obtenidos correctamente
+13-02-2020| 21:53:35.241295| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:53:35.241295| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:53:45.157745| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:53:55.156997| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:54:05.157454| Fin Envio Transacciones
+13-02-2020| 21:54:10.722154| Inicio Envio Transacciones
+13-02-2020| 21:54:10.737117| Datos de balanza obtenidos correctamente
+13-02-2020| 21:54:10.745096| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:54:10.746093| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:54:20.656992| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:54:30.656809| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:54:40.656726| Fin Envio Transacciones
+13-02-2020| 21:54:46.219459| Inicio Envio Transacciones
+13-02-2020| 21:54:46.233449| Datos de balanza obtenidos correctamente
+13-02-2020| 21:54:46.241399| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:54:46.241399| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:54:56.156092| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:55:06.156486| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:55:16.156474| Fin Envio Transacciones
+13-02-2020| 21:55:21.720042| Inicio Envio Transacciones
+13-02-2020| 21:55:21.735054| Datos de balanza obtenidos correctamente
+13-02-2020| 21:55:21.743033| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:55:21.744030| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:55:31.657352| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:55:41.656011| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:55:51.657207| Fin Envio Transacciones
+13-02-2020| 21:55:57.221965| Inicio Envio Transacciones
+13-02-2020| 21:55:57.237710| Datos de balanza obtenidos correctamente
+13-02-2020| 21:55:57.245688| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:55:57.246685| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:56:07.155086| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:56:17.157239| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:56:27.158020| Fin Envio Transacciones
+13-02-2020| 21:56:32.722922| Inicio Envio Transacciones
+13-02-2020| 21:56:32.737667| Datos de balanza obtenidos correctamente
+13-02-2020| 21:56:32.745636| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:56:32.746633| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:56:42.656906| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:56:52.656401| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:57:02.657576| Fin Envio Transacciones
+13-02-2020| 21:57:08.222456| Inicio Envio Transacciones
+13-02-2020| 21:57:08.237206| Datos de balanza obtenidos correctamente
+13-02-2020| 21:57:08.244190| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:57:08.245188| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:57:18.155122| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:57:28.155913| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:57:38.155192| Fin Envio Transacciones
+13-02-2020| 21:57:43.716586| Inicio Envio Transacciones
+13-02-2020| 21:57:43.731321| Datos de balanza obtenidos correctamente
+13-02-2020| 21:57:43.738326| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:57:43.739322| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:57:53.656773| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:58:03.655800| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:58:13.657182| Fin Envio Transacciones
+13-02-2020| 21:58:19.224106| Inicio Envio Transacciones
+13-02-2020| 21:58:19.239068| Datos de balanza obtenidos correctamente
+13-02-2020| 21:58:19.247084| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:58:19.247084| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:58:29.157769| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:58:39.157571| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:58:49.156401| Fin Envio Transacciones
+13-02-2020| 21:58:54.717569| Inicio Envio Transacciones
+13-02-2020| 21:58:54.733423| Datos de balanza obtenidos correctamente
+13-02-2020| 21:58:54.740404| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:58:54.741401| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:59:04.655509| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:59:14.656647| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:59:24.656141| Fin Envio Transacciones
+13-02-2020| 21:59:30.218543| Inicio Envio Transacciones
+13-02-2020| 21:59:30.231485| Datos de balanza obtenidos correctamente
+13-02-2020| 21:59:30.240461| Numero de balanzas con modificaciones: 1
+13-02-2020| 21:59:30.240461| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:59:40.157048| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 21:59:50.157268| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:00:00.157651| Fin Envio Transacciones
+13-02-2020| 22:00:05.720346| Inicio Envio Transacciones
+13-02-2020| 22:00:05.735306| Datos de balanza obtenidos correctamente
+13-02-2020| 22:00:05.743285| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:00:05.744282| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:00:15.655243| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:00:25.655602| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:00:35.656342| Fin Envio Transacciones
+13-02-2020| 22:00:41.216631| Inicio Envio Transacciones
+13-02-2020| 22:00:41.231594| Datos de balanza obtenidos correctamente
+13-02-2020| 22:00:41.239573| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:00:41.240570| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:00:51.156961| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:01:01.154972| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:01:11.156477| Fin Envio Transacciones
+13-02-2020| 22:01:16.722265| Inicio Envio Transacciones
+13-02-2020| 22:01:16.737008| Datos de balanza obtenidos correctamente
+13-02-2020| 22:01:16.743989| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:01:16.744986| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:01:26.656604| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:01:36.656647| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:01:46.656801| Fin Envio Transacciones
+13-02-2020| 22:01:52.220609| Inicio Envio Transacciones
+13-02-2020| 22:01:52.233575| Datos de balanza obtenidos correctamente
+13-02-2020| 22:01:52.240556| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:01:52.240556| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:02:02.155630| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:02:12.157558| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:02:22.155958| Fin Envio Transacciones
+13-02-2020| 22:02:27.719653| Inicio Envio Transacciones
+13-02-2020| 22:02:27.733615| Datos de balanza obtenidos correctamente
+13-02-2020| 22:02:27.741620| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:02:27.742592| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:02:37.655686| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:02:47.656339| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:02:57.657270| Fin Envio Transacciones
+13-02-2020| 22:03:03.224256| Inicio Envio Transacciones
+13-02-2020| 22:03:03.238219| Datos de balanza obtenidos correctamente
+13-02-2020| 22:03:03.244203| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:03:03.245200| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:03:13.157472| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:03:23.156211| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:03:33.157154| Fin Envio Transacciones
+13-02-2020| 22:03:38.718029| Inicio Envio Transacciones
+13-02-2020| 22:03:38.734762| Datos de balanza obtenidos correctamente
+13-02-2020| 22:03:38.741743| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:03:38.742740| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:03:48.655665| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:03:58.657744| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:04:08.654913| Fin Envio Transacciones
+13-02-2020| 22:04:14.217211| Inicio Envio Transacciones
+13-02-2020| 22:04:14.231947| Datos de balanza obtenidos correctamente
+13-02-2020| 22:04:14.240923| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:04:14.241949| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:04:24.156206| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:04:34.155983| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:04:44.157570| Fin Envio Transacciones
+13-02-2020| 22:04:49.719148| Inicio Envio Transacciones
+13-02-2020| 22:04:49.734111| Datos de balanza obtenidos correctamente
+13-02-2020| 22:04:49.742089| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:04:49.742089| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:04:59.655596| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:05:09.656913| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:05:19.657272| Fin Envio Transacciones
+13-02-2020| 22:05:25.217855| Inicio Envio Transacciones
+13-02-2020| 22:05:25.233587| Datos de balanza obtenidos correctamente
+13-02-2020| 22:05:25.241565| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:05:25.241565| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:05:35.155938| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:05:45.154910| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:05:55.155960| Fin Envio Transacciones
+13-02-2020| 22:06:00.718132| Inicio Envio Transacciones
+13-02-2020| 22:06:00.732094| Datos de balanza obtenidos correctamente
+13-02-2020| 22:06:00.740097| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:06:00.741103| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:06:10.656270| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:06:20.655822| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:06:30.655666| Fin Envio Transacciones
+13-02-2020| 22:06:36.220431| Inicio Envio Transacciones
+13-02-2020| 22:06:36.234392| Datos de balanza obtenidos correctamente
+13-02-2020| 22:06:36.243368| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:06:36.244366| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:06:46.156747| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:06:56.157207| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:07:06.157023| Fin Envio Transacciones
+13-02-2020| 22:07:11.719757| Inicio Envio Transacciones
+13-02-2020| 22:07:11.734557| Datos de balanza obtenidos correctamente
+13-02-2020| 22:07:11.741535| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:07:11.742535| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:07:21.656960| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:07:31.655057| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:07:41.654997| Fin Envio Transacciones
+13-02-2020| 22:07:47.216731| Inicio Envio Transacciones
+13-02-2020| 22:07:47.231468| Datos de balanza obtenidos correctamente
+13-02-2020| 22:07:47.238448| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:07:47.239445| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:07:57.156537| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:08:07.155318| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:08:17.155809| Fin Envio Transacciones
+13-02-2020| 22:08:22.717182| Inicio Envio Transacciones
+13-02-2020| 22:08:22.732903| Datos de balanza obtenidos correctamente
+13-02-2020| 22:08:22.740915| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:08:22.741879| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:08:32.654833| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:08:42.656214| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:08:52.656380| Fin Envio Transacciones
+13-02-2020| 22:08:58.218750| Inicio Envio Transacciones
+13-02-2020| 22:08:58.233710| Datos de balanza obtenidos correctamente
+13-02-2020| 22:08:58.241689| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:08:58.242687| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:09:08.155714| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:09:18.156051| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:09:28.155904| Fin Envio Transacciones
+13-02-2020| 22:09:33.717003| Inicio Envio Transacciones
+13-02-2020| 22:09:33.731750| Datos de balanza obtenidos correctamente
+13-02-2020| 22:09:33.738862| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:09:33.738862| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:09:43.656515| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:09:53.656957| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:10:03.656091| Fin Envio Transacciones
+13-02-2020| 22:10:09.218643| Inicio Envio Transacciones
+13-02-2020| 22:10:09.261310| Datos de balanza obtenidos correctamente
+13-02-2020| 22:10:09.269289| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:10:09.270287| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:10:19.156111| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:10:29.155943| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:10:39.156178| Fin Envio Transacciones
+13-02-2020| 22:10:44.719126| Inicio Envio Transacciones
+13-02-2020| 22:10:44.734859| Datos de balanza obtenidos correctamente
+13-02-2020| 22:10:44.742837| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:10:44.742837| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:10:54.656156| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:11:04.656231| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:11:14.656619| Fin Envio Transacciones
+13-02-2020| 22:11:20.229947| Inicio Envio Transacciones
+13-02-2020| 22:11:20.245683| Datos de balanza obtenidos correctamente
+13-02-2020| 22:11:20.252665| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:11:20.253662| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:11:30.155035| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:11:40.156418| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:11:50.155284| Fin Envio Transacciones
+13-02-2020| 22:11:55.717524| Inicio Envio Transacciones
+13-02-2020| 22:11:55.731486| Datos de balanza obtenidos correctamente
+13-02-2020| 22:11:55.738467| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:11:55.739464| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:12:05.656123| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:12:15.655981| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:12:25.654850| Fin Envio Transacciones
+13-02-2020| 22:12:31.217199| Inicio Envio Transacciones
+13-02-2020| 22:12:31.231964| Datos de balanza obtenidos correctamente
+13-02-2020| 22:12:31.238945| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:12:31.239944| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:12:41.154582| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:12:51.156547| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:13:01.155136| Fin Envio Transacciones
+13-02-2020| 22:13:06.717636| Inicio Envio Transacciones
+13-02-2020| 22:13:06.732382| Datos de balanza obtenidos correctamente
+13-02-2020| 22:13:06.740384| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:13:06.741386| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:13:16.654801| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:13:26.656391| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:13:36.655700| Fin Envio Transacciones
+13-02-2020| 22:13:42.218079| Inicio Envio Transacciones
+13-02-2020| 22:13:42.233038| Datos de balanza obtenidos correctamente
+13-02-2020| 22:13:42.239991| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:13:42.240988| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:13:52.156390| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:14:02.156535| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:14:12.155349| Fin Envio Transacciones
+13-02-2020| 22:14:17.716725| Inicio Envio Transacciones
+13-02-2020| 22:14:17.730691| Datos de balanza obtenidos correctamente
+13-02-2020| 22:14:17.738670| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:14:17.738670| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:14:27.655248| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:14:37.655890| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:14:47.656841| Fin Envio Transacciones
+13-02-2020| 22:14:53.218077| Inicio Envio Transacciones
+13-02-2020| 22:14:53.232840| Datos de balanza obtenidos correctamente
+13-02-2020| 22:14:53.239793| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:14:53.240790| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:15:03.155627| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:15:13.154844| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:15:23.155699| Fin Envio Transacciones
+13-02-2020| 22:15:28.717009| Inicio Envio Transacciones
+13-02-2020| 22:15:28.732998| Datos de balanza obtenidos correctamente
+13-02-2020| 22:15:28.740947| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:15:28.740947| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:15:38.654280| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:15:48.655879| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:15:58.655076| Fin Envio Transacciones
+13-02-2020| 22:16:04.219259| Inicio Envio Transacciones
+13-02-2020| 22:16:04.234004| Datos de balanza obtenidos correctamente
+13-02-2020| 22:16:04.242007| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:16:04.243004| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:16:14.155113| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:16:24.156418| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:16:34.156311| Fin Envio Transacciones
+13-02-2020| 22:16:39.717874| Inicio Envio Transacciones
+13-02-2020| 22:16:39.731836| Datos de balanza obtenidos correctamente
+13-02-2020| 22:16:39.739815| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:16:39.740812| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:16:49.655456| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:16:59.656059| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:17:09.654351| Fin Envio Transacciones
+13-02-2020| 22:17:15.217857| Inicio Envio Transacciones
+13-02-2020| 22:17:15.232847| Datos de balanza obtenidos correctamente
+13-02-2020| 22:17:15.240826| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:17:15.241794| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:17:25.154820| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:17:35.155268| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:17:45.154923| Fin Envio Transacciones
+13-02-2020| 22:17:50.717636| Inicio Envio Transacciones
+13-02-2020| 22:17:50.732375| Datos de balanza obtenidos correctamente
+13-02-2020| 22:17:50.740402| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:17:50.741401| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:18:00.654835| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:18:10.654283| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:18:20.655639| Fin Envio Transacciones
+13-02-2020| 22:18:26.217617| Inicio Envio Transacciones
+13-02-2020| 22:18:26.232359| Datos de balanza obtenidos correctamente
+13-02-2020| 22:18:26.240387| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:18:26.240387| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:18:36.156160| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:18:46.155335| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:18:56.155676| Fin Envio Transacciones
+13-02-2020| 22:19:01.717814| Inicio Envio Transacciones
+13-02-2020| 22:19:01.732555| Datos de balanza obtenidos correctamente
+13-02-2020| 22:19:01.740532| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:19:01.740532| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:19:11.655421| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:19:21.656126| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:19:31.654292| Fin Envio Transacciones
+13-02-2020| 22:19:37.217770| Inicio Envio Transacciones
+13-02-2020| 22:19:37.231762| Datos de balanza obtenidos correctamente
+13-02-2020| 22:19:37.239757| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:19:37.239757| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:19:47.156077| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:19:57.155835| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:20:07.155865| Fin Envio Transacciones
+13-02-2020| 22:20:12.719449| Inicio Envio Transacciones
+13-02-2020| 22:20:12.734236| Datos de balanza obtenidos correctamente
+13-02-2020| 22:20:12.743214| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:20:12.743214| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:20:22.656096| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:20:32.655986| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:20:42.654918| Fin Envio Transacciones
+13-02-2020| 22:20:48.220112| Inicio Envio Transacciones
+13-02-2020| 22:20:48.235851| Datos de balanza obtenidos correctamente
+13-02-2020| 22:20:48.243859| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:20:48.243859| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:20:58.154503| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:21:08.155896| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:21:18.156300| Fin Envio Transacciones
+13-02-2020| 22:21:23.717252| Inicio Envio Transacciones
+13-02-2020| 22:21:23.731985| Datos de balanza obtenidos correctamente
+13-02-2020| 22:21:23.739965| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:21:23.740961| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:21:33.655943| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:21:43.655830| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:21:53.656429| Fin Envio Transacciones
+13-02-2020| 22:21:59.218271| Inicio Envio Transacciones
+13-02-2020| 22:21:59.233008| Datos de balanza obtenidos correctamente
+13-02-2020| 22:21:59.240027| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:21:59.241184| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:22:09.155445| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:22:19.154081| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:22:29.154194| Fin Envio Transacciones
+13-02-2020| 22:22:34.719614| Inicio Envio Transacciones
+13-02-2020| 22:22:34.735575| Datos de balanza obtenidos correctamente
+13-02-2020| 22:22:34.743553| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:22:34.744550| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:22:44.654998| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:22:54.654355| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:23:04.656090| Fin Envio Transacciones
+13-02-2020| 22:23:10.218237| Inicio Envio Transacciones
+13-02-2020| 22:23:10.232199| Datos de balanza obtenidos correctamente
+13-02-2020| 22:23:10.240177| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:23:10.241176| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:23:20.154061| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:23:30.155950| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:23:40.154902| Fin Envio Transacciones
+13-02-2020| 22:23:45.718737| Inicio Envio Transacciones
+13-02-2020| 22:23:45.733668| Datos de balanza obtenidos correctamente
+13-02-2020| 22:23:45.741675| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:23:45.742673| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:23:55.654345| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:24:05.655885| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:24:15.654026| Fin Envio Transacciones
+13-02-2020| 22:24:21.215906| Inicio Envio Transacciones
+13-02-2020| 22:24:21.229807| Datos de balanza obtenidos correctamente
+13-02-2020| 22:24:21.237754| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:24:21.238777| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:24:31.154507| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:24:41.156059| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:24:51.155325| Fin Envio Transacciones
+13-02-2020| 22:24:56.718114| Inicio Envio Transacciones
+13-02-2020| 22:24:56.732700| Datos de balanza obtenidos correctamente
+13-02-2020| 22:24:56.739681| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:24:56.742673| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:25:06.656541| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:25:16.656199| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:25:26.655328| Fin Envio Transacciones
+13-02-2020| 22:25:32.219957| Inicio Envio Transacciones
+13-02-2020| 22:25:32.234920| Datos de balanza obtenidos correctamente
+13-02-2020| 22:25:32.243896| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:25:32.243896| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:25:42.155555| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:25:52.156691| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:26:02.156907| Fin Envio Transacciones
+13-02-2020| 22:26:07.719223| Inicio Envio Transacciones
+13-02-2020| 22:26:07.733188| Datos de balanza obtenidos correctamente
+13-02-2020| 22:26:07.741167| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:26:07.742164| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:26:17.656421| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:26:27.654496| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:26:37.654013| Fin Envio Transacciones
+13-02-2020| 22:26:43.216924| Inicio Envio Transacciones
+13-02-2020| 22:26:43.231910| Datos de balanza obtenidos correctamente
+13-02-2020| 22:26:43.239861| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:26:43.240859| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:26:53.154135| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:27:03.154492| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:27:13.154656| Fin Envio Transacciones
+13-02-2020| 22:27:18.719665| Inicio Envio Transacciones
+13-02-2020| 22:27:18.734408| Datos de balanza obtenidos correctamente
+13-02-2020| 22:27:18.742425| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:27:18.743425| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:27:28.656881| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:27:38.654672| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:27:48.656028| Fin Envio Transacciones
+13-02-2020| 22:27:54.220769| Inicio Envio Transacciones
+13-02-2020| 22:27:54.234731| Datos de balanza obtenidos correctamente
+13-02-2020| 22:27:54.242710| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:27:54.243707| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:28:04.156304| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:28:14.154446| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:28:24.155185| Fin Envio Transacciones
+13-02-2020| 22:28:29.716902| Inicio Envio Transacciones
+13-02-2020| 22:28:29.731677| Datos de balanza obtenidos correctamente
+13-02-2020| 22:28:29.739633| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:28:29.740630| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:28:39.655001| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:28:49.654366| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:28:59.655804| Fin Envio Transacciones
+13-02-2020| 22:29:05.219182| Inicio Envio Transacciones
+13-02-2020| 22:29:05.234918| Datos de balanza obtenidos correctamente
+13-02-2020| 22:29:05.242897| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:29:05.242897| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:29:15.155056| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:29:25.154887| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:29:35.154131| Fin Envio Transacciones
+13-02-2020| 22:29:40.715250| Inicio Envio Transacciones
+13-02-2020| 22:29:40.731017| Datos de balanza obtenidos correctamente
+13-02-2020| 22:29:40.738575| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:29:40.739572| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:29:50.653682| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:30:00.653582| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:30:10.654204| Fin Envio Transacciones
+13-02-2020| 22:30:16.219897| Inicio Envio Transacciones
+13-02-2020| 22:30:16.234675| Datos de balanza obtenidos correctamente
+13-02-2020| 22:30:16.243777| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:30:16.243777| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:30:26.155086| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:30:36.155940| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:30:46.155474| Fin Envio Transacciones
+13-02-2020| 22:30:51.719603| Inicio Envio Transacciones
+13-02-2020| 22:30:51.734562| Datos de balanza obtenidos correctamente
+13-02-2020| 22:30:51.742540| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:30:51.742540| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:31:01.655734| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:31:11.656154| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:31:21.654130| Fin Envio Transacciones
+13-02-2020| 22:31:27.217335| Inicio Envio Transacciones
+13-02-2020| 22:31:27.231413| Datos de balanza obtenidos correctamente
+13-02-2020| 22:31:27.239392| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:31:27.240388| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:31:37.153873| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:31:47.154389| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:31:57.153836| Fin Envio Transacciones
+13-02-2020| 22:32:02.715335| Inicio Envio Transacciones
+13-02-2020| 22:32:02.730084| Datos de balanza obtenidos correctamente
+13-02-2020| 22:32:02.738102| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:32:02.739087| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:32:12.655177| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:32:22.655834| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:32:32.655404| Fin Envio Transacciones
+13-02-2020| 22:32:38.220563| Inicio Envio Transacciones
+13-02-2020| 22:32:38.234527| Datos de balanza obtenidos correctamente
+13-02-2020| 22:32:38.240539| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:32:38.241539| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:32:48.155040| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:32:58.155420| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:33:08.155622| Fin Envio Transacciones
+13-02-2020| 22:33:13.720412| Inicio Envio Transacciones
+13-02-2020| 22:33:13.735189| Datos de balanza obtenidos correctamente
+13-02-2020| 22:33:13.744136| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:33:13.744136| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:33:23.655446| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:33:33.654957| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:33:43.655436| Fin Envio Transacciones
+13-02-2020| 22:33:49.218337| Inicio Envio Transacciones
+13-02-2020| 22:33:49.233076| Datos de balanza obtenidos correctamente
+13-02-2020| 22:33:49.240056| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:33:49.241054| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:33:59.154479| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:34:09.155328| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:34:19.153959| Fin Envio Transacciones
+13-02-2020| 22:34:24.715716| Inicio Envio Transacciones
+13-02-2020| 22:34:24.730675| Datos de balanza obtenidos correctamente
+13-02-2020| 22:34:24.738650| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:34:24.738650| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:34:34.654396| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:34:44.654085| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:34:54.656176| Fin Envio Transacciones
+13-02-2020| 22:35:00.219370| Inicio Envio Transacciones
+13-02-2020| 22:35:00.235144| Datos de balanza obtenidos correctamente
+13-02-2020| 22:35:00.242187| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:35:00.243184| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:35:10.155423| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:35:20.154565| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:35:30.154219| Fin Envio Transacciones
+13-02-2020| 22:35:35.720394| Inicio Envio Transacciones
+13-02-2020| 22:35:35.735221| Datos de balanza obtenidos correctamente
+13-02-2020| 22:35:35.742347| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:35:35.744221| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:35:45.653751| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:35:55.654318| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:36:05.654668| Fin Envio Transacciones
+13-02-2020| 22:36:11.217488| Inicio Envio Transacciones
+13-02-2020| 22:36:11.231447| Datos de balanza obtenidos correctamente
+13-02-2020| 22:36:11.239396| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:36:11.240418| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:36:21.155473| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:36:31.155489| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:36:41.154314| Fin Envio Transacciones
+13-02-2020| 22:36:46.726069| Inicio Envio Transacciones
+13-02-2020| 22:36:46.741808| Datos de balanza obtenidos correctamente
+13-02-2020| 22:36:46.748881| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:36:46.749879| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:36:56.654377| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:37:06.654227| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:37:16.654923| Fin Envio Transacciones
+13-02-2020| 22:37:22.216798| Inicio Envio Transacciones
+13-02-2020| 22:37:22.231786| Datos de balanza obtenidos correctamente
+13-02-2020| 22:37:22.238740| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:37:22.239761| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:37:32.154106| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:37:42.154281| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:37:52.153951| Fin Envio Transacciones
+13-02-2020| 22:37:57.715646| Inicio Envio Transacciones
+13-02-2020| 22:37:57.731615| Datos de balanza obtenidos correctamente
+13-02-2020| 22:37:57.739593| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:37:57.739593| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:38:07.654017| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:38:17.655792| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:38:27.655969| Fin Envio Transacciones
+13-02-2020| 22:38:33.218223| Inicio Envio Transacciones
+13-02-2020| 22:38:33.233006| Datos de balanza obtenidos correctamente
+13-02-2020| 22:38:33.240988| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:38:33.241985| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:38:43.154813| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:38:53.154449| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:39:03.156362| Fin Envio Transacciones
+13-02-2020| 22:39:08.718614| Inicio Envio Transacciones
+13-02-2020| 22:39:08.736569| Datos de balanza obtenidos correctamente
+13-02-2020| 22:39:08.744548| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:39:08.745545| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:39:18.654856| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:39:28.655002| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:39:38.654483| Fin Envio Transacciones
+13-02-2020| 22:39:44.216404| Inicio Envio Transacciones
+13-02-2020| 22:39:44.231504| Datos de balanza obtenidos correctamente
+13-02-2020| 22:39:44.240353| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:39:44.241350| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:39:54.154653| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:40:04.154905| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:40:14.154361| Fin Envio Transacciones
+13-02-2020| 22:40:19.716231| Inicio Envio Transacciones
+13-02-2020| 22:40:19.731347| Datos de balanza obtenidos correctamente
+13-02-2020| 22:40:19.739173| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:40:19.740170| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:40:29.655248| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:40:39.654668| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:40:49.654587| Fin Envio Transacciones
+13-02-2020| 22:40:55.216520| Inicio Envio Transacciones
+13-02-2020| 22:40:55.231308| Datos de balanza obtenidos correctamente
+13-02-2020| 22:40:55.238288| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:40:55.239286| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:41:05.156156| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:41:15.155851| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:41:25.153107| Fin Envio Transacciones
+13-02-2020| 22:41:30.715523| Inicio Envio Transacciones
+13-02-2020| 22:41:30.730483| Datos de balanza obtenidos correctamente
+13-02-2020| 22:41:30.737464| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:41:30.738461| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:41:40.654929| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:41:50.656902| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:42:00.655639| Fin Envio Transacciones
+13-02-2020| 22:42:06.220099| Inicio Envio Transacciones
+13-02-2020| 22:42:06.236020| Datos de balanza obtenidos correctamente
+13-02-2020| 22:42:06.243001| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:42:06.243999| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:42:16.155935| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:42:26.155515| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:42:36.155596| Fin Envio Transacciones
+13-02-2020| 22:42:41.721530| Inicio Envio Transacciones
+13-02-2020| 22:42:41.736515| Datos de balanza obtenidos correctamente
+13-02-2020| 22:42:41.745494| Datos de balanza obtenidos correctamente
+13-02-2020| 22:42:41.754440| Datos de balanza obtenidos correctamente
+13-02-2020| 22:42:41.765510| Datos de balanza obtenidos correctamente
+13-02-2020| 22:42:41.775511| Datos de balanza obtenidos correctamente
+13-02-2020| 22:42:41.777507| Numero de balanzas con modificaciones: 5
+13-02-2020| 22:42:41.778504| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:42:41.780469| Inicio Hilo Envio. IP: 10.7.18.142 Dir: 12
+13-02-2020| 22:42:41.784314| Inicio Hilo Envio. IP: 10.7.18.143 Dir: 13
+13-02-2020| 22:42:41.788181| Inicio Hilo Envio. IP: 10.7.18.144 Dir: 14
+13-02-2020| 22:42:41.790175| Inicio Hilo Envio. IP: 10.7.18.149 Dir: 19
+13-02-2020| 22:42:51.655749| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:43:01.653777| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:43:11.654956| Fin Envio Transacciones
+13-02-2020| 22:43:17.220428| Inicio Envio Transacciones
+13-02-2020| 22:43:17.235625| Datos de balanza obtenidos correctamente
+13-02-2020| 22:43:17.243636| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:43:17.244636| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:43:27.155181| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:43:37.155391| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:43:47.154101| Fin Envio Transacciones
+13-02-2020| 22:43:52.716159| Inicio Envio Transacciones
+13-02-2020| 22:43:52.730894| Datos de balanza obtenidos correctamente
+13-02-2020| 22:43:52.738872| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:43:52.739383| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:44:02.655436| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:44:12.655982| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:44:22.653219| Fin Envio Transacciones
+13-02-2020| 22:44:28.216781| Inicio Envio Transacciones
+13-02-2020| 22:44:28.230521| Datos de balanza obtenidos correctamente
+13-02-2020| 22:44:28.237502| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:44:28.238499| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:44:38.154738| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:44:48.154601| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:44:58.153847| Fin Envio Transacciones
+13-02-2020| 22:45:03.719438| Inicio Envio Transacciones
+13-02-2020| 22:45:03.734370| Datos de balanza obtenidos correctamente
+13-02-2020| 22:45:03.745369| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:45:03.745369| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:45:13.654551| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:45:23.654040| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:45:33.654297| Fin Envio Transacciones
+13-02-2020| 22:45:39.218413| Inicio Envio Transacciones
+13-02-2020| 22:45:39.233174| Datos de balanza obtenidos correctamente
+13-02-2020| 22:45:39.240126| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:45:39.241122| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:45:49.155098| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:45:59.154145| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:46:09.156314| Fin Envio Transacciones
+13-02-2020| 22:46:14.718267| Inicio Envio Transacciones
+13-02-2020| 22:46:14.733000| Datos de balanza obtenidos correctamente
+13-02-2020| 22:46:14.740979| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:46:14.741976| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:46:24.654962| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:46:34.653994| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:46:44.653446| Fin Envio Transacciones
+13-02-2020| 22:46:50.218053| Inicio Envio Transacciones
+13-02-2020| 22:46:50.234008| Datos de balanza obtenidos correctamente
+13-02-2020| 22:46:50.240989| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:46:50.241987| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:47:00.155342| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:47:10.154188| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:47:20.153290| Fin Envio Transacciones
+13-02-2020| 22:47:25.716286| Inicio Envio Transacciones
+13-02-2020| 22:47:25.730067| Datos de balanza obtenidos correctamente
+13-02-2020| 22:47:25.739043| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:47:25.740040| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:47:35.653618| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:47:45.654024| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:47:55.654328| Fin Envio Transacciones
+13-02-2020| 22:48:01.216285| Inicio Envio Transacciones
+13-02-2020| 22:48:01.231023| Datos de balanza obtenidos correctamente
+13-02-2020| 22:48:01.239002| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:48:01.239999| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:48:11.152783| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:48:21.155126| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:48:31.153563| Fin Envio Transacciones
+13-02-2020| 22:48:36.717347| Inicio Envio Transacciones
+13-02-2020| 22:48:36.732083| Datos de balanza obtenidos correctamente
+13-02-2020| 22:48:36.740061| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:48:36.740061| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:48:46.653286| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:48:56.652987| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:49:06.655296| Fin Envio Transacciones
+13-02-2020| 22:49:12.216644| Inicio Envio Transacciones
+13-02-2020| 22:49:12.231616| Datos de balanza obtenidos correctamente
+13-02-2020| 22:49:12.239595| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:49:12.240592| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:49:22.154730| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:49:32.155059| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:49:42.155001| Fin Envio Transacciones
+13-02-2020| 22:49:47.723484| Inicio Envio Transacciones
+13-02-2020| 22:49:47.739220| Datos de balanza obtenidos correctamente
+13-02-2020| 22:49:47.746201| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:49:47.747198| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:49:57.655010| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:50:07.653783| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:50:17.654905| Fin Envio Transacciones
+13-02-2020| 22:50:23.219228| Inicio Envio Transacciones
+13-02-2020| 22:50:23.234538| Datos de balanza obtenidos correctamente
+13-02-2020| 22:50:23.242513| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:50:23.242513| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:50:33.154385| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:50:43.154352| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:50:53.152870| Fin Envio Transacciones
+13-02-2020| 22:50:58.716324| Inicio Envio Transacciones
+13-02-2020| 22:50:58.731096| Datos de balanza obtenidos correctamente
+13-02-2020| 22:50:58.739046| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:50:58.739046| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:51:08.655325| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:51:18.655361| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:51:28.653322| Fin Envio Transacciones
+13-02-2020| 22:51:34.214435| Inicio Envio Transacciones
+13-02-2020| 22:51:34.229186| Datos de balanza obtenidos correctamente
+13-02-2020| 22:51:34.237137| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:51:34.238134| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:51:44.153540| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:51:54.154096| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:52:04.154066| Fin Envio Transacciones
+13-02-2020| 22:52:09.716472| Inicio Envio Transacciones
+13-02-2020| 22:52:09.731217| Datos de balanza obtenidos correctamente
+13-02-2020| 22:52:09.738198| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:52:09.739195| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:52:19.654009| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:52:29.654761| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:52:39.653286| Fin Envio Transacciones
+13-02-2020| 22:52:45.214976| Inicio Envio Transacciones
+13-02-2020| 22:52:45.229934| Datos de balanza obtenidos correctamente
+13-02-2020| 22:52:45.237913| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:52:45.238910| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:52:55.154954| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:53:05.154326| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:53:15.153938| Fin Envio Transacciones
+13-02-2020| 22:53:20.716416| Inicio Envio Transacciones
+13-02-2020| 22:53:20.730402| Datos de balanza obtenidos correctamente
+13-02-2020| 22:53:20.740350| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:53:20.741347| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:53:30.653409| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:53:40.654559| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:53:50.654219| Fin Envio Transacciones
+13-02-2020| 22:53:56.221808| Inicio Envio Transacciones
+13-02-2020| 22:53:56.236741| Datos de balanza obtenidos correctamente
+13-02-2020| 22:53:56.244718| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:53:56.245715| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:54:06.153823| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:54:16.154777| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:54:26.153282| Fin Envio Transacciones
+13-02-2020| 22:54:31.715462| Inicio Envio Transacciones
+13-02-2020| 22:54:31.730425| Datos de balanza obtenidos correctamente
+13-02-2020| 22:54:31.737418| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:54:31.738416| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:54:41.654241| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:54:51.653240| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:55:01.652871| Fin Envio Transacciones
+13-02-2020| 22:55:07.216074| Inicio Envio Transacciones
+13-02-2020| 22:55:07.230195| Datos de balanza obtenidos correctamente
+13-02-2020| 22:55:07.239171| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:55:07.240168| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:55:17.153783| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:55:27.154296| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:55:37.154420| Fin Envio Transacciones
+13-02-2020| 22:55:42.718262| Inicio Envio Transacciones
+13-02-2020| 22:55:42.733031| Datos de balanza obtenidos correctamente
+13-02-2020| 22:55:42.740574| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:55:42.741570| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:55:52.653818| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:56:02.655051| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:56:12.654203| Fin Envio Transacciones
+13-02-2020| 22:56:18.216393| Inicio Envio Transacciones
+13-02-2020| 22:56:18.231138| Datos de balanza obtenidos correctamente
+13-02-2020| 22:56:18.239116| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:56:18.239116| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:56:28.152719| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:56:38.154741| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:56:48.154335| Fin Envio Transacciones
+13-02-2020| 22:56:53.718480| Inicio Envio Transacciones
+13-02-2020| 22:56:53.733443| Datos de balanza obtenidos correctamente
+13-02-2020| 22:56:53.740424| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:56:53.741422| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:57:03.653353| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:57:13.654930| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:57:23.655284| Fin Envio Transacciones
+13-02-2020| 22:57:29.217979| Inicio Envio Transacciones
+13-02-2020| 22:57:29.232747| Datos de balanza obtenidos correctamente
+13-02-2020| 22:57:29.240722| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:57:29.240722| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:57:39.153354| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:57:49.153102| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:57:59.154125| Fin Envio Transacciones
+13-02-2020| 22:58:04.716126| Inicio Envio Transacciones
+13-02-2020| 22:58:04.731874| Datos de balanza obtenidos correctamente
+13-02-2020| 22:58:04.738827| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:58:04.739824| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:58:14.653455| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:58:24.653493| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:58:34.654497| Fin Envio Transacciones
+13-02-2020| 22:58:40.218515| Inicio Envio Transacciones
+13-02-2020| 22:58:40.233285| Datos de balanza obtenidos correctamente
+13-02-2020| 22:58:40.242233| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:58:40.243255| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:58:50.152971| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:59:00.153314| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:59:10.152747| Fin Envio Transacciones
+13-02-2020| 22:59:15.714417| Inicio Envio Transacciones
+13-02-2020| 22:59:15.730158| Datos de balanza obtenidos correctamente
+13-02-2020| 22:59:15.737164| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:59:15.738161| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:59:25.653332| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:59:35.653078| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 22:59:45.653294| Fin Envio Transacciones
+13-02-2020| 22:59:51.216137| Inicio Envio Transacciones
+13-02-2020| 22:59:51.230126| Datos de balanza obtenidos correctamente
+13-02-2020| 22:59:51.238077| Numero de balanzas con modificaciones: 1
+13-02-2020| 22:59:51.239073| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:00:01.154789| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:00:11.153503| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:00:21.153045| Fin Envio Transacciones
+13-02-2020| 23:00:26.715212| Inicio Envio Transacciones
+13-02-2020| 23:00:26.729975| Datos de balanza obtenidos correctamente
+13-02-2020| 23:00:26.736957| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:00:26.737954| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:00:36.653637| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:00:46.652401| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:00:56.654340| Fin Envio Transacciones
+13-02-2020| 23:01:02.216928| Inicio Envio Transacciones
+13-02-2020| 23:01:02.232885| Datos de balanza obtenidos correctamente
+13-02-2020| 23:01:02.239866| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:01:02.240863| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:01:12.154106| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:01:22.153886| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:01:32.153726| Fin Envio Transacciones
+13-02-2020| 23:01:37.715521| Inicio Envio Transacciones
+13-02-2020| 23:01:37.729486| Datos de balanza obtenidos correctamente
+13-02-2020| 23:01:37.738462| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:01:37.739459| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:01:47.653930| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:01:57.652870| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:02:07.653889| Fin Envio Transacciones
+13-02-2020| 23:02:13.215364| Inicio Envio Transacciones
+13-02-2020| 23:02:13.230121| Datos de balanza obtenidos correctamente
+13-02-2020| 23:02:13.237111| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:02:13.238108| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:02:23.152427| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:02:33.154458| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:02:43.155149| Fin Envio Transacciones
+13-02-2020| 23:02:48.719663| Inicio Envio Transacciones
+13-02-2020| 23:02:48.734623| Datos de balanza obtenidos correctamente
+13-02-2020| 23:02:48.741604| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:02:48.741604| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:02:58.653512| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:03:08.652698| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:03:18.653726| Fin Envio Transacciones
+13-02-2020| 23:03:24.215422| Inicio Envio Transacciones
+13-02-2020| 23:03:24.229414| Datos de balanza obtenidos correctamente
+13-02-2020| 23:03:24.238366| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:03:24.239363| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:03:34.152623| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:03:44.154357| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:03:54.154848| Fin Envio Transacciones
+13-02-2020| 23:03:59.717873| Inicio Envio Transacciones
+13-02-2020| 23:03:59.732802| Datos de balanza obtenidos correctamente
+13-02-2020| 23:03:59.740781| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:03:59.741778| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:04:09.654358| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:04:19.653853| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:04:29.654331| Fin Envio Transacciones
+13-02-2020| 23:04:35.218340| Inicio Envio Transacciones
+13-02-2020| 23:04:35.233272| Datos de balanza obtenidos correctamente
+13-02-2020| 23:04:35.241275| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:04:35.242247| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:04:45.155671| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:04:55.154957| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:05:05.153251| Fin Envio Transacciones
+13-02-2020| 23:05:10.716325| Inicio Envio Transacciones
+13-02-2020| 23:05:10.730585| Datos de balanza obtenidos correctamente
+13-02-2020| 23:05:10.739594| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:05:10.739594| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:05:20.654417| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:05:30.652486| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:05:40.654827| Fin Envio Transacciones
+13-02-2020| 23:05:46.226966| Inicio Envio Transacciones
+13-02-2020| 23:05:46.241288| Datos de balanza obtenidos correctamente
+13-02-2020| 23:05:46.251258| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:05:46.252230| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:05:56.155434| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:06:06.152413| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:06:16.152838| Fin Envio Transacciones
+13-02-2020| 23:06:21.720047| Inicio Envio Transacciones
+13-02-2020| 23:06:21.736004| Datos de balanza obtenidos correctamente
+13-02-2020| 23:06:21.743983| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:06:21.743983| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:06:31.654023| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:06:41.653867| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:06:51.654293| Fin Envio Transacciones
+13-02-2020| 23:06:57.217752| Inicio Envio Transacciones
+13-02-2020| 23:06:57.231713| Datos de balanza obtenidos correctamente
+13-02-2020| 23:06:57.240715| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:06:57.240715| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:07:07.153740| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:07:17.152611| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:07:27.152971| Fin Envio Transacciones
+13-02-2020| 23:07:32.715167| Inicio Envio Transacciones
+13-02-2020| 23:07:32.730904| Datos de balanza obtenidos correctamente
+13-02-2020| 23:07:32.737884| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:07:32.738881| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:07:42.654258| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:07:52.652301| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:08:02.653898| Fin Envio Transacciones
+13-02-2020| 23:08:08.216422| Inicio Envio Transacciones
+13-02-2020| 23:08:08.231233| Datos de balanza obtenidos correctamente
+13-02-2020| 23:08:08.239204| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:08:08.240200| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:08:18.153592| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:08:28.153379| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:08:38.152446| Fin Envio Transacciones
+13-02-2020| 23:08:43.715699| Inicio Envio Transacciones
+13-02-2020| 23:08:43.729694| Datos de balanza obtenidos correctamente
+13-02-2020| 23:08:43.736736| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:08:43.737734| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:08:53.653911| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:09:03.653316| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:09:13.654666| Fin Envio Transacciones
+13-02-2020| 23:09:19.216871| Inicio Envio Transacciones
+13-02-2020| 23:09:19.233610| Datos de balanza obtenidos correctamente
+13-02-2020| 23:09:19.241588| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:09:19.242585| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:09:29.153312| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:09:39.152710| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:09:49.152552| Fin Envio Transacciones
+13-02-2020| 23:09:54.716704| Inicio Envio Transacciones
+13-02-2020| 23:09:54.730694| Datos de balanza obtenidos correctamente
+13-02-2020| 23:09:54.737672| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:09:54.739641| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:10:04.654014| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:10:14.654279| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:10:24.654013| Fin Envio Transacciones
+13-02-2020| 23:10:30.215794| Inicio Envio Transacciones
+13-02-2020| 23:10:30.230754| Datos de balanza obtenidos correctamente
+13-02-2020| 23:10:30.237761| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:10:30.238757| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:10:40.153788| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:10:50.152259| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:11:00.152605| Fin Envio Transacciones
+13-02-2020| 23:11:05.714493| Inicio Envio Transacciones
+13-02-2020| 23:11:05.729281| Datos de balanza obtenidos correctamente
+13-02-2020| 23:11:05.737260| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:11:05.737260| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:11:15.652497| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:11:25.652590| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:11:35.654319| Fin Envio Transacciones
+13-02-2020| 23:11:41.216994| Inicio Envio Transacciones
+13-02-2020| 23:11:41.232955| Datos de balanza obtenidos correctamente
+13-02-2020| 23:11:41.239936| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:11:41.241053| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:11:51.153923| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:12:01.153677| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:12:11.153431| Fin Envio Transacciones
+13-02-2020| 23:12:16.715800| Inicio Envio Transacciones
+13-02-2020| 23:12:16.730598| Datos de balanza obtenidos correctamente
+13-02-2020| 23:12:16.738549| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:12:16.739571| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:12:26.653000| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:12:36.653373| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:12:46.653413| Fin Envio Transacciones
+13-02-2020| 23:12:52.215525| Inicio Envio Transacciones
+13-02-2020| 23:12:52.230484| Datos de balanza obtenidos correctamente
+13-02-2020| 23:12:52.238486| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:12:52.238486| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:13:02.152134| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:13:12.153887| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:13:22.152690| Fin Envio Transacciones
+13-02-2020| 23:13:27.715130| Inicio Envio Transacciones
+13-02-2020| 23:13:27.731124| Datos de balanza obtenidos correctamente
+13-02-2020| 23:13:27.739074| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:13:27.740071| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:13:37.653968| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:13:47.654942| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:13:57.652296| Fin Envio Transacciones
+13-02-2020| 23:14:03.215727| Inicio Envio Transacciones
+13-02-2020| 23:14:03.229691| Datos de balanza obtenidos correctamente
+13-02-2020| 23:14:03.237670| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:14:03.238666| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:14:13.153671| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:14:23.152934| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:14:33.153510| Fin Envio Transacciones
+13-02-2020| 23:14:38.716262| Inicio Envio Transacciones
+13-02-2020| 23:14:38.731004| Datos de balanza obtenidos correctamente
+13-02-2020| 23:14:38.739007| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:14:38.739007| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:14:48.652284| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:14:58.652975| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:15:08.654487| Fin Envio Transacciones
+13-02-2020| 23:15:14.216844| Inicio Envio Transacciones
+13-02-2020| 23:15:14.232488| Datos de balanza obtenidos correctamente
+13-02-2020| 23:15:14.240455| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:15:14.240455| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:15:24.154662| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:15:34.153043| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:15:44.151954| Fin Envio Transacciones
+13-02-2020| 23:15:49.718888| Inicio Envio Transacciones
+13-02-2020| 23:15:49.733631| Datos de balanza obtenidos correctamente
+13-02-2020| 23:15:49.740637| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:15:49.741634| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:15:59.652699| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:16:09.652949| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:16:19.652438| Fin Envio Transacciones
+13-02-2020| 23:16:25.217102| Inicio Envio Transacciones
+13-02-2020| 23:16:25.233063| Datos de balanza obtenidos correctamente
+13-02-2020| 23:16:25.241041| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:16:25.242038| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:16:35.154037| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:16:45.153066| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:16:55.153351| Fin Envio Transacciones
+13-02-2020| 23:17:00.718967| Inicio Envio Transacciones
+13-02-2020| 23:17:00.732899| Datos de balanza obtenidos correctamente
+13-02-2020| 23:17:00.741901| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:17:00.742899| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:17:10.651985| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:17:20.652692| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:17:30.652165| Fin Envio Transacciones
+13-02-2020| 23:17:36.217646| Inicio Envio Transacciones
+13-02-2020| 23:17:36.231636| Datos de balanza obtenidos correctamente
+13-02-2020| 23:17:36.238588| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:17:36.239586| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:17:46.152246| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:17:56.152782| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:18:06.154074| Fin Envio Transacciones
+13-02-2020| 23:18:11.720642| Inicio Envio Transacciones
+13-02-2020| 23:18:11.736372| Datos de balanza obtenidos correctamente
+13-02-2020| 23:18:11.743353| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:18:11.744350| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:18:21.653949| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:18:31.653497| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:18:41.653235| Fin Envio Transacciones
+13-02-2020| 23:18:47.219526| Inicio Envio Transacciones
+13-02-2020| 23:18:47.234274| Datos de balanza obtenidos correctamente
+13-02-2020| 23:18:47.241289| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:18:47.242261| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:18:57.153682| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:19:07.153769| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:19:17.152087| Fin Envio Transacciones
+13-02-2020| 23:19:22.714812| Inicio Envio Transacciones
+13-02-2020| 23:19:22.728812| Datos de balanza obtenidos correctamente
+13-02-2020| 23:19:22.736751| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:19:22.737748| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:19:32.652932| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:19:42.654392| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:19:52.654416| Fin Envio Transacciones
+13-02-2020| 23:19:58.217792| Inicio Envio Transacciones
+13-02-2020| 23:19:58.232684| Datos de balanza obtenidos correctamente
+13-02-2020| 23:19:58.240634| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:19:58.240634| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:20:08.152889| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:20:18.152486| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:20:28.152196| Fin Envio Transacciones
+13-02-2020| 23:20:33.716218| Inicio Envio Transacciones
+13-02-2020| 23:20:33.730953| Datos de balanza obtenidos correctamente
+13-02-2020| 23:20:33.737934| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:20:33.738931| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:20:43.653358| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:20:53.652704| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:21:03.653083| Fin Envio Transacciones
+13-02-2020| 23:21:09.217561| Inicio Envio Transacciones
+13-02-2020| 23:21:09.231550| Datos de balanza obtenidos correctamente
+13-02-2020| 23:21:09.240526| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:21:09.241523| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:21:19.152822| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:21:29.152344| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:21:39.153940| Fin Envio Transacciones
+13-02-2020| 23:21:44.720674| Inicio Envio Transacciones
+13-02-2020| 23:21:44.736414| Datos de balanza obtenidos correctamente
+13-02-2020| 23:21:44.744394| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:21:44.744394| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:21:54.652781| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:22:04.652142| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:22:14.652256| Fin Envio Transacciones
+13-02-2020| 23:22:20.214069| Inicio Envio Transacciones
+13-02-2020| 23:22:20.227892| Datos de balanza obtenidos correctamente
+13-02-2020| 23:22:20.235861| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:22:20.236858| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:22:30.153037| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:22:40.152113| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:22:50.151890| Fin Envio Transacciones
+13-02-2020| 23:22:55.723883| Inicio Envio Transacciones
+13-02-2020| 23:22:55.738842| Datos de balanza obtenidos correctamente
+13-02-2020| 23:22:55.745823| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:22:55.746820| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:23:05.655620| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:23:15.653464| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:23:25.651664| Fin Envio Transacciones
+13-02-2020| 23:23:31.213434| Inicio Envio Transacciones
+13-02-2020| 23:23:31.229173| Datos de balanza obtenidos correctamente
+13-02-2020| 23:23:31.236979| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:23:31.236979| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:23:41.152818| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:23:51.152740| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:24:01.151899| Fin Envio Transacciones
+13-02-2020| 23:24:06.713699| Inicio Envio Transacciones
+13-02-2020| 23:24:06.728441| Datos de balanza obtenidos correctamente
+13-02-2020| 23:24:06.736419| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:24:06.737416| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:24:16.651991| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:24:26.652457| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:24:36.652661| Fin Envio Transacciones
+13-02-2020| 23:24:42.217072| Inicio Envio Transacciones
+13-02-2020| 23:24:42.231034| Datos de balanza obtenidos correctamente
+13-02-2020| 23:24:42.239013| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:24:42.239013| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:24:52.151709| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:25:02.154132| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:25:12.152488| Fin Envio Transacciones
+13-02-2020| 23:25:17.714089| Inicio Envio Transacciones
+13-02-2020| 23:25:17.728829| Datos de balanza obtenidos correctamente
+13-02-2020| 23:25:17.736806| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:25:17.736806| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:25:27.653263| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:25:37.652516| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:25:47.652201| Fin Envio Transacciones
+13-02-2020| 23:25:53.214182| Inicio Envio Transacciones
+13-02-2020| 23:25:53.228147| Datos de balanza obtenidos correctamente
+13-02-2020| 23:25:53.236126| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:25:53.237123| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:26:03.151658| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:26:13.152020| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:26:23.153272| Fin Envio Transacciones
+13-02-2020| 23:26:28.718243| Inicio Envio Transacciones
+13-02-2020| 23:26:28.732206| Datos de balanza obtenidos correctamente
+13-02-2020| 23:26:28.739187| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:26:28.740184| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:26:38.652267| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:26:48.652666| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:26:58.653497| Fin Envio Transacciones
+13-02-2020| 23:27:04.220067| Inicio Envio Transacciones
+13-02-2020| 23:27:04.235027| Datos de balanza obtenidos correctamente
+13-02-2020| 23:27:04.242039| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:27:04.243035| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:27:14.152480| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:27:24.151750| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:27:34.152249| Fin Envio Transacciones
+13-02-2020| 23:27:39.718305| Inicio Envio Transacciones
+13-02-2020| 23:27:39.732268| Datos de balanza obtenidos correctamente
+13-02-2020| 23:27:39.739250| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:27:39.740247| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:27:49.653623| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:27:59.653100| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:28:09.653596| Fin Envio Transacciones
+13-02-2020| 23:28:15.217359| Inicio Envio Transacciones
+13-02-2020| 23:28:15.232104| Datos de balanza obtenidos correctamente
+13-02-2020| 23:28:15.239085| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:28:15.240083| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:28:25.153355| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:28:35.152238| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:28:45.152093| Fin Envio Transacciones
+13-02-2020| 23:28:50.715983| Inicio Envio Transacciones
+13-02-2020| 23:28:50.730943| Datos de balanza obtenidos correctamente
+13-02-2020| 23:28:50.738507| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:28:50.739506| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:29:00.652505| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:29:10.653764| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:29:20.652997| Fin Envio Transacciones
+13-02-2020| 23:29:26.216741| Inicio Envio Transacciones
+13-02-2020| 23:29:26.231609| Datos de balanza obtenidos correctamente
+13-02-2020| 23:29:26.238469| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:29:26.239491| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:29:36.152521| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:29:46.153732| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:29:56.152476| Fin Envio Transacciones
+13-02-2020| 23:30:01.714299| Inicio Envio Transacciones
+13-02-2020| 23:30:01.729050| Datos de balanza obtenidos correctamente
+13-02-2020| 23:30:01.737093| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:30:01.737093| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:30:11.652144| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:30:21.651813| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:30:31.653210| Fin Envio Transacciones
+13-02-2020| 23:30:37.215375| Inicio Envio Transacciones
+13-02-2020| 23:30:37.230660| Datos de balanza obtenidos correctamente
+13-02-2020| 23:30:37.237691| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:30:37.238638| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:30:47.152363| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:30:57.154217| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:31:07.152715| Fin Envio Transacciones
+13-02-2020| 23:31:12.714346| Inicio Envio Transacciones
+13-02-2020| 23:31:12.729073| Datos de balanza obtenidos correctamente
+13-02-2020| 23:31:12.737133| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:31:12.738049| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:31:22.652028| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:31:32.653674| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:31:42.651745| Fin Envio Transacciones
+13-02-2020| 23:31:48.223838| Inicio Envio Transacciones
+13-02-2020| 23:31:48.238623| Datos de balanza obtenidos correctamente
+13-02-2020| 23:31:48.245618| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:31:48.246615| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:31:58.152707| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:32:08.152977| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:32:18.151793| Fin Envio Transacciones
+13-02-2020| 23:32:23.714643| Inicio Envio Transacciones
+13-02-2020| 23:32:23.730378| Datos de balanza obtenidos correctamente
+13-02-2020| 23:32:23.737359| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:32:23.738356| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:32:33.653783| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:32:43.652482| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:32:53.653407| Fin Envio Transacciones
+13-02-2020| 23:32:59.215445| Inicio Envio Transacciones
+13-02-2020| 23:32:59.230184| Datos de balanza obtenidos correctamente
+13-02-2020| 23:32:59.238163| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:32:59.239160| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:33:09.152345| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:33:19.153467| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:33:29.152076| Fin Envio Transacciones
+13-02-2020| 23:33:34.719263| Inicio Envio Transacciones
+13-02-2020| 23:33:34.735189| Datos de balanza obtenidos correctamente
+13-02-2020| 23:33:34.743168| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:33:34.743168| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:33:44.653341| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:33:54.653334| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:34:04.653108| Fin Envio Transacciones
+13-02-2020| 23:34:10.218988| Inicio Envio Transacciones
+13-02-2020| 23:34:10.234731| Datos de balanza obtenidos correctamente
+13-02-2020| 23:34:10.242710| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:34:10.243707| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:34:20.152224| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:34:30.152502| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:34:40.152861| Fin Envio Transacciones
+13-02-2020| 23:34:45.714385| Inicio Envio Transacciones
+13-02-2020| 23:34:45.729158| Datos de balanza obtenidos correctamente
+13-02-2020| 23:34:45.738106| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:34:45.738106| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:34:55.653330| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:35:05.653111| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:35:15.652560| Fin Envio Transacciones
+13-02-2020| 23:35:21.215763| Inicio Envio Transacciones
+13-02-2020| 23:35:21.231503| Datos de balanza obtenidos correctamente
+13-02-2020| 23:35:21.238485| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:35:21.239482| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:35:31.151666| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:35:41.151847| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:35:51.151120| Fin Envio Transacciones
+13-02-2020| 23:35:56.713455| Inicio Envio Transacciones
+13-02-2020| 23:35:56.728193| Datos de balanza obtenidos correctamente
+13-02-2020| 23:35:56.736172| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:35:56.737169| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:36:06.652200| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:36:16.652154| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:36:26.653726| Fin Envio Transacciones
+13-02-2020| 23:36:32.222235| Inicio Envio Transacciones
+13-02-2020| 23:36:32.236219| Datos de balanza obtenidos correctamente
+13-02-2020| 23:36:32.244198| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:36:32.244198| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:36:42.152829| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:36:52.152065| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:37:02.153714| Fin Envio Transacciones
+13-02-2020| 23:37:07.718364| Inicio Envio Transacciones
+13-02-2020| 23:37:07.734326| Datos de balanza obtenidos correctamente
+13-02-2020| 23:37:07.742324| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:37:07.742324| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:37:17.652977| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:37:27.652214| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:37:37.652091| Fin Envio Transacciones
+13-02-2020| 23:37:43.213935| Inicio Envio Transacciones
+13-02-2020| 23:37:43.227679| Datos de balanza obtenidos correctamente
+13-02-2020| 23:37:43.236655| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:37:43.237652| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:37:53.153415| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:38:03.153550| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:38:13.153320| Fin Envio Transacciones
+13-02-2020| 23:38:18.719020| Inicio Envio Transacciones
+13-02-2020| 23:38:18.733758| Datos de balanza obtenidos correctamente
+13-02-2020| 23:38:18.741737| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:38:18.742758| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:38:28.652063| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:38:38.652884| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:38:48.651298| Fin Envio Transacciones
+13-02-2020| 23:38:54.213607| Inicio Envio Transacciones
+13-02-2020| 23:38:54.229372| Datos de balanza obtenidos correctamente
+13-02-2020| 23:38:54.237322| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:38:54.237322| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:39:04.152026| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:39:14.152634| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:39:24.153539| Fin Envio Transacciones
+13-02-2020| 23:39:29.716332| Inicio Envio Transacciones
+13-02-2020| 23:39:29.731087| Datos de balanza obtenidos correctamente
+13-02-2020| 23:39:29.740063| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:39:29.740063| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:39:39.652786| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:39:49.651743| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:39:59.651371| Fin Envio Transacciones
+13-02-2020| 23:40:05.213575| Inicio Envio Transacciones
+13-02-2020| 23:40:05.228306| Datos de balanza obtenidos correctamente
+13-02-2020| 23:40:05.236285| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:40:05.237282| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:40:15.153133| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:40:25.151676| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:40:35.152045| Fin Envio Transacciones
+13-02-2020| 23:40:40.724000| Inicio Envio Transacciones
+13-02-2020| 23:40:40.738748| Datos de balanza obtenidos correctamente
+13-02-2020| 23:40:40.746715| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:40:40.746715| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:40:50.652928| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:41:00.652920| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:41:10.653252| Fin Envio Transacciones
+13-02-2020| 23:41:16.215878| Inicio Envio Transacciones
+13-02-2020| 23:41:16.230614| Datos de balanza obtenidos correctamente
+13-02-2020| 23:41:16.237595| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:41:16.238592| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:41:26.152469| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:41:36.153045| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:41:46.151767| Fin Envio Transacciones
+13-02-2020| 23:41:51.715240| Inicio Envio Transacciones
+13-02-2020| 23:41:51.729504| Datos de balanza obtenidos correctamente
+13-02-2020| 23:41:51.737479| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:41:51.737479| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:42:01.651513| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:42:11.653060| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:42:21.651417| Fin Envio Transacciones
+13-02-2020| 23:42:27.214105| Inicio Envio Transacciones
+13-02-2020| 23:42:27.229849| Datos de balanza obtenidos correctamente
+13-02-2020| 23:42:27.237828| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:42:27.238825| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:42:37.153749| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:42:47.152823| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:42:57.153459| Fin Envio Transacciones
+13-02-2020| 23:43:02.717218| Inicio Envio Transacciones
+13-02-2020| 23:43:02.731179| Datos de balanza obtenidos correctamente
+13-02-2020| 23:43:02.738187| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:43:02.739182| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:43:12.652851| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:43:22.652169| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:43:32.653218| Fin Envio Transacciones
+13-02-2020| 23:43:38.214768| Inicio Envio Transacciones
+13-02-2020| 23:43:38.229544| Datos de balanza obtenidos correctamente
+13-02-2020| 23:43:38.236525| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:43:38.237522| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:43:48.152717| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:43:58.151179| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:44:08.153015| Fin Envio Transacciones
+13-02-2020| 23:44:13.716407| Inicio Envio Transacciones
+13-02-2020| 23:44:13.731132| Datos de balanza obtenidos correctamente
+13-02-2020| 23:44:13.739165| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:44:13.739165| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:44:23.652916| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:44:33.653259| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:44:43.653389| Fin Envio Transacciones
+13-02-2020| 23:44:49.215533| Inicio Envio Transacciones
+13-02-2020| 23:44:49.231078| Datos de balanza obtenidos correctamente
+13-02-2020| 23:44:49.239134| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:44:49.239134| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:44:59.152190| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:45:09.152689| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:45:19.151846| Fin Envio Transacciones
+13-02-2020| 23:45:24.713591| Inicio Envio Transacciones
+13-02-2020| 23:45:24.728522| Datos de balanza obtenidos correctamente
+13-02-2020| 23:45:24.736500| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:45:24.736500| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:45:34.653128| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:45:44.651302| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:45:54.651746| Fin Envio Transacciones
+13-02-2020| 23:46:00.218964| Inicio Envio Transacciones
+13-02-2020| 23:46:00.233896| Datos de balanza obtenidos correctamente
+13-02-2020| 23:46:00.241874| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:46:00.241874| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:46:10.150920| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:46:20.152617| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:46:30.151828| Fin Envio Transacciones
+13-02-2020| 23:46:35.715517| Inicio Envio Transacciones
+13-02-2020| 23:46:35.730365| Datos de balanza obtenidos correctamente
+13-02-2020| 23:46:35.737346| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:46:35.738344| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:46:45.651519| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:46:55.653526| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:47:05.653524| Fin Envio Transacciones
+13-02-2020| 23:47:11.217881| Inicio Envio Transacciones
+13-02-2020| 23:47:11.234575| Datos de balanza obtenidos correctamente
+13-02-2020| 23:47:11.241543| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:47:11.242540| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:47:21.151543| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:47:31.153357| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:47:41.151247| Fin Envio Transacciones
+13-02-2020| 23:47:46.714277| Inicio Envio Transacciones
+13-02-2020| 23:47:46.728027| Datos de balanza obtenidos correctamente
+13-02-2020| 23:47:46.736006| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:47:46.737004| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:47:56.651731| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:48:06.652661| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:48:16.651446| Fin Envio Transacciones
+13-02-2020| 23:48:22.213475| Inicio Envio Transacciones
+13-02-2020| 23:48:22.227438| Datos de balanza obtenidos correctamente
+13-02-2020| 23:48:22.234441| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:48:22.235440| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:48:32.151738| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:48:42.151070| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:48:52.152928| Fin Envio Transacciones
+13-02-2020| 23:48:57.716619| Inicio Envio Transacciones
+13-02-2020| 23:48:57.731356| Datos de balanza obtenidos correctamente
+13-02-2020| 23:48:57.740333| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:48:57.741330| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:49:07.651452| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:49:17.652761| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:49:27.651678| Fin Envio Transacciones
+13-02-2020| 23:49:33.213923| Inicio Envio Transacciones
+13-02-2020| 23:49:33.228793| Datos de balanza obtenidos correctamente
+13-02-2020| 23:49:33.235776| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:49:33.236891| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:49:43.152788| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:49:53.151749| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:50:03.152623| Fin Envio Transacciones
+13-02-2020| 23:50:08.717644| Inicio Envio Transacciones
+13-02-2020| 23:50:08.732537| Datos de balanza obtenidos correctamente
+13-02-2020| 23:50:08.740541| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:50:08.740541| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:50:18.652160| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:50:28.652105| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:50:38.651813| Fin Envio Transacciones
+13-02-2020| 23:50:44.218472| Inicio Envio Transacciones
+13-02-2020| 23:50:44.233258| Datos de balanza obtenidos correctamente
+13-02-2020| 23:50:44.241242| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:50:44.242240| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:50:54.153001| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:51:04.151574| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:51:14.151548| Fin Envio Transacciones
+13-02-2020| 23:51:19.713138| Inicio Envio Transacciones
+13-02-2020| 23:51:19.727879| Datos de balanza obtenidos correctamente
+13-02-2020| 23:51:19.735858| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:51:19.735858| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:51:29.653208| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:51:39.652774| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:51:49.651176| Fin Envio Transacciones
+13-02-2020| 23:51:55.218963| Inicio Envio Transacciones
+13-02-2020| 23:51:55.234920| Datos de balanza obtenidos correctamente
+13-02-2020| 23:51:55.241901| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:51:55.242898| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:52:05.152253| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:52:15.152236| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:52:25.152520| Fin Envio Transacciones
+13-02-2020| 23:52:30.715035| Inicio Envio Transacciones
+13-02-2020| 23:52:30.729918| Datos de balanza obtenidos correctamente
+13-02-2020| 23:52:30.739903| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:52:30.739903| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:52:40.651271| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:52:50.652309| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:53:00.652397| Fin Envio Transacciones
+13-02-2020| 23:53:06.218118| Inicio Envio Transacciones
+13-02-2020| 23:53:06.232080| Datos de balanza obtenidos correctamente
+13-02-2020| 23:53:06.239088| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:53:06.240082| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:53:16.152855| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:53:26.152361| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:53:36.152069| Fin Envio Transacciones
+13-02-2020| 23:53:41.714866| Inicio Envio Transacciones
+13-02-2020| 23:53:41.729628| Datos de balanza obtenidos correctamente
+13-02-2020| 23:53:41.736609| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:53:41.737606| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:53:51.651642| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:54:01.651969| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:54:11.652330| Fin Envio Transacciones
+13-02-2020| 23:54:17.213952| Inicio Envio Transacciones
+13-02-2020| 23:54:17.228693| Datos de balanza obtenidos correctamente
+13-02-2020| 23:54:17.236671| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:54:17.236671| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:54:27.151707| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:54:37.151976| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:54:47.151814| Fin Envio Transacciones
+13-02-2020| 23:54:52.716613| Inicio Envio Transacciones
+13-02-2020| 23:54:52.732150| Datos de balanza obtenidos correctamente
+13-02-2020| 23:54:52.740687| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:54:52.740687| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:55:02.652160| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:55:12.652120| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:55:22.652112| Fin Envio Transacciones
+13-02-2020| 23:55:28.214264| Inicio Envio Transacciones
+13-02-2020| 23:55:28.230036| Datos de balanza obtenidos correctamente
+13-02-2020| 23:55:28.237018| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:55:28.238016| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:55:38.152783| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:55:48.151962| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:55:58.152218| Fin Envio Transacciones
+13-02-2020| 23:56:03.713821| Inicio Envio Transacciones
+13-02-2020| 23:56:03.728751| Datos de balanza obtenidos correctamente
+13-02-2020| 23:56:03.736730| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:56:03.737727| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:56:13.652248| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:56:23.652608| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:56:33.650956| Fin Envio Transacciones
+13-02-2020| 23:56:39.213481| Inicio Envio Transacciones
+13-02-2020| 23:56:39.229222| Datos de balanza obtenidos correctamente
+13-02-2020| 23:56:39.236203| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:56:39.237199| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:56:49.152361| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:56:59.151161| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:57:09.152880| Fin Envio Transacciones
+13-02-2020| 23:57:14.717333| Inicio Envio Transacciones
+13-02-2020| 23:57:14.732297| Datos de balanza obtenidos correctamente
+13-02-2020| 23:57:14.741296| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:57:14.742269| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:57:24.651239| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:57:34.651411| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:57:44.652859| Fin Envio Transacciones
+13-02-2020| 23:57:50.214391| Inicio Envio Transacciones
+13-02-2020| 23:57:50.229379| Datos de balanza obtenidos correctamente
+13-02-2020| 23:57:50.237354| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:57:50.238352| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:58:00.152610| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:58:10.152917| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:58:20.151228| Fin Envio Transacciones
+13-02-2020| 23:58:25.712275| Inicio Envio Transacciones
+13-02-2020| 23:58:25.726307| Datos de balanza obtenidos correctamente
+13-02-2020| 23:58:25.733758| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:58:25.734755| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:58:35.651543| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:58:45.652242| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:58:55.652262| Fin Envio Transacciones
+13-02-2020| 23:59:01.212964| Inicio Envio Transacciones
+13-02-2020| 23:59:01.228731| Datos de balanza obtenidos correctamente
+13-02-2020| 23:59:01.236681| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:59:01.237679| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:59:11.151039| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:59:21.154373| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:59:31.151513| Fin Envio Transacciones
+13-02-2020| 23:59:36.714303| Inicio Envio Transacciones
+13-02-2020| 23:59:36.729263| Datos de balanza obtenidos correctamente
+13-02-2020| 23:59:36.738239| Numero de balanzas con modificaciones: 1
+13-02-2020| 23:59:36.738239| Inicio Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:59:46.651022| Reintento 1 Hilo Envio. IP: 10.7.18.138 Dir: 08
+13-02-2020| 23:59:56.651673| Reintento 2 Hilo Envio. IP: 10.7.18.138 Dir: 08
