@@ -1,0 +1,60 @@
+﻿@model IEnumerable<FT_Retail.Models.ProcessedFile>
+
+@{
+    ViewData["Title"] = "Ficheiros";
+}
+
+<br />
+<h1 align="left">Lista de Ficheiros Processados</h1>
+<hr />
+
+@if (Model.Count() == 0)
+{
+    <br />
+    <button class="btn btn-lg btn-danger btn-block disabled">Não foram encontrados ficheiros!</button>
+}
+else
+{ <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.NomeFicheiro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NLinhas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataModificacao)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Size)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomeFicheiro)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NLinhas)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataModificacao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Size)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    }
+
+<br />
+<div>
+    <a class="btn-danger btn-lg btn-block text-center" asp-controller="Balancas" asp-action="Index">Voltar</a>
+</div>

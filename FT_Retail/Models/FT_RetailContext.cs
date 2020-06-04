@@ -11,12 +11,14 @@ namespace FT_Retail.Models
     public class FT_RetailContext
     {
         public string ConnectionString { get; set; }
-        public string SW1100Folder { get; set; }
+        public string ComunicacionesLogs { get; set; }
+        public string RGIProcessedFiles { get; set; }
 
-        public FT_RetailContext(string connectionString, string sw1100Folder)
+        public FT_RetailContext(string connectionString, string comunicacionesLogs, string rgiProcessedFiles)
         {
             this.ConnectionString = connectionString;
-            this.SW1100Folder = sw1100Folder;
+            this.ComunicacionesLogs = comunicacionesLogs;
+            this.RGIProcessedFiles = rgiProcessedFiles;
         }
 
         public Artigo ObterArtigo(int IdArtigo)
@@ -57,13 +59,10 @@ namespace FT_Retail.Models
             if (result.reader.HasRows)
             {
 
-                DateTime dataInicio = new DateTime();
-                DateTime dataFim = new DateTime();
-
                 result.Read();
 
-                DateTime.TryParse(result[0], out dataInicio);
-                DateTime.TryParse(result[1], out dataFim);
+                DateTime.TryParse(result[0], out DateTime dataInicio);
+                DateTime.TryParse(result[1], out DateTime dataFim);
                 Double.TryParse(result[3], out double pvpPromocao);
 
                 promocao = (new Promocao(dataInicio, dataFim, idArtigo, pvpPromocao));
@@ -204,10 +203,10 @@ namespace FT_Retail.Models
             return ObterListaArtigos(query);
         }
 
-        public void atualizarArtigo(Artigo artigo)
+        public void AtualizarArtigo(Artigo artigo)
         {
-            string[] txtConservacao = obterTextos24Caracteres(artigo.TxtConservacao);
-            string[] txtUtilizacao = obterTextos24Caracteres(artigo.TxtInfoUtilizacao);
+            string[] txtConservacao = ObterTextos24Caracteres(artigo.TxtConservacao);
+            string[] txtUtilizacao = ObterTextos24Caracteres(artigo.TxtInfoUtilizacao);
 
             using Database conn = ConnectionString;
             conn.Execute("update dat_articulo set Texto7='" + txtConservacao[0] + "', Texto8='" + txtConservacao[1] + "', Texto9='" + txtConservacao[2] + "', Texto10='" + txtConservacao[3] + "', Texto11='" + txtConservacao[4] + "', Texto12='" + txtConservacao[5] + "', Texto13='" + txtConservacao[6] + "', Texto14='" + txtUtilizacao[0] + "', Texto15='" + txtUtilizacao[1] + "', Texto16='" + txtUtilizacao[2] + "', Texto17='" + txtUtilizacao[3] + "', Texto18='" + txtUtilizacao[4] + "', Texto19='" + txtUtilizacao[5] + "', Texto20='" + txtUtilizacao[6] + "', DiasCaducidad='" + artigo.DiasValidade + "', TextoLibre='" + artigo.TxtIngredientes + "', TextoNutricionales='" + artigo.TxtInfoNutricional + "', TextoAlergenos='" + artigo.TxtAlergenos + "', Modificado=1, ModificadoTextos=1, ModificadoTextoG=1, ModificadoTextoNutricionales=1, ModificadoTextoAlergenos=1 where idarticulo=" + artigo.IdArtigo + "");
@@ -220,7 +219,7 @@ namespace FT_Retail.Models
             }
         }
 
-        public string[] obterTextos24Caracteres(string TxtCompleto)
+        public string[] ObterTextos24Caracteres(string TxtCompleto)
         {
             string[] txt = new string[7];
 
@@ -253,26 +252,25 @@ namespace FT_Retail.Models
                 NomeLoja = result["Nombre"],
                 MoradaLoja = result["Direccion"],
                 IPLoja = result["Dir_IP"],
-                NBalancas = obterNBalancasLoja(IdLoja)
+                NBalancas = ObterNBalancasLoja(IdLoja)
             };
 
             return loja;
         }
-        private int obterNBalancasLoja(int IdLoja)
+        private int ObterNBalancasLoja(int IdLoja)
         {
-            int res = 0;
             using Database conn = ConnectionString;
             QueryResult result = conn.Query("Select COUNT(*) as NBalancas From dat_balanza where idtienda = '" + IdLoja + "' and ActivedScale = 1;");
 
             result.Read();
 
-            int.TryParse(result["NBalancas"], out res);
+            int.TryParse(result["NBalancas"], out int res);
 
             return res;
 
 
         }
-        private int obterCount(string SQL)
+        private int ObterCount(string SQL)
         {
             using Database conn = ConnectionString;
             QueryResult result = conn.Query(SQL);
@@ -299,20 +297,19 @@ namespace FT_Retail.Models
 
         public Balanca ObterBalanca(int IDBalanca)
         {
-            Balanca res = new Balanca();
 
             using Database conn = ConnectionString;
             QueryResult result = conn.Query("SELECT IdBalanza, Nombre, Dir_IP, BalanzaTradicional, DireccionLogica, PuertoEnvio_Tx FROM dat_balanza Where IdBalanza=" + IDBalanca + " Order by DireccionLogica");
 
-result.Read();
+            result.Read();
 
-            res = new Balanca()
+            Balanca res = new Balanca()
             {
                 IdBalanca = result["IdBalanza"],
                 NomeBalanca = result["Nombre"],
                 Dir_IP = result["Dir_IP"],
                 DirecaoLogica = result["DireccionLogica"],
-                PortaTX = result["PuertoEnvio_Tx"],
+                PortaTX = result.reader.IsDBNull(5) ? 0 : result["PuertoEnvio_Tx"],
                 IDTipoBalanca = result["BalanzaTradicional"]
 
             };
@@ -327,10 +324,10 @@ result.Read();
             if (result.reader.HasRows) { DateTime.TryParse(result["Fecha"], out UltimaAtualizacaoSucesso); }
             conn.Connection.Close();
 
-            res.TransacoesPendentesArtigos = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoArtigo + "%';");
-            res.TransacoesPendentesOfertas = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoOferta + "%';");
-            res.TransacoesPendentes = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0;");
-            res.TransacoesErro = obterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND NIntentos > 0 AND Enviado=0;");
+            res.TransacoesPendentesArtigos = ObterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoArtigo + "%';");
+            res.TransacoesPendentesOfertas = ObterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0 AND SentenciaInsert like '" + res.DirecaoLogica + res.RegistoOferta + "%';");
+            res.TransacoesPendentes = ObterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND Enviado = 0;");
+            res.TransacoesErro = ObterCount("SELECT COUNT(*) FROM sys_transacciones.dat_transacciones where Dir_IPDestino='" + res.Dir_IP + "' AND NIntentos > 0 AND Enviado=0;");
             res.UltimaAtualizacaoSucesso = UltimaAtualizacaoSucesso;
             res.DefinirEstado();
 
@@ -343,9 +340,9 @@ result.Read();
 
             Balanca balanca = ObterBalanca(IdBalanca);
 
-            if (Directory.Exists(SW1100Folder))
+            if (Directory.Exists(ComunicacionesLogs))
             {
-                DirectoryInfo info = new DirectoryInfo(SW1100Folder);
+                DirectoryInfo info = new DirectoryInfo(ComunicacionesLogs);
                 FileInfo[] files = info.GetFiles().OrderBy(p => p.CreationTime).ToArray();
 
                 foreach (FileInfo file in files)
@@ -365,11 +362,12 @@ result.Read();
                                 string Data = linha.Substring(0, 10) + " " + linha.Substring(12, 8);
                                 DateTime.TryParse(Data, out DateTime dataAtualizacao);
 
-                                Artigo artigo = new Artigo();
-
-                                artigo.IdArtigo = IdArtigo;
-                                artigo.NomeArtigo = linha.Substring(63, 48);
-                                artigo.UltimaAtualizacao = dataAtualizacao;
+                                Artigo artigo = new Artigo
+                                {
+                                    IdArtigo = IdArtigo,
+                                    NomeArtigo = linha.Substring(63, 48),
+                                    UltimaAtualizacao = dataAtualizacao
+                                };
                                 if (precoPromocao == 0)
                                 {
                                     artigo.Preco = preco;
@@ -397,7 +395,7 @@ result.Read();
 
                             if (linha.ToString().Contains("Socket cliente abierto correctamente. IP Balanza:"))
                             {
-                                lerLinha = (obterIPString(linha.ToString()) == balanca.Dir_IP);
+                                lerLinha = (ObterIPString(linha.ToString()) == balanca.Dir_IP);
                             }
 
                         }
@@ -410,7 +408,33 @@ result.Read();
             return LstArtigos.OrderByDescending(o => o.UltimaAtualizacao).ToList();
         }
 
-        private string obterIPString(string linha)
+        public List<ProcessedFile> ObterListaFicheirosProcessados()
+        {
+            List<ProcessedFile> LstProcessedFiles = new List<ProcessedFile>();
+
+            if (Directory.Exists(RGIProcessedFiles))
+            {
+                DirectoryInfo info = new DirectoryInfo(RGIProcessedFiles);
+                FileInfo[] files = info.GetFiles().OrderBy(p => p.LastWriteTime).ToArray();
+
+                foreach (FileInfo file in files)
+                {
+                    ProcessedFile processedFile = new ProcessedFile
+                    {
+                        IdFicheiro = LstProcessedFiles.Count + 1,
+                        NomeFicheiro = file.Name,
+                        DataModificacao = file.LastWriteTime,
+                        Size = FileSizeFormatter.FormatSize(file.Length),
+                        NLinhas = File.ReadLines(file.FullName).Count(),
+                        FullPath = file.FullName
+                    };
+                    LstProcessedFiles.Add(processedFile);
+                }
+            }
+            return LstProcessedFiles.OrderByDescending(o => o.DataModificacao).ToList();
+        }
+
+        private string ObterIPString(string linha)
         {
             int i = 78;
             char c = linha[i];
@@ -441,14 +465,13 @@ result.Read();
         }
 
         public Rastreabilidade ObterRastreabilidade(int ID) {
-            Rastreabilidade res = new Rastreabilidade();
 
             using Database conn = ConnectionString;
             QueryResult result = conn.Query("SELECT IdElemAsociado, NombreElemAsociado FROM `sys_datos`.`dat_elem_asociado` Where IdElemAsociado=" + ID + ";");
 
             result.Read();
 
-            res = new Rastreabilidade()
+            Rastreabilidade res = new Rastreabilidade()
             {
                 IDRast = result[0],
                 NomeRastreabilidade = result[1]
@@ -474,14 +497,34 @@ result.Read();
             return LstLinhas;
         }
 
-        public void atualizarRastreabilidade (List<LinhaRastreabilidade> rastreabilidades, int IDRast) {
+        public void AtualizarRastreabilidade (List<LinhaRastreabilidade> rastreabilidades, int IDRast) {
                  using Database conn = ConnectionString;
 
             foreach (var linha in rastreabilidades) {
-                conn.Execute("update dat_elem_asociado set Valor='"+linha.ValorLinha+"', Modificado=1 where IdParametro="+linha.IDLinha+" AND IdElemAsociado="+IDRast+";");
+                conn.Execute("update dat_detalle_elem_asociado set Valor='"+linha.ValorLinha+"' where IdParametro="+linha.IDLinha+" AND IdElemAsociado="+IDRast+";");
+                conn.Execute("update dat_elem_asociado set Modificado=1 where IdElemAsociado=" + IDRast + ";");
+
             }
-                
+
             conn.Connection.Close();
+        }
+    }
+
+    public static class FileSizeFormatter
+    {
+        // Load all suffixes in an array  
+        static readonly string[] suffixes =
+        { "Bytes", "KB", "MB", "GB", "TB", "PB" };
+        public static string FormatSize(Int64 bytes)
+        {
+            int counter = 0;
+            decimal number = (decimal)bytes;
+            while (Math.Round(number / 1024) >= 1)
+            {
+                number /= 1024;
+                counter++;
+            }
+            return string.Format("{0:n1}{1}", number, suffixes[counter]);
         }
     }
 }

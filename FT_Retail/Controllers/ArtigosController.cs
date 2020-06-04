@@ -71,7 +71,7 @@ namespace FT_Retail.Controllers
             {
                 FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
                 artigoNovo.Promocao = context.ObterPromocao(id);
-                context.atualizarArtigo(artigoNovo);
+                context.AtualizarArtigo(artigoNovo);
                 //return RedirectToAction(nameof(Index));
 
                 var artigo = context.ObterArtigo(id);

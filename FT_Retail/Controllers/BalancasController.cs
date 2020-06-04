@@ -26,6 +26,15 @@ namespace FT_Retail.Controllers
             return View(LstBalancas);
         }
 
+        public ActionResult ListaFicheiros()
+        {
+
+            FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
+
+            List<ProcessedFile> LstProcessedFiles = context.ObterListaFicheirosProcessados();
+            return View(LstProcessedFiles);
+        }
+
         // GET: Balancas/Lista/5
         public ActionResult Lista(int id, int? page, string PLU, string Nome)
         {
@@ -48,6 +57,7 @@ namespace FT_Retail.Controllers
 
             return View(LstArtigos);
         }
+
 
         // GET: Balancas/Create
         public ActionResult Create()

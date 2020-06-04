@@ -30,7 +30,7 @@ namespace FT_Retail
             {
                 FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
                 
-                context.atualizarRastreabilidade(Linhas, ID);
+                context.AtualizarRastreabilidade(Linhas, ID);
                 
 
                 
