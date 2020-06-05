@@ -10,6 +10,7 @@ using System.Diagnostics;
 
 namespace FT_Retail.Controllers
 {
+    [FTAuthorizePermission]
     public class BalancasController : Controller
     {
         // GET: Balancas
