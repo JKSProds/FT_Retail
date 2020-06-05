@@ -36,7 +36,7 @@ namespace FT_Retail.Controllers
         }
 
         // GET: Balancas/Lista/5
-        public ActionResult Lista(int id, int? page, string PLU, string Nome)
+        public ActionResult ListaArtigosBalanca(int id, int? page, string PLU, string Nome)
         {
             ViewData["CurrentFilter"] = PLU;
             ViewData["CurrentFilter2"] = Nome;
@@ -56,6 +56,13 @@ namespace FT_Retail.Controllers
             var LstArtigos = context.ObterListaArtigosBalanca(id, Nome, PLU).ToPagedList(pageNumber,pageSize);
 
             return View(LstArtigos);
+        }
+
+        public ActionResult ListaArtigosFicheiro(string path, string fileName)
+        {
+            FT_RetailContext context = HttpContext.RequestServices.GetService(typeof(FT_Retail.Models.FT_RetailContext)) as FT_RetailContext;
+            
+            return File(context.ObterFicheiro(path), "text/plain", fileName);
         }
 
 

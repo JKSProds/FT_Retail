@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace FT_Retail.Models
@@ -214,7 +215,7 @@ namespace FT_Retail.Models
 
             if (artigo.Promocao.PromocaoAtiva) {
                 conn.Connection.Open();
-                conn.Execute("update dat_tarifa set modificado=1 where idarticulo="+artigo.IdArtigo+"");
+                conn.Execute("update dat_tarifa set modificado=1 where idarticulo=" + artigo.IdArtigo + "");
                 conn.Connection.Close();
             }
         }
@@ -358,7 +359,7 @@ namespace FT_Retail.Models
                                 int.TryParse(linha.ToString().Substring(54, 6), out int IdArtigo);
                                 double.TryParse(linha.ToString().Substring(135, 6) + "," + linha.ToString().Substring(141, 2), out double preco);
                                 double.TryParse(linha.ToString().Substring(143, 6) + "," + linha.ToString().Substring(149, 2), out double precoPromocao);
-                                
+
                                 string Data = linha.Substring(0, 10) + " " + linha.Substring(12, 8);
                                 DateTime.TryParse(Data, out DateTime dataAtualizacao);
 
@@ -433,6 +434,88 @@ namespace FT_Retail.Models
             }
             return LstProcessedFiles.OrderByDescending(o => o.DataModificacao).ToList();
         }
+
+        public FileStream ObterFicheiro(string fullPath)
+        {
+            FileStream res = null;
+
+            if (File.Exists(fullPath))
+            {
+                res = new FileStream(fullPath, FileMode.Open);
+            }
+                return res;
+        }
+
+        public List<Artigo> ObterListaArtigosFicheiro(string fullPath, string Nome, string PLU)
+        {
+            List<Artigo> LstArtigos = new List<Artigo>();
+
+            if (File.Exists(fullPath))
+            {
+
+                FileInfo file = new FileInfo(fullPath);
+                string[] linhas = File.ReadAllLines(file.FullName);
+
+                if (file.Name.Contains("SCAL29999")) {
+
+                    foreach (var linha in linhas)
+                    {
+                        int.TryParse(linha.ToString().Substring(37, 5), out int IdArtigo);
+                        double precoPromocao = 0;
+                        double preco = 0;
+
+                        switch (linha.ToString().Substring(82,1))
+                        {
+                            case "1":
+                                double.TryParse(linha.ToString().Substring(84, 5) + "," + linha.ToString().Substring(89, 2), out preco);
+                                double.TryParse(linha.ToString().Substring(59, 5) + "," + linha.ToString().Substring(64, 2), out precoPromocao);
+                                break;
+                            case "0":
+                                double.TryParse(linha.ToString().Substring(59, 5) + "," + linha.ToString().Substring(64, 2), out preco);
+                                double.TryParse(linha.ToString().Substring(84, 5) + "," + linha.ToString().Substring(89, 2), out precoPromocao);
+                                break;
+                        }
+
+                        DateTime dataAtualizacao = file.LastWriteTime;
+
+
+                        Promocao promocao = precoPromocao == 0 ? new Promocao() : new Promocao
+                        {
+                            IdArtigo = IdArtigo,
+                            PrecoPromocao = precoPromocao,
+                            PromocaoAtiva = true
+                        };
+
+                        Artigo artigo = new Artigo
+                        {
+                            IdArtigo = IdArtigo,
+                            NomeArtigo = linha.Substring(2, 24),
+                            UltimaAtualizacao = dataAtualizacao,
+                            Preco = preco,
+                            Promocao = promocao
+                        };
+
+                        if (IdArtigo.ToString().Contains(PLU) && artigo.NomeArtigo.Contains(Nome, StringComparison.CurrentCultureIgnoreCase))
+                        {
+                            int index = LstArtigos.IndexOf(LstArtigos.Where(a => a.IdArtigo == IdArtigo).FirstOrDefault());
+
+                            if (index >= 0)
+                            {
+                                LstArtigos[index] = artigo;
+                            }
+                            else
+                            {
+                                LstArtigos.Add(artigo);
+                            }
+                        }
+
+                    }
+                }
+            }
+            return LstArtigos;
+        }
+  
+
 
         private string ObterIPString(string linha)
         {
@@ -514,7 +597,7 @@ namespace FT_Retail.Models
     {
         // Load all suffixes in an array  
         static readonly string[] suffixes =
-        { "Bytes", "KB", "MB", "GB", "TB", "PB" };
+        { " Bytes", " KB", " MB", " GB", " TB", " PB" };
         public static string FormatSize(Int64 bytes)
         {
             int counter = 0;

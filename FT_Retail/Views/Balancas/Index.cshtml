@@ -25,7 +25,7 @@
         <div class="col-sm-6 " style="margin-bottom: 10px">
             <div class="card  @(item.EstadoEquipamento == 1 ? "card border-success mb-3" : "") @(item.EstadoEquipamento == 2 ? "bg-warning" : "")@(item.EstadoEquipamento == 3 ? "bg-danger" : "")">
                 <div class="card-body">
-                    <h5 class="card-title @(item.EstadoEquipamento == 1 ? "text-success" : "") ">@Html.DisplayFor(modelItem => item.DirecaoLogica) - @Html.DisplayFor(modelItem => item.NomeBalanca) <a class="btn btn-info float-right text-black-50" onclick="location.href = '@(Url.Action("Lista", "Balancas", new { id = item.IdBalanca }))'"><i class="fas fa-info"></i></a></h5>
+                    <h5 class="card-title @(item.EstadoEquipamento == 1 ? "text-success" : "") ">@Html.DisplayFor(modelItem => item.DirecaoLogica) - @Html.DisplayFor(modelItem => item.NomeBalanca) <a class="btn btn-info float-right text-black-50" onclick="location.href = '@(Url.Action("ListaArtigosBalanca", "Balancas", new { id = item.IdBalanca }))'"><i class="fas fa-info"></i></a></h5>
                     <p class="card-text">
                         Modelo: <b>@Html.DisplayFor(modelItem => item.TipoBalanca)</b><br />
                         @Html.DisplayNameFor(model => model.Dir_IP) - <b> @Html.DisplayFor(modelItem => item.Dir_IP) (@Html.DisplayFor(modelItem => item.PortaTX))</b><br />
