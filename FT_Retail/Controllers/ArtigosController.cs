@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using FT_Retail.Models;
 using X.PagedList;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FT_Retail.Controllers
 {
+    [Authorize(Roles = "Licensed")]
     public class ArtigosController : Controller
     {
 
@@ -73,6 +75,9 @@ namespace FT_Retail.Controllers
                 artigoNovo.Promocao = context.ObterPromocao(id);
                 context.AtualizarArtigo(artigoNovo);
                 //return RedirectToAction(nameof(Index));
+
+                ViewBag.Message = "Artigo atualizado e enviado com sucesso!";
+                ViewBag.Color = "SUCESS";
 
                 var artigo = context.ObterArtigo(id);
                 return View(artigo);

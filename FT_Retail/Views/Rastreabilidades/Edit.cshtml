@@ -10,16 +10,25 @@
 <table style="width: 100%;">
     <tr>
         <th>
-<h1 align="left">Lotes de Animais</h1>
+            <h1 align="left">Lotes de Animais</h1>
         </th>
         <th class="text-right">
-<h6>A alterar dados de: <b>@ViewData["Nome_Rast"]</b></h6>
+            <h6>A alterar dados de: <b>@ViewData["Nome_Rast"]</b></h6>
         </th>
     </tr>
 </table>
-            
-            
+
+
 <hr />
+
+@if (ViewBag.Color == "SUCESS")
+{
+    <div class="alert alert-success text-center" role="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong> @ViewBag.Message </strong>
+    </div>
+
+}
 
 @if (Model.Count() == 0)
 {
@@ -29,47 +38,54 @@
 else
 {
 
-@using (Html.BeginForm("Edit", "Rastreabilidades", FormMethod.Post, new { Rast = Model }))
-{
-    <div class="container">
-           
-            @for(int i=0; i < Model.Count(); i++) {
-            <div class="row" style="margin: 5px">
-                <b>@Html.TextBoxFor(modelItem => Model[i].IDLinha, new { @class = "form-control", @readonly = "true", @hidden=true})</b>
-                <div class="col">
-                    @if (Model[i].TextoLinha == "") {
-         <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true", @hidden=true })</b>
-                    }else{
-                        <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true" })</b>
-                    }
-                </div>
-                <div class="col-8">
-                    @if (Model[i].TextoLinha == "") {
-                        <b>@Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control", @hidden=true })</b>
-                    }else{
-                        <b>@Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control"})</b>
-                    }
-                </div>
-</div>
-            }
-    </div>
+    @using (Html.BeginForm("Edit", "Rastreabilidades", FormMethod.Post, new { Rast = Model }))
+    {
+        <div class="container">
 
-    <br>
-
-    <div class="container">
-                <div class="row">
-                    <div class="form-group" style="width: 100%">
-                        <input type="submit" value="Guardar | Enviar" class="btn btn-lg btn-primary btn-block" />
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+                <div class="row" style="margin: 5px">
+                    <b>@Html.TextBoxFor(modelItem => Model[i].IDLinha, new { @class = "form-control", @readonly = "true", @hidden = true })</b>
+                    <div class="col">
+                        @if (Model[i].TextoLinha == "")
+                        {
+                            <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true", @hidden = true })</b>
+                        }
+                        else
+                        {
+                            <b>@Html.TextBoxFor(modelItem => Model[i].TextoLinha, new { @class = "form-control", @readonly = "true" })</b>
+                        }
+                    </div>
+                    <div class="col-8">
+                        @if (Model[i].TextoLinha == "")
+                        {
+                            <b>@Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control", @hidden = true })</b>
+                        }
+                        else
+                        {
+                            <b>@Html.TextBoxFor(modelItem => Model[i].ValorLinha, new { @class = "form-control" })</b>
+                        }
                     </div>
                 </div>
-            </div>
-}
-}
-
-        <div>
-            <a asp-action="Index">Voltar</a>
+            }
         </div>
 
-        @section Scripts {
-            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-        }
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="form-group" style="width: 100%">
+                    <input type="submit" value="Guardar | Enviar" class="btn btn-lg btn-primary btn-block" />
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -7,10 +7,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using X.PagedList;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FT_Retail.Controllers
 {
-    [FTAuthorizePermission]
+    [Authorize(Roles = "Licensed")]
     public class BalancasController : Controller
     {
         // GET: Balancas

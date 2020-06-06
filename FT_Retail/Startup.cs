@@ -11,6 +11,8 @@ using Microsoft.Extensions.Hosting;
 using FT_Retail.Models;
 using System.Globalization;
 using System.Threading;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace FT_Retail
 {
@@ -26,9 +28,25 @@ namespace FT_Retail
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //adicionando o serviço de cookies na aplicação
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => {
+                // If the LoginPath isn't set, ASP.NET Core defaults 
+                // the path to /Account/Login.
+                options.LoginPath = "/LicenseSoftware";
+                // If the AccessDeniedPath isn't set, ASP.NET Core defaults 
+                // the path to /Account/AccessDenied.
+                options.AccessDeniedPath = "/";
+                options.SlidingExpiration = true;
+
+            });;
+
+
             services.AddControllersWithViews();
             services.AddMvc();
             services.Add(new ServiceDescriptor(typeof(FT_RetailContext), new FT_RetailContext(Configuration.GetConnectionString("DefaultConnection"), Configuration.GetSection("Variaveis").GetSection("ComunicacionesLogs").Value, Configuration.GetSection("Variaveis").GetSection("RGI_Processed_Files").Value)));
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +69,7 @@ namespace FT_Retail
 
             app.UseRouting();
 
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -11,156 +11,169 @@
             <h1>Editar Artigo</h1>
         </div>
         <div class="col-6">
-            @if (Model.Promocao.PromocaoAtiva) { <input value="Promoção Ativa" class="btn btn-lg btn-success float-right" style="margin: 5px"/> } else { <input value="Sem Promoção" class="btn btn-lg btn-danger float-right" style="margin: 5px" /> }
+            @if (Model.Promocao.PromocaoAtiva)
+            {<input value="Promoção Ativa" class="btn btn-lg btn-success float-right" style="margin: 5px" /> }
+            else
+            { <input value="Sem Promoção" class="btn btn-lg btn-danger float-right" style="margin: 5px" />}
 
         </div>
     </div>
- </div>
-        <hr />
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+</div>
+<hr />
 
-            <div class="nav nav-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-item nav-link active" id="v-pills-dados-tab" data-toggle="pill" href="#v-pills-dados" role="tab" aria-controls="v-pills-dados" aria-selected="true">Dados</a>
-                <a class="nav-item nav-link" id="v-pills-ingredientes-tab" data-toggle="pill" href="#v-pills-ingredientes" role="tab" aria-controls="v-pills-ingredientes" aria-selected="false">Ingredientes</a>
-                <a class="nav-item nav-link" id="v-pills-conservacao-tab" data-toggle="pill" href="#v-pills-conservacao" role="tab" aria-controls="v-pills-conservacao" aria-selected="false">Conservação</a>
-                <a class="nav-item nav-link" id="v-pills-utilizacao-tab" data-toggle="pill" href="#v-pills-utilizacao" role="tab" aria-controls="v-pills-utilizacao" aria-selected="false">Informação de Utilização</a>
-                <a class="nav-item nav-link" id="v-pills-alergenios-tab" data-toggle="pill" href="#v-pills-alergenios" role="tab" aria-controls="v-pills-alergenios" aria-selected="false">Informação de Alergenios</a>
-                <a class="nav-item nav-link" id="v-pills-nutricional-tab" data-toggle="pill" href="#v-pills-nutricional" role="tab" aria-controls="v-pills-nutricional" aria-selected="false">Informação de Nutricional</a>
-            </div>
-            <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-dados" role="tabpanel" aria-labelledby="v-pills-dados-tab">
-                    <br />
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group col-4">
-                                <label asp-for="IdArtigo" class="control-label"></label>
-                                <input asp-for="IdArtigo" class="form-control" readonly />
-                                <span asp-validation-for="IdArtigo" class="text-danger"></span>
-                            </div>
-                            <div class="form-group col-8">
-                                <label asp-for="NomeArtigo" class="control-label"></label>
-                                <input asp-for="NomeArtigo" class="form-control" readonly />
-                                <span asp-validation-for="NomeArtigo" class="text-danger"></span>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="form-group col-2">
-                                <label asp-for="Preco" class="control-label"></label>
-                                @Html.TextBoxFor(model => model.Preco, new { data_val = "false", @class = "form-control", id = "Preco", @readonly = "true" })
-                            </div>
-                            <div class="form-group col-2">
-                                <label asp-for="Promocao.PrecoPromocao" class="control-label"></label>
-                                @Html.TextBoxFor(model => model.Promocao.PrecoPromocao, new { data_val = "false", @class = "form-control", id = "PrecoPromocao", @readonly = "true" })
-                            </div>
-                            <div class="form-group col-4">
-                                <label asp-for="Promocao.DataInicioPromocao" class="control-label"></label>
-                                @Html.TextBoxFor(model => model.Promocao.DataInicioPromocao, new { data_val = "false", @class = "form-control", id = "DataInicioPromocao", @readonly = "true" })
-                                <span asp-validation-for="Promocao.DataInicioPromocao" class="text-danger"></span>
-                            </div>
-                            <div class="form-group col-4">
-                                <label asp-for="Promocao.DataFimPromocao" class="control-label"></label>
-                                @Html.TextBoxFor(model => model.Promocao.DataFimPromocao, new { data_val = "false", @class = "form-control", id = "DataFimPromocao", @readonly = "true" })
-                                <span asp-validation-for="Promocao.DataFimPromocao" class="text-danger"></span>
-                            </div>
-                            <div class="form-group col-8">
-                                <label asp-for="NomeSeccao" class="control-label"></label>
-                                <input asp-for="NomeSeccao" class="form-control" readonly />
-                                <span asp-validation-for="NomeSeccao" class="text-danger"></span>
-                            </div>
-                            <div class="form-group col-4">
-                                <label asp-for="DiasValidade" class="control-label"></label>
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend col" id="button-addon3">
-                                        <input asp-for="DiasValidade" class="form-control" min="0" max="999" name="DiasValidade" readonly>
-                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="btn btn-danger fas fa-minus" type="button"></button>
-                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="btn btn-primary fas fa-plus" type="button"></button>
-                                    </div>
 
-                                </div>
+@if (ViewBag.Color == "SUCESS")
+{
+    <div class="alert alert-success text-center" role="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong> @ViewBag.Message </strong>
+    </div>
 
-                                <span asp-validation-for="DiasValidade" class="text-danger"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="v-pills-conservacao" role="tabpanel" aria-labelledby="v-pills-conservacao-tab">
-                    <br />
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group" style="width: 100%">
-                                <label asp-for="TxtConservacao" class="control-label"></label>
-                                @Html.EditorFor(model => model.TxtConservacao, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
-                                <span asp-validation-for="TxtConservacao" class="text-danger"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="v-pills-utilizacao" role="tabpanel" aria-labelledby="v-pills-utilizacao-tab">
-                    <br />
+}
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group" style="width: 100%">
-                                <label asp-for="TxtInfoUtilizacao" class="control-label"></label>
-                                @Html.EditorFor(model => model.TxtInfoUtilizacao, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
-                                <span asp-validation-for="TxtInfoUtilizacao" class="text-danger"></span>
-                            </div>
-                        </div>
+    <div class="nav nav-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-item nav-link active" id="v-pills-dados-tab" data-toggle="pill" href="#v-pills-dados" role="tab" aria-controls="v-pills-dados" aria-selected="true">Dados</a>
+        <a class="nav-item nav-link" id="v-pills-ingredientes-tab" data-toggle="pill" href="#v-pills-ingredientes" role="tab" aria-controls="v-pills-ingredientes" aria-selected="false">Ingredientes</a>
+        <a class="nav-item nav-link" id="v-pills-conservacao-tab" data-toggle="pill" href="#v-pills-conservacao" role="tab" aria-controls="v-pills-conservacao" aria-selected="false">Conservação</a>
+        <a class="nav-item nav-link" id="v-pills-utilizacao-tab" data-toggle="pill" href="#v-pills-utilizacao" role="tab" aria-controls="v-pills-utilizacao" aria-selected="false">Informação de Utilização</a>
+        <a class="nav-item nav-link" id="v-pills-alergenios-tab" data-toggle="pill" href="#v-pills-alergenios" role="tab" aria-controls="v-pills-alergenios" aria-selected="false">Informação de Alergenios</a>
+        <a class="nav-item nav-link" id="v-pills-nutricional-tab" data-toggle="pill" href="#v-pills-nutricional" role="tab" aria-controls="v-pills-nutricional" aria-selected="false">Informação de Nutricional</a>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-dados" role="tabpanel" aria-labelledby="v-pills-dados-tab">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label asp-for="IdArtigo" class="control-label"></label>
+                        <input asp-for="IdArtigo" class="form-control" readonly />
+                        <span asp-validation-for="IdArtigo" class="text-danger"></span>
                     </div>
+                    <div class="form-group col-8">
+                        <label asp-for="NomeArtigo" class="control-label"></label>
+                        <input asp-for="NomeArtigo" class="form-control" readonly />
+                        <span asp-validation-for="NomeArtigo" class="text-danger"></span>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="form-group col-2">
+                        <label asp-for="Preco" class="control-label"></label>
+                        @Html.TextBoxFor(model => model.Preco, new { data_val = "false", @class = "form-control", id = "Preco", @readonly = "true" })
+                    </div>
+                    <div class="form-group col-2">
+                        <label asp-for="Promocao.PrecoPromocao" class="control-label"></label>
+                        @Html.TextBoxFor(model => model.Promocao.PrecoPromocao, new { data_val = "false", @class = "form-control", id = "PrecoPromocao", @readonly = "true" })
+                    </div>
+                    <div class="form-group col-4">
+                        <label asp-for="Promocao.DataInicioPromocao" class="control-label"></label>
+                        @Html.TextBoxFor(model => model.Promocao.DataInicioPromocao, new { data_val = "false", @class = "form-control", id = "DataInicioPromocao", @readonly = "true" })
+                        <span asp-validation-for="Promocao.DataInicioPromocao" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-4">
+                        <label asp-for="Promocao.DataFimPromocao" class="control-label"></label>
+                        @Html.TextBoxFor(model => model.Promocao.DataFimPromocao, new { data_val = "false", @class = "form-control", id = "DataFimPromocao", @readonly = "true" })
+                        <span asp-validation-for="Promocao.DataFimPromocao" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-8">
+                        <label asp-for="NomeSeccao" class="control-label"></label>
+                        <input asp-for="NomeSeccao" class="form-control" readonly />
+                        <span asp-validation-for="NomeSeccao" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-4">
+                        <label asp-for="DiasValidade" class="control-label"></label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend col" id="button-addon3">
+                                <input asp-for="DiasValidade" class="form-control" min="0" max="999" name="DiasValidade" readonly>
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="btn btn-danger fas fa-minus" type="button"></button>
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="btn btn-primary fas fa-plus" type="button"></button>
+                            </div>
 
-                </div>
-                <div class="tab-pane fade" id="v-pills-ingredientes" role="tabpanel" aria-labelledby="v-pills-ingredientes-tab">
-                    <br />
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group" style="width: 100%">
-                                <label asp-for="TxtIngredientes" class="control-label"></label>
-                                @Html.EditorFor(model => model.TxtIngredientes, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
-                                <span asp-validation-for="TxtIngredientes" class="text-danger"></span>
-                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="v-pills-alergenios" role="tabpanel" aria-labelledby="v-pills-alergenios-tab">
-                    <br />
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group" style="width: 100%">
-                                <label asp-for="TxtAlergenos" class="control-label"></label>
-                                @Html.EditorFor(model => model.TxtAlergenos, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
-                                <span asp-validation-for="TxtAlergenos" class="text-danger"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="v-pills-nutricional" role="tabpanel" aria-labelledby="v-pills-nutricional-tab">
-                    <br />
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group" style="width: 100%">
-                                <label asp-for="TxtInfoNutricional" class="control-label"></label>
-                                @Html.EditorFor(model => model.TxtInfoNutricional, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
-                                <span asp-validation-for="TxtInfoNutricional" class="text-danger"></span>
-                            </div>
-                        </div>
+
+                        <span asp-validation-for="DiasValidade" class="text-danger"></span>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-conservacao" role="tabpanel" aria-labelledby="v-pills-conservacao-tab">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="form-group" style="width: 100%">
+                        <label asp-for="TxtConservacao" class="control-label"></label>
+                        @Html.EditorFor(model => model.TxtConservacao, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
+                        <span asp-validation-for="TxtConservacao" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-utilizacao" role="tabpanel" aria-labelledby="v-pills-utilizacao-tab">
+            <br />
 
             <div class="container">
                 <div class="row">
                     <div class="form-group" style="width: 100%">
-                        <input type="submit" value="Guardar | Enviar" class="btn btn-lg btn-primary btn-block" />
+                        <label asp-for="TxtInfoUtilizacao" class="control-label"></label>
+                        @Html.EditorFor(model => model.TxtInfoUtilizacao, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
+                        <span asp-validation-for="TxtInfoUtilizacao" class="text-danger"></span>
                     </div>
                 </div>
             </div>
-        </form>
 
-
-        <div>
-            <a asp-action="Index">Voltar</a>
         </div>
+        <div class="tab-pane fade" id="v-pills-ingredientes" role="tabpanel" aria-labelledby="v-pills-ingredientes-tab">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="form-group" style="width: 100%">
+                        <label asp-for="TxtIngredientes" class="control-label"></label>
+                        @Html.EditorFor(model => model.TxtIngredientes, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
+                        <span asp-validation-for="TxtIngredientes" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-alergenios" role="tabpanel" aria-labelledby="v-pills-alergenios-tab">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="form-group" style="width: 100%">
+                        <label asp-for="TxtAlergenos" class="control-label"></label>
+                        @Html.EditorFor(model => model.TxtAlergenos, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
+                        <span asp-validation-for="TxtAlergenos" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-nutricional" role="tabpanel" aria-labelledby="v-pills-nutricional-tab">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="form-group" style="width: 100%">
+                        <label asp-for="TxtInfoNutricional" class="control-label"></label>
+                        @Html.EditorFor(model => model.TxtInfoNutricional, new { htmlAttributes = new { @class = "form-control", @rows = "8" } })
+                        <span asp-validation-for="TxtInfoNutricional" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        @section Scripts {
-            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-        }
+    <div class="container">
+        <div class="row">
+            <div class="form-group" style="width: 100%">
+                <input type="submit" value="Guardar | Enviar" class="btn btn-lg btn-primary btn-block" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
